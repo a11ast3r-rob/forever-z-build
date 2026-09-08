@@ -2,6 +2,23 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — Red Georgia car becomes finalist B
+
+Added VIN `JN1AZ44EX9M410384` from Global Auto Gallery as a second serious finalist.
+
+Current listing/cross-listing facts:
+- 87,011 miles
+- 6-speed manual
+- $15,999 retail + $599 dealer fee
+- Cars.com classifies the VIN as Touring
+- Global listing explicitly lists limited-slip differential and rear spoiler
+- photos appear to show factory 19-inch Sport RAYS
+- JD Power seller notes call it a Sport and claim a documented engine/transmission-out refresh about 3,000 miles ago with new clutch, flywheel, gaskets, seals, belt and fluids
+
+That claim is potentially a major advantage, but it must be supported by invoices and a PPI. Red's CARFAX/history is still unknown.
+
+Created `CANDIDATE_COMPARISON.md`. On paper, red now has a slight lead because it is 25,552 miles lower, likely better-equipped, and only roughly $1k–$1.2k more before tax based on current/listed figures.
+
 ## 2026-09-07 — CARFAX review integrated
 
 Reviewed the supplied CARFAX report and folded the actual history into Mission Control and the repo.
