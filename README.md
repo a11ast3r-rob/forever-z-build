@@ -22,6 +22,7 @@ The GitHub Pages homepage is now an **interactive Mission Control** in `index.ht
 ## Docs
 
 - [Current State](CURRENT_STATE.md)
+- [CARFAX History Summary](CARFAX_HISTORY.md)
 - [Total Plan Audit](PLAN_AUDIT.md)
 - [End-to-End Checklist](CHECKLIST.md)
 - [Longevity + Fun Plan](LONGEVITY_AND_FUN.md)
