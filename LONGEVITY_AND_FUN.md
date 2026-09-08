@@ -39,7 +39,7 @@ For a street/highway car, do not replace every rubber part with solid metal just
 - [ ] Check charging voltage
 
 ## Early VQ37 gallery-gasket awareness
-The early VQ37 is known in enthusiast circles for internal oil-gallery gasket concerns.
+Early VQ37 oil-gallery gasket concerns are widely documented in the enthusiast community, but the audit did not find a Nissan campaign declaring every early engine defective.
 
 Our approach:
 - **Do not tear into a healthy engine blindly.**
@@ -49,7 +49,7 @@ Our approach:
 
 ## Ignition / tune-up
 At this mileage, verify whether these have been done:
-- [ ] Spark plugs
+- [ ] Spark plugs — Nissan Base/Touring interval is 105,000 miles; at 112,563 miles replace if undocumented
 - [ ] Engine air filters
 - [ ] Cabin filter
 - [ ] PCV valves
@@ -73,6 +73,7 @@ Current direction:
 ## Cooling-system baseline
 Before upgrading the radiator:
 - [ ] Coolant condition
+- [ ] Heater-hose plastic connector/bleeder near firewall; inspect for brittleness/cracks/residue and favor a quality metal replacement if original/aged, especially during coolant service
 - [ ] Cooling-system pressure test
 - [ ] Radiator condition
 - [ ] Fan operation
@@ -711,7 +712,7 @@ Unless inspection changes the plan:
 - **Engine/trans mounts:** leave OEM if healthy; replace worn mounts with OEM/mild street.
 - **Sway bar bushings/end links:** cheap refresh if worn/noisy.
 - **Wheel bearings:** replace only if play/noise/roughness exists.
-- **Oil cooler:** planned, thermostatic.
+- **Oil cooler:** planned as a high-value likely upgrade after baseline; thermostatic for street use.
 - **Radiator:** keep factory if healthy and temps are normal.
 - **LSD:** verify current diff; high-value fun upgrade later if open.
 - **Brake upgrade:** verify current brakes first; decide before final wheel purchase.
