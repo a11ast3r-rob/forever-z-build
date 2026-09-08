@@ -2,6 +2,30 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — Current candidate: 2009 Pearl White Base 6MT
+
+The active purchase candidate changed from the earlier 2013/silver direction to the dealer-listed 2009 Nissan 370Z Base at Larry H. Miller Nissan Mesa.
+
+Listing snapshot:
+- Pearl White exterior
+- Black interior
+- 6-speed manual
+- Rear-wheel drive
+- 112,563 miles
+- 3.7L VQ37VHR, 332 hp listed
+- Dealer advertised retail price: $14,895
+- Dealer documentary fee shown: $549
+- Dealer displayed selling price: $15,444 before taxes/title/registration or other applicable charges
+- VIN: JN1AZ44E29M409293
+- Stock: MNIT9M409293
+
+Status remains **candidate / waiting on sales**, not purchased.
+
+Because this is a 2009, pre-purchase inspection should include verification of the Nissan P3208 electronic steering-column-lock service campaign status in addition to the normal high-mileage mechanical baseline.
+
+Dealer listing:
+https://www.lhmnissanmesa.com/used/Nissan/2009-Nissan-370Z-Mesa-dec6cfb8ac185c3035c89e237be65479.htm
+
 ## 2026-09-07 — GitHub build journal created
 
 Created `a11ast3r-rob/forever-z-build` as the permanent home for the Z project.
