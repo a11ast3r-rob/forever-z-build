@@ -16,6 +16,8 @@ Last structured update: 2026-09-07
 
 ## Known
 - Current dealer candidate is the 2009 Pearl White Base 6MT.
+- Dealer listing identifies 18-inch 5-spoke wheels, 4-speaker audio, and only the illuminated kick plate as an included package/accessory.
+- That listing is consistent with a non-Sport Base configuration; Sport hardware still needs physical verification.
 - Head unit appears upgraded.
 - Long-term build will include a future wrap.
 - Paint may happen much later.
@@ -24,7 +26,9 @@ Last structured update: 2026-09-07
 - Hidden dual-reservoir / dual-compressor packaging is preferred.
 - Audio and air management should be designed together.
 - Subs are part of the plan.
-- Oil cooler remains conditional on actual operating behavior.
+- Oil cooler remains conditional on actual operating behavior, but is a high-value likely upgrade for hard/spirited use on this early car.
+- Nissan's spark-plug interval for a 2009 Base/Touring is 105,000 miles; if no replacement record exists, plugs belong in the baseline service.
+- A warm mechanical oil-pressure test is now a high-priority baseline item rather than assuming an early-VQ gallery-gasket condition.
 
 ## Unknown / must verify
 - Mechanical condition
@@ -35,6 +39,7 @@ Last structured update: 2026-09-07
 - Clutch / CSC health
 - Transmission condition
 - Differential condition
+- Physical confirmation of Sport vs non-Sport hardware (brakes, differential, SynchroRev Match, wheels)
 - Exact brake setup
 - Exact wheel specs
 - Tire age / condition
@@ -45,6 +50,7 @@ Last structured update: 2026-09-07
 - Accident / repaint history
 - Underbody condition
 - Body readiness for future wrap
+- Heater-hose connector/bleeder condition and whether it is still the original plastic piece
 
 ## Next evidence wanted
 1. Dealer / Rich update
