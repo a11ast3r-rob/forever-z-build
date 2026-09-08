@@ -32,11 +32,11 @@ Use these three states whenever we learn something new:
 - [ ] Record date information was captured
 
 ## History / paperwork
-- [ ] Pull vehicle-history report
-- [ ] Check title status
-- [ ] Check accident / damage history
-- [ ] Check ownership count if available
-- [ ] Check service-history entries
+- [x] Pull vehicle-history report — CARFAX reviewed 2026-09-07
+- [x] Check title-brand history — no salvage/junk/rebuilt/fire/flood/hail/lemon brands reported; lien clearance still must be confirmed at sale
+- [x] Check accident / damage history — minor right-rear damage 2019; sideswipe collision 2023
+- [x] Check ownership count if available — CARFAX reports 9 previous owners
+- [x] Check service-history entries — 25 CARFAX service-history records reviewed
 - [ ] Ask for maintenance receipts
 - [ ] Ask whether dealer performed inspection / reconditioning
 - [ ] Ask what work the dealer has already done
@@ -47,11 +47,15 @@ Use these three states whenever we learn something new:
 - [ ] Verify physical Sport vs non-Sport hardware: 19-inch RAYS? large Sport brakes? SynchroRev Match? VLSD?
 - [ ] Verify electronic steering-column-lock campaign / repair status
 - [ ] Ask whether steering-lock fuse/bypass work has already been done
-- [ ] Note any clutch hydraulic / CSC history
-- [ ] Note any gallery-gasket / oil-pressure history
+- [x] Note any clutch hydraulic / CSC history — clutch master + slave replaced at 55,781 mi in 2017
+- [ ] Obtain Feb 14, 2026 front-cover/water-pump invoice and determine whether oil-gallery gaskets/updated hardware were included
 - [ ] Note any engine, transmission, differential, or clutch replacement history
 
 ## Pre-purchase inspection
+- [ ] Obtain February 2026 repair order for front cover, water pump, A/C, coolant and alignment
+- [ ] Obtain August 2026 Peoria Nissan inspection/work order
+- [ ] Ask why A/C compressor replacement appears twice in Jan/Feb 2026
+- [ ] Ask why front rotors were reported replaced again in Apr 2025 after a May 2024 front brake job
 - [ ] Arrange independent PPI if possible
 - [ ] Cold-start inspection
 - [ ] Scan for stored / pending codes
@@ -65,7 +69,7 @@ Use these three states whenever we learn something new:
 - [ ] Inspect suspension / bushings
 - [ ] Inspect wheel bearings
 - [ ] Inspect underbody / splash shields
-- [ ] Inspect accident-repair clues
+- [ ] Inspect accident-repair clues, especially 2019 right-rear damage and 2023 sideswipe repair areas
 - [ ] Inspect exhaust / catalytic-converter condition
 - [ ] Inspect aftermarket wiring
 - [ ] Confirm what is stock vs modified
@@ -243,7 +247,7 @@ This is the **mod inventory**.
 - [ ] Brake-fluid service date if known
 
 ## Engine / exhaust
-- [ ] Intake stock or modified
+- [x] Intake stock or modified — CARFAX documents cold air intake installed at 75,637 mi
 - [ ] Exhaust stock or modified
 - [ ] Headers / test pipes / HFCs?
 - [ ] Tune present?
@@ -253,7 +257,7 @@ This is the **mod inventory**.
 - [ ] Any non-OEM wiring underhood?
 
 ## Driveline
-- [ ] Clutch stock or aftermarket
+- [ ] Clutch stock or aftermarket — hydraulics were replaced in 2017, clutch itself still unknown
 - [ ] Flywheel stock or aftermarket
 - [ ] CSC elimination / upgrade?
 - [ ] Differential stock or upgraded?
@@ -290,11 +294,11 @@ This is the **mod inventory**.
 ## Mechanical baseline
 - [ ] Full OBD scan saved
 - [ ] Warm mechanical oil-pressure baseline recorded by a qualified shop
-- [ ] Engine-oil service history known
+- [x] Recent engine-oil service known — oil/filter changed 2026-08-07 at 112,498 mi; verify level/spec/condition
 - [ ] Transmission-fluid history known
 - [ ] Differential-fluid history known
-- [ ] Coolant history known
-- [ ] Spark-plug replacement documented; if not, replace as baseline because the Base/Touring Nissan interval is 105,000 miles
+- [x] Recent coolant history known — flushed/changed 2026-02-14 and again 2026-08-07; still verify present level/condition
+- [x] Spark-plug replacement documented — replaced at 97,797 mi on 2024-08-09
 - [ ] Heater-hose connector/bleeder condition documented; replace with a quality metal piece during coolant service if original/aged
 - [ ] Brake-fluid history known
 - [ ] Clutch-fluid history known
