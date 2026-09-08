@@ -4,7 +4,7 @@ A living build journal for my planned Nissan 370Z — starting before the car is
 
 ## Current direction
 
-- Target: silver 2013 Nissan 370Z
+- Current candidate: 2009 Nissan 370Z Base — Pearl White, black interior, 6-speed manual, 112,563 miles
 - RAYS Gram Lights 57DR in Gunblue
 - Street/highway-friendly tire fitment
 - Air suspension with real drive-height alignment
@@ -37,14 +37,9 @@ That way the website shows the current plan while the build log and Git history 
 
 ## GitHub Pages
 
-To publish:
+The site deploys automatically from `main` through GitHub Actions.
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select `main` and `/ (root)`.
-4. Save.
-
-The site should then publish at:
+Live site:
 
 `https://a11ast3r-rob.github.io/forever-z-build/`
 
