@@ -22,6 +22,7 @@ This repository includes a self-contained static site in `index.html` and is rea
 ## Docs
 
 - [Current State](CURRENT_STATE.md)
+- [Total Plan Audit](PLAN_AUDIT.md)
 - [End-to-End Checklist](CHECKLIST.md)
 - [Longevity + Fun Plan](LONGEVITY_AND_FUN.md)
 - [Expansion Plan](EXPANSION_PLAN.md)
