@@ -4,7 +4,7 @@ A living build journal for my planned Nissan 370Z — starting before the car is
 
 ## Current direction
 
-- Current candidate: 2009 Nissan 370Z Base — Pearl White, black interior, 6-speed manual, 112,563 miles
+- Finalists: Pearl White 2009 Base 6MT (112,563 mi) vs Solid Red 2009 6MT (87,011 mi; likely Touring/Sport pending verification)
 - RAYS Gram Lights 57DR in Gunblue
 - Street/highway-friendly tire fitment
 - Air suspension with real drive-height alignment
@@ -22,6 +22,7 @@ The GitHub Pages homepage is now an **interactive Mission Control** in `index.ht
 ## Docs
 
 - [Current State](CURRENT_STATE.md)
+- [Finalist Comparison](CANDIDATE_COMPARISON.md)
 - [CARFAX History Summary](CARFAX_HISTORY.md)
 - [Total Plan Audit](PLAN_AUDIT.md)
 - [End-to-End Checklist](CHECKLIST.md)
