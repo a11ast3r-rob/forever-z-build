@@ -17,7 +17,7 @@ A living build journal for my planned Nissan 370Z — starting before the car is
 
 ## Site
 
-This repository includes a self-contained static site in `index.html` and is ready for GitHub Pages.
+The GitHub Pages homepage is now an **interactive Mission Control** in `index.html`: acquisition checklist, longevity plan, tool links, build modules, local browser progress, budget fields, research links, and a scratchpad.
 
 ## Docs
 
