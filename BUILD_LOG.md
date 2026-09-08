@@ -2,6 +2,17 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — Master intake checklist + evidence-driven expansion plan
+
+The project now has a full end-to-end workflow from candidate-car research through purchase, as-acquired documentation, first-drive baseline, modification inventory, maintenance gate, measurements, build modules, and ongoing forever-car maintenance.
+
+Added:
+- `CHECKLIST.md` — the master acquisition-to-build checklist
+- `CURRENT_STATE.md` — what is known, unknown, and what evidence we want next
+- `EXPANSION_PLAN.md` — rules for expanding the repo/site only when real information arrives
+
+Key rule: **learn the car before changing the car.** Fitment-critical purchases stay gated until the actual car is acquired, inspected, and measured.
+
 ## 2026-09-07 — Current candidate: 2009 Pearl White Base 6MT
 
 The active purchase candidate changed from the earlier 2013/silver direction to the dealer-listed 2009 Nissan 370Z Base at Larry H. Miller Nissan Mesa.
