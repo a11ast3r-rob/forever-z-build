@@ -1,0 +1,76 @@
+# Forever Z Build Log
+
+This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
+
+## 2026-09-07 — GitHub build journal created
+
+Created `a11ast3r-rob/forever-z-build` as the permanent home for the Z project.
+
+The goal is to keep:
+- the current build plan easy to browse,
+- dated decisions preserved,
+- tool purchases and part changes documented,
+- and future installs recorded rather than scattered across chats.
+
+## 2026-09-07 — Garage planning
+
+Started turning the waiting period into garage prep.
+
+Already owned:
+- One pair of jack stands
+- Pry bar
+- Metric impact sockets
+
+Direction:
+- Prefer cordless/battery shop tools over pneumatic shop tools.
+- Build around one battery ecosystem where practical.
+- Prioritize tools useful for maintenance, cooling, suspension, brakes, sound treatment, stereo, air suspension, and fabrication.
+
+## 2026-09-07 — Hidden air-management concept
+
+Leaning toward two smaller hidden reservoirs instead of one large visible tank.
+
+Goals:
+- Preserve useful hatch space.
+- Integrate air management with the future audio/subwoofer layout.
+- Use dual electric compressors.
+- Keep compressors ventilated and serviceable.
+- Keep tanks, manifold, drains, wiring, and plumbing accessible.
+- Treat the two reservoirs as one shared air reserve.
+
+## 2026-09-07 — Air suspension philosophy
+
+The Z should be able to air out when parked without becoming a compromised highway car.
+
+Current principles:
+- Establish a repeatable normal drive height.
+- Align the car at that drive height.
+- Keep sensible tire sidewall and road manners.
+- Use a separate lift/clearance preset.
+- Correct camber/toe as needed rather than accepting bad tire wear.
+
+## 2026-09-06 — Wheel direction
+
+Current favorite:
+- RAYS Gram Lights 57DR
+- Gunblue finish
+- 18×9.5 +22 front target
+- 18×10.5 +12 rear target
+
+Target tire direction:
+- Approximately 255/40R18 front
+- Approximately 285/35R18 rear
+- Real street/highway tire, not extreme stretch
+
+Final fitment will be verified against the actual car before buying.
+
+## 2026-09-06 — Audio direction
+
+The target Z appears to already have an upgraded head unit.
+
+Current plan:
+- Assess/keep the head unit if it makes sense.
+- Upgrade speakers.
+- Custom subwoofer setup.
+- Sound deadening where it produces real benefit.
+- Coordinate audio packaging with hidden air management from the beginning.
