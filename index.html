@@ -3,192 +3,276 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#090d12">
-<title>Forever Z Build</title>
+<meta name="theme-color" content="#081019">
+<title>Forever Z Mission Control</title>
 <style>
-:root{--bg:#090d12;--panel:#111923;--line:#27394d;--text:#eef5fb;--muted:#9fb1c3;--blue:#5aa7ff;--cyan:#7bd2ff;--green:#76d79f;--gold:#ffd166;--purple:#cda8ff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at 85% 5%,rgba(90,167,255,.14),transparent 28rem),linear-gradient(180deg,#080c11,#0d141d)}
-.wrap{max-width:1160px;margin:auto;padding:18px}.hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:26px;padding:32px;background:linear-gradient(135deg,#162432,#0b1219);box-shadow:0 20px 60px rgba(0,0,0,.35)}
-.hero:after{content:"Z";position:absolute;right:25px;top:-58px;font-size:220px;font-weight:1000;font-style:italic;color:rgba(255,255,255,.028)}.kicker,.eyebrow{font-size:11px;letter-spacing:.18em;font-weight:900;color:var(--cyan)}
-h1{font-size:clamp(40px,8vw,76px);line-height:.93;letter-spacing:-.055em;margin:8px 0 14px}h2{font-size:25px;margin:5px 0 14px}h3{margin:0 0 8px;font-size:16px}.lead{max-width:820px;color:var(--muted);line-height:1.65}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.chips span,.pill{padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:#0d151e;color:var(--cyan);font-size:11px;font-weight:800}
-nav{position:sticky;top:0;z-index:10;display:flex;gap:8px;overflow:auto;padding:10px 0 16px;background:linear-gradient(180deg,var(--bg) 70%,transparent)}nav a{white-space:nowrap;color:var(--muted);text-decoration:none;font-size:12px;font-weight:800;padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:#0d151e}
-section{margin:26px 0 42px}.grid{display:grid;gap:12px}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}
-.card{border:1px solid var(--line);border-radius:17px;padding:16px;background:linear-gradient(180deg,var(--panel),#0e161f)}.card p,.card li{color:var(--muted);font-size:13px;line-height:1.55}.card ul{padding-left:19px;margin:9px 0 0}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}
-.status{font-size:9px;letter-spacing:.12em;font-weight:1000;padding:5px 7px;border:1px solid var(--line);border-radius:999px}.waiting{color:var(--gold)}.planned{color:var(--cyan)}.research{color:var(--purple)}.owned{color:var(--green)}
-.vision{border:1px solid var(--line);border-radius:18px;overflow:hidden}.row{display:grid;grid-template-columns:190px 1fr;gap:12px;padding:13px 15px;background:#101923;border-bottom:1px solid var(--line)}.row:last-child{border-bottom:0}.row span{color:var(--muted)}
-.tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.tool{display:flex;gap:11px;align-items:center;padding:13px;border:1px solid var(--line);border-radius:14px;background:#101923;cursor:pointer}.tool input{width:21px;height:21px;accent-color:var(--blue)}.tool span{display:flex;flex-direction:column}.tool small{color:var(--muted);font-size:10px}.tool b{font-size:13px}
-.progress{height:8px;background:#0d141c;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:7px 0 15px}.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:.2s}.muted{color:var(--muted);font-size:13px}
-.timeline{position:relative;margin-left:8px}.timeline:before{content:"";position:absolute;left:86px;top:0;bottom:0;width:1px;background:var(--line)}.timeline article{display:grid;grid-template-columns:72px 1fr;gap:28px;padding-bottom:24px;position:relative}.timeline article:before{content:"";position:absolute;left:82px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 4px var(--bg)}.timeline time{font-size:10px;color:var(--cyan);font-weight:900}.timeline p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
-.rules{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.rules div{display:flex;gap:10px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#101923}.rules b{color:var(--cyan)}.rules span{color:#cad7e3;font-size:13px}
-.links a{color:var(--cyan);text-decoration:none}.links a:hover{text-decoration:underline}footer{border-top:1px solid var(--line);padding:26px 3px 48px;color:var(--muted);font-size:11px}
-@media(max-width:800px){.wrap{padding:12px}.hero{padding:23px}.two,.three,.tools,.rules{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:4px}.timeline:before{left:0}.timeline article{grid-template-columns:1fr;padding-left:22px;gap:5px}.timeline article:before{left:-4px}.hero:after{font-size:170px}}
+:root{--bg:#081019;--panel:#101b27;--panel2:#0c151f;--line:#26394d;--text:#f1f6fb;--muted:#9db0c2;--blue:#62adff;--cyan:#78ddff;--green:#78dda0;--gold:#ffd166;--red:#ff8d8d;--purple:#cbb6ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 90% 0,rgba(98,173,255,.14),transparent 32rem),linear-gradient(#071019,#0c141e);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--cyan)}button,input,select,textarea{font:inherit}.wrap{max-width:1240px;margin:auto;padding:16px}
+.hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:26px;padding:30px;background:linear-gradient(135deg,#17283a,#0b131c);box-shadow:0 22px 70px #0007}.hero:after{content:"Z";position:absolute;right:22px;top:-74px;font-size:240px;font-weight:1000;font-style:italic;color:#fff1;pointer-events:none}
+.kicker,.eyebrow{font-size:10px;font-weight:950;letter-spacing:.19em;color:var(--cyan);text-transform:uppercase}h1{font-size:clamp(40px,7vw,76px);line-height:.92;letter-spacing:-.05em;margin:7px 0 13px}h2{font-size:25px;margin:5px 0 13px}h3{margin:0 0 7px;font-size:16px}.lead{max-width:900px;color:var(--muted);line-height:1.65}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}.chip,.tag,.status{padding:6px 9px;border:1px solid var(--line);border-radius:999px;background:#0b1520;font-size:10px;font-weight:850}.chip{color:var(--cyan)}.gold{color:var(--gold)}.green{color:var(--green)}.red{color:var(--red)}.purple{color:var(--purple)}
+nav{position:sticky;top:0;z-index:20;display:flex;gap:7px;overflow:auto;padding:10px 0 14px;background:linear-gradient(var(--bg) 72%,transparent)}nav a{white-space:nowrap;text-decoration:none;color:var(--muted);border:1px solid var(--line);background:#0b1520;border-radius:999px;padding:8px 10px;font-size:11px;font-weight:850}nav a:hover{color:white;border-color:#4b6c8f}
+.toolbar{display:grid;grid-template-columns:1.5fr .7fr .7fr .7fr;gap:8px;margin:8px 0 18px}.toolbar input,.toolbar select,.toolbar button,.money input,.notes textarea{width:100%;border:1px solid var(--line);background:#0a141e;color:var(--text);border-radius:12px;padding:10px}.toolbar button,.btn{cursor:pointer}.toolbar button:hover,.btn:hover{border-color:var(--blue)}
+section{margin:24px 0 42px}.grid{display:grid;gap:11px}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{border:1px solid var(--line);border-radius:17px;padding:15px;background:linear-gradient(180deg,var(--panel),var(--panel2))}.card p,.card li{font-size:12.5px;line-height:1.58;color:var(--muted)}.card ul{padding-left:18px;margin:7px 0}.top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.metric{font-size:30px;font-weight:950;letter-spacing:-.04em}.tiny{font-size:10px;color:var(--muted)}.muted{color:var(--muted)}
+.progress{height:9px;background:#071019;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin-top:8px}.progress>div{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:.2s}
+details{border:1px solid var(--line);border-radius:16px;background:#0d1722;overflow:hidden}details+details{margin-top:9px}summary{cursor:pointer;list-style:none;padding:14px 15px;font-weight:900;display:flex;justify-content:space-between;gap:12px}summary::-webkit-details-marker{display:none}.details-body{padding:0 15px 15px;border-top:1px solid var(--line)}
+.check{display:grid;grid-template-columns:23px 1fr auto;gap:9px;align-items:start;padding:10px 0;border-bottom:1px solid #1d2d3e}.check:last-child{border-bottom:0}.check input{width:19px;height:19px;margin-top:1px;accent-color:var(--blue)}.check label{font-size:12.5px;line-height:1.45}.check small{display:block;color:var(--muted);margin-top:3px}.severity{font-size:8px;font-weight:950;letter-spacing:.08em;padding:4px 6px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}.sev-now{color:var(--red)}.sev-watch{color:var(--gold)}.sev-later{color:var(--cyan)}
+.tool-card,.part-card{position:relative}.shop{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);background:#0a141e;color:var(--cyan);border-radius:10px;padding:8px 10px;text-decoration:none;font-size:10px;font-weight:900}.btn.primary{border-color:#406c95;background:#10263a}.price{font-size:20px;font-weight:950}.source{font-size:9px;color:var(--muted)}
+.owned-row{display:flex;gap:7px;align-items:center;margin-top:10px;font-size:11px;color:var(--muted)}.owned-row input{accent-color:var(--green)}
+.known{border-left:3px solid var(--green)}.unknown{border-left:3px solid var(--gold)}.decision{border-left:3px solid var(--purple)}
+.link-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.link-list a{display:block;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:11px;background:#0b1520}.link-list b{display:block;color:var(--text);font-size:12px}.link-list span{display:block;color:var(--muted);font-size:10px;margin-top:3px}
+.money{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.money label{font-size:10px;color:var(--muted)}.money input{margin-top:5px}.total{font-size:30px;font-weight:950;margin-top:14px}
+.notes textarea{min-height:120px;resize:vertical}.footer{border-top:1px solid var(--line);padding:26px 3px 45px;color:var(--muted);font-size:10px}
+.hidden-by-filter{display:none!important}
+@media(max-width:900px){.toolbar{grid-template-columns:1fr 1fr}.four,.three{grid-template-columns:repeat(2,1fr)}.money{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.wrap{padding:10px}.hero{padding:21px}.two,.three,.four,.link-list,.money{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr}.hero:after{font-size:170px}.check{grid-template-columns:23px 1fr}.severity{grid-column:2;justify-self:start}}
+@media print{nav,.toolbar,.shop,.notes button{display:none!important}body{background:white;color:black}.card,details,.hero{break-inside:avoid;background:white;color:black;border-color:#bbb}.muted,.card p,.card li,.tiny,.source{color:#555}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header class="hero">
-  <div class="kicker">A11AST3R-ROB // THE FOREVER Z</div>
-  <h1>Forever Z Build</h1>
-  <p class="lead">The living build journal for a future Nissan 370Z — started before the car even reached the driveway. Wheels, bags, suspension, cooling, audio, tools, fabrication, decisions, and eventually every install.</p>
-  <div class="chips"><span>Current candidate: Pearl White 2009 370Z Base 6MT</span><span>Status: waiting on the deal</span><span>Street/highway first</span><span>Forever-car mentality</span></div>
+<div class="kicker">A11AST3R-ROB // FOREVER Z MISSION CONTROL</div>
+<h1>The whole damn Z plan.</h1>
+<p class="lead">Candidate → acquisition → baseline → longevity → wheels → bags → geometry → audio → cooling → wrap → forever maintenance. Check things off, save notes, track a rough budget, and jump straight to the tools, parts, factory docs, and research we are actually using.</p>
+<div class="chips">
+<span class="chip">2009 370Z Base candidate</span><span class="chip">Pearl White • black • 6MT</span><span class="chip">112,563 mi advertised</span><span class="chip gold" id="stageChip">Stage: waiting on Rich</span><span class="chip">Browser checklist saves locally</span>
+</div>
 </header>
 
-<nav><a href="#status">Status</a><a href="#audit">Audit</a><a href="#checklist">Checklist</a><a href="#longevity">Longevity</a><a href="#expansion">Expansion</a><a href="#vision">Vision</a><a href="#plan">Build Plan</a><a href="#garage">Garage</a><a href="#log">Log</a><a href="#rules">Rules</a></nav>
+<nav>
+<a href="#mission">Mission</a><a href="#candidate">Candidate</a><a href="#checklist">Checklist</a><a href="#longevity">Longevity</a><a href="#tools">Tools</a><a href="#build">Build</a><a href="#budget">Budget</a><a href="#links">Links</a><a href="#notes">Notes</a>
+</nav>
 
-<section id="status">
-<div class="top"><div><div class="eyebrow">RIGHT NOW</div><h2>Acquisition status</h2></div><span class="status waiting">WAITING</span></div>
-<div class="grid three">
-<article class="card"><h3>Target car</h3><p>Pearl White 2009 Nissan 370Z Base, 6-speed manual, currently on the lot at Larry H. Miller Nissan Mesa. Listed at 112,563 miles.</p></article>
-<article class="card"><h3>Current phase</h3><p>Window-shopping, platform research, build planning, and garage prep while the purchase process moves along.</p></article>
-<article class="card"><h3>Build philosophy</h3><p>Not a flip. Personal, serviceable, usable, and built over time instead of chasing a one-weekend transformation.</p></article>
+<div class="toolbar">
+<input id="filter" type="search" placeholder="Filter this page: clutch, bushing, audio, oil...">
+<select id="stage">
+<option value="candidate">Candidate / waiting</option>
+<option value="acquired">Acquired / Day 1</option>
+<option value="baseline">Baseline / stabilize</option>
+<option value="modify">Ready to modify</option>
+<option value="build">Build underway</option>
+</select>
+<button id="copyBtn">Copy project snapshot</button>
+<button onclick="window.print()">Print / Save PDF</button>
+</div>
+
+<section id="mission">
+<div class="eyebrow">MISSION STATUS</div><h2>One system, not a pile of parts</h2>
+<div class="grid four">
+<div class="card"><div class="tiny">CHECKLIST</div><div class="metric" id="doneCount">0/0</div><div class="progress"><div id="globalBar"></div></div></div>
+<div class="card"><div class="tiny">CURRENT GATE</div><div class="metric" style="font-size:21px" id="gateText">WAITING</div><p>Nothing fitment-critical gets bought until the real car is verified and measured.</p></div>
+<div class="card"><div class="tiny">BUILD RULE</div><div class="metric" style="font-size:21px">STREET FIRST</div><p>Highway manners, tire wear and serviceability beat race-car NVH.</p></div>
+<div class="card"><div class="tiny">SETTLED LAW</div><div class="metric" style="font-size:21px">SUBS.</div><p>No further committee review required.</p></div>
 </div>
 </section>
 
-<section id="audit">
-<div class="eyebrow">TOTAL PLAN GUT CHECK</div><h2>Research audit</h2>
-<p class="muted">The complete plan has now been cross-checked against Nissan factory information, the live dealer listing, Air Lift, SPC/Z1 documentation, independent long-term testing, real-world wheel fitment, and community experience. The strategy survived; a few priorities got sharper.</p>
-<div class="grid three">
-<article class="card"><div class="top"><h3>Likely non-Sport Base</h3><span class="status waiting">VERIFY</span></div><p>The listing's 18-inch wheels, 4-speaker audio and package data are consistent with a plain Base. We physically verify brakes, differential and SynchroRev hardware before assuming anything.</p></article>
-<article class="card"><div class="top"><h3>Engine baseline</h3><span class="status planned">ELEVATED</span></div><p>Warm mechanical oil pressure is now a high-priority baseline. Spark plugs are baseline service if the Nissan 105k replacement cannot be documented.</p></article>
-<article class="card"><div class="top"><h3>Cooling</h3><span class="status planned">STRONG</span></div><p>Thermostatic oil cooler remains a likely high-value upgrade. Healthy stock radiator/fans stay. Aging heater-hose connector/bleeder gets inspected.</p></article>
-<article class="card"><div class="top"><h3>57DR fitment</h3><span class="status research">TARGET</span></div><p>The +22/+12 wheel pair and 255/40 + 285/35 tires exist on real 370Z builds, but the tire pair is about 3% shorter than Base stock and Air Lift clearance still has to be measured.</p></article>
-<article class="card"><div class="top"><h3>Air + geometry</h3><span class="status planned">CONFIRMED</span></div><p>Air Lift 76010/76510 + ALP4 direction holds. We explicitly plan for possible front tower clearance work, rear spring-seat drilling and spring-bucket-compatible toe adjustment.</p></article>
-<article class="card"><div class="top"><h3>Longevity</h3><span class="status owned">RULE</span></div><p>Rear diff bushing, CSC behavior and chassis joints get inspected. No poly-everything, no solid-everything, no parts cannon.</p></article>
+<section id="candidate">
+<div class="eyebrow">ACTIVE CANDIDATE</div><h2>What we think we are buying</h2>
+<div class="grid three searchable">
+<article class="card known"><div class="top"><h3>Known</h3><span class="status green">CURRENT</span></div><ul>
+<li>2009 Nissan 370Z Base</li><li>Pearl White / black interior</li><li>6-speed manual / RWD</li><li>112,563 advertised miles</li><li>VIN JN1AZ44E29M409293</li><li>Dealer listing shows 18-inch wheels and 4-speaker audio</li></ul>
+<div class="shop"><a class="btn primary" href="https://www.lhmnissanmesa.com/used/Nissan/2009-Nissan-370Z-Mesa-dec6cfb8ac185c3035c89e237be65479.htm" target="_blank" rel="noopener">Dealer listing ↗</a></div></article>
+<article class="card unknown"><div class="top"><h3>Unknown / verify</h3><span class="status gold">DO NOT ASSUME</span></div><ul>
+<li>Actual Sport vs non-Sport hardware</li><li>Oil-pressure health / consumption</li><li>Clutch / CSC condition</li><li>Exact wheels / tires / brakes</li><li>Suspension and alignment hardware</li><li>Open diff / VLSD / aftermarket LSD</li><li>Existing audio wiring</li><li>Accident / repaint / underbody condition</li></ul></article>
+<article class="card decision"><div class="top"><h3>Current read</h3><span class="status purple">AUDITED</span></div><p>The dealer configuration is consistent with a plain non-Sport Base car, but we physically verify it. That would make a future LSD and optional Akebono brake conversion especially interesting without changing the core build.</p><div class="shop"><a class="btn" href="PLAN_AUDIT.md">Read full audit</a><a class="btn" href="CURRENT_STATE.md">Current State</a></div></article>
 </div>
-<p class="links"><a href="PLAN_AUDIT.md">Open the full research-backed plan audit →</a></p>
+</section>
 
 <section id="checklist">
-<div class="eyebrow">MASTER WORKFLOW</div><h2>End-to-end checklist</h2>
-<p class="muted">The project now follows one rule: <b>learn the car before changing the car.</b> The full checklist runs from candidate research all the way through ongoing ownership.</p>
-<div class="grid three">
-<article class="card"><div class="top"><h3>1. Candidate → purchase</h3><span class="status waiting">NOW</span></div><ul><li>History, PPI, title, dealer work</li><li>2009 steering-lock / clutch-hydraulic checks</li><li>Out-the-door numbers and transport</li></ul></article>
-<article class="card"><div class="top"><h3>2. As acquired</h3><span class="status planned">DAY 1</span></div><ul><li>Full photo set and VIN/odometer</li><li>Cold/warm drive baseline</li><li>Inventory every existing modification</li></ul></article>
-<article class="card"><div class="top"><h3>3. Stabilize</h3><span class="status research">GATE</span></div><ul><li>Tires, brakes, fluids, leaks</li><li>Clutch, suspension, battery, cooling</li><li>STOP / MONITOR / READY TO MODIFY</li></ul></article>
-<article class="card"><div class="top"><h3>4. Measure</h3><span class="status planned">BEFORE PARTS</span></div><ul><li>Wheel/brake/fender clearance</li><li>Ride height and alignment</li><li>Hatch space for air + audio</li></ul></article>
-<article class="card"><div class="top"><h3>5. Build</h3><span class="status planned">PHASED</span></div><ul><li>Wheels/tires</li><li>Air + geometry</li><li>Audio, cooling, wrap</li></ul></article>
-<article class="card"><div class="top"><h3>6. Document forever</h3><span class="status owned">RULE</span></div><ul><li>Parts, receipts, mileage, before/after</li><li>Alignment and service records</li><li>Every change goes in the build log</li></ul></article>
-</div>
-<p class="links"><a href="CHECKLIST.md">Open the full end-to-end checklist →</a></p>
+<div class="eyebrow">END-TO-END CHECKLIST</div><h2>Check it once, know what we own</h2>
+<p class="muted">Checks save in this browser. We still update the repo when a real fact changes.</p>
+
+<details open class="searchable"><summary>Phase 0 — Before purchase <span class="tag red">RIGHT NOW</span></summary><div class="details-body">
+<div class="check"><input data-check id="p0-history" type="checkbox"><label for="p0-history">History report / title / accident history reviewed<small>Save the report and anything useful from prior service records.</small></label><span class="severity sev-now">BUY GATE</span></div>
+<div class="check"><input data-check id="p0-dealerwork" type="checkbox"><label for="p0-dealerwork">Dealer reconditioning and maintenance work documented<small>Ask exactly what they did before putting it on the lot.</small></label><span class="severity sev-now">BUY GATE</span></div>
+<div class="check"><input data-check id="p0-p3208" type="checkbox"><label for="p0-p3208">Nissan P3208 steering-lock campaign status verified<small>2009-specific official campaign item.</small></label><span class="severity sev-now">BUY GATE</span></div>
+<div class="check"><input data-check id="p0-ppi" type="checkbox"><label for="p0-ppi">Independent PPI / cold-start / scan / leak inspection completed<small>Condition beats a “fair” market price.</small></label><span class="severity sev-now">BUY GATE</span></div>
+<div class="check"><input data-check id="p0-otd" type="checkbox"><label for="p0-otd">Full out-the-door price and pickup/transport plan known</label><span class="severity sev-now">BUY GATE</span></div>
+</div></details>
+
+<details class="searchable"><summary>Phase 1 — Day 1 / as acquired <span class="tag gold">AFTER PURCHASE</span></summary><div class="details-body">
+<div class="check"><input data-check id="p1-photos" type="checkbox"><label for="p1-photos">Full as-acquired photo set<small>VIN, odometer, every panel, wheels, tires, bay, hatch, interior, underside, flaws and mods.</small></label><span class="severity sev-watch">DOCUMENT</span></div>
+<div class="check"><input data-check id="p1-scan" type="checkbox"><label for="p1-scan">Full OBD scan saved</label><span class="severity sev-now">BASELINE</span></div>
+<div class="check"><input data-check id="p1-pressure" type="checkbox"><label for="p1-pressure">Warm mechanical oil-pressure baseline measured<small>Diagnose evidence; do not assume a gallery-gasket failure just because it is an early VQ37.</small></label><span class="severity sev-now">ENGINE</span></div>
+<div class="check"><input data-check id="p1-plugs" type="checkbox"><label for="p1-plugs">Spark-plug history verified or plugs replaced<small>Nissan interval is 105k miles for Base/Touring; candidate is past it.</small></label><span class="severity sev-now">SERVICE</span></div>
+<div class="check"><input data-check id="p1-fluid" type="checkbox"><label for="p1-fluid">Oil / MT / diff / coolant / brake / clutch fluid history reset as needed</label><span class="severity sev-now">SERVICE</span></div>
+</div></details>
+
+<details class="searchable"><summary>Phase 2 — Chassis / driveline health <span class="tag gold">FIRST WEEK</span></summary><div class="details-body">
+<div class="check"><input data-check id="p2-csc" type="checkbox"><label for="p2-csc">Clutch + CSC behavior tested hot and cold<small>Pedal return, engagement, slip, fluid discoloration, master-cylinder signs.</small></label><span class="severity sev-now">DRIVELINE</span></div>
+<div class="check"><input data-check id="p2-diffb" type="checkbox"><label for="p2-diffb">Rear differential bushing inspected<small>Look for fluid streaking, tearing, thud/clunk and excessive diff motion.</small></label><span class="severity sev-now">BUSHING</span></div>
+<div class="check"><input data-check id="p2-frontb" type="checkbox"><label for="p2-frontb">Front compression/tension bushings + ball joints + tie rods inspected</label><span class="severity sev-now">CHASSIS</span></div>
+<div class="check"><input data-check id="p2-hubs" type="checkbox"><label for="p2-hubs">Wheel bearings / hubs checked for play, roughness or hum</label><span class="severity sev-watch">CHASSIS</span></div>
+<div class="check"><input data-check id="p2-mounts" type="checkbox"><label for="p2-mounts">Engine / transmission / rear subframe mounts and bushings inspected<small>No automatic solid/poly conversion if healthy.</small></label><span class="severity sev-watch">NVH</span></div>
+</div></details>
+
+<details class="searchable"><summary>Phase 3 — Cooling / preservation <span class="tag purple">LONGEVITY</span></summary><div class="details-body">
+<div class="check"><input data-check id="p3-cooling" type="checkbox"><label for="p3-cooling">Radiator / fans / hoses / cap / reservoir / thermostat behavior checked<small>Healthy factory radiator stays.</small></label><span class="severity sev-now">COOLING</span></div>
+<div class="check"><input data-check id="p3-heater" type="checkbox"><label for="p3-heater">Heater-hose connector / bleeder inspected<small>If original/aged plastic, favor a quality metal replacement during coolant service.</small></label><span class="severity sev-watch">PREVENT</span></div>
+<div class="check"><input data-check id="p3-oiltemp" type="checkbox"><label for="p3-oiltemp">Normal and spirited oil-temperature behavior logged</label><span class="severity sev-watch">DATA</span></div>
+<div class="check"><input data-check id="p3-undertray" type="checkbox"><label for="p3-undertray">Undertray / airflow / fasteners intact</label><span class="severity sev-watch">PRESERVE</span></div>
+<div class="check"><input data-check id="p3-salt" type="checkbox"><label for="p3-salt">Missouri salt-protection plan established<small>Preserve a potentially dry Southwest chassis.</small></label><span class="severity sev-later">OWNERSHIP</span></div>
+</div></details>
+
+<details class="searchable"><summary>Phase 4 — Measure before buying <span class="tag purple">FITMENT GATE</span></summary><div class="details-body">
+<div class="check"><input data-check id="p4-brakes" type="checkbox"><label for="p4-brakes">Base vs Sport/Akebono brake path decided<small>Do this before locking wheel-face/caliper clearance.</small></label><span class="severity sev-now">DECISION</span></div>
+<div class="check"><input data-check id="p4-diff" type="checkbox"><label for="p4-diff">Open diff / VLSD / aftermarket LSD verified</label><span class="severity sev-watch">FUN</span></div>
+<div class="check"><input data-check id="p4-wheelmeasure" type="checkbox"><label for="p4-wheelmeasure">Fender / suspension / brake / current wheel clearances measured</label><span class="severity sev-now">MEASURE</span></div>
+<div class="check"><input data-check id="p4-airmeasure" type="checkbox"><label for="p4-airmeasure">Air-suspension travel + desired LOW / DRIVE / LIFT heights measured</label><span class="severity sev-now">MEASURE</span></div>
+<div class="check"><input data-check id="p4-hatch" type="checkbox"><label for="p4-hatch">Hatch measured for tanks / compressors / manifold / amps / subs / access</label><span class="severity sev-watch">DESIGN</span></div>
+</div></details>
+
+<details class="searchable"><summary>Phase 5 — Build modules <span class="tag green">WHEN GREEN</span></summary><div class="details-body">
+<div class="check"><input data-check id="p5-wheels" type="checkbox"><label for="p5-wheels">Final wheels / tires ordered after clearance verification</label><span class="severity sev-later">WHEELS</span></div>
+<div class="check"><input data-check id="p5-air" type="checkbox"><label for="p5-air">Air suspension + management + geometry installed and tested</label><span class="severity sev-later">AIR</span></div>
+<div class="check"><input data-check id="p5-align" type="checkbox"><label for="p5-align">Final alignment performed at repeatable DRIVE height</label><span class="severity sev-later">ALIGNMENT</span></div>
+<div class="check"><input data-check id="p5-audio" type="checkbox"><label for="p5-audio">Audio + hidden air hatch built as one serviceable system</label><span class="severity sev-later">AUDIO</span></div>
+<div class="check"><input data-check id="p5-wrap" type="checkbox"><label for="p5-wrap">Body prepped and future wrap installed</label><span class="severity sev-later">EXTERIOR</span></div>
+</div></details>
+
+<div class="shop"><a class="btn" href="CHECKLIST.md">Full master checklist</a><a class="btn" href="EXPANSION_PLAN.md">Expansion plan</a><a class="btn" href="LONGEVITY_AND_FUN.md">Longevity plan</a></div>
 </section>
 
 <section id="longevity">
-<div class="eyebrow">KEEP IT TIGHT</div><h2>Longevity + fun plan</h2>
-<p class="muted">The chassis strategy is <b>renew first, selectively upgrade second</b>. We want zero slop and good geometry without turning the car into an NVH machine.</p>
-<div class="grid three">
-<article class="card"><h3>Bushings / joints</h3><ul><li>Inspect rear differential bushing early</li><li>Inspect front compression/tension bushings</li><li>Ball joints, tie rods, sway links, wheel bearings</li><li>Rear subframe stays stock if healthy</li></ul></article>
-<article class="card"><h3>Driveline</h3><ul><li>Clutch/CSC health first</li><li>Manual + differential fluid baseline</li><li>Engine/trans mounts only if worn</li><li>LSD later if the car is open-diff</li></ul></article>
-<article class="card"><h3>Cooling / monitoring</h3><ul><li>Thermostatic oil cooler planned</li><li>Healthy stock radiator stays</li><li>Oil pressure/consumption baseline</li><li>Protect undertray and airflow</li></ul></article>
-<article class="card"><h3>Street-first materials</h3><ul><li>OEM rubber where comfort matters</li><li>Street urethane where control matters</li><li>Solid/spherical only with a reason</li></ul></article>
-<article class="card"><h3>Fun after healthy</h3><ul><li>57DRs + good tires</li><li>Bags + proper alignment</li><li>Exhaust, brakes, audio</li><li>Wrap after body prep</li></ul></article>
-<article class="card"><h3>No parts-cannon</h3><ul><li>Do not replace sensors, hubs, coils, mounts or radiator without evidence</li><li>Test, document, then spend</li></ul></article>
-</div>
-<p class="links"><a href="LONGEVITY_AND_FUN.md">Open the complete longevity + fun plan →</a></p>
-
-<section id="expansion">
-<div class="eyebrow">WHEN WE KNOW MORE</div><h2>Evidence-driven expansion plan</h2>
-<div class="grid two">
-<article class="card"><h3>Known / unknown state</h3><p>We now keep a separate current-state file so the plan does not pretend we know things we have not verified yet. New evidence moves an item from unknown to fact, issue, existing modification, or build decision.</p><p class="links"><a href="CURRENT_STATE.md">Open Current State →</a></p></article>
-<article class="card"><h3>How the project grows</h3><p>After purchase, we add exact as-acquired specs, active issues, maintenance history and existing-mod inventory. Separate Air, Audio, Wheels/Tires, Wrap and Cooling pages only appear when those modules become real.</p><p class="links"><a href="EXPANSION_PLAN.md">Open Expansion Plan →</a></p></article>
-</div>
-<div class="vision" style="margin-top:12px">
-<div class="row"><b>If suspension is modified</b><span>Identify it first, then decide KEEP / SERVICE / REPLACE before buying air hardware.</span></div>
-<div class="row"><b>If clutch / CSC acts up</b><span>Reliability branch becomes priority before cosmetic or suspension work.</span></div>
-<div class="row"><b>If oil pressure is questionable</b><span>Engine-health branch opens; modifications wait.</span></div>
-<div class="row"><b>If audio wiring is hacked</b><span>Electrical cleanup happens before amps/subs.</span></div>
-<div class="row"><b>If body needs work</b><span>Body prep happens before wrap. Wrap does not hide bad foundation.</span></div>
+<div class="eyebrow">LONGEVITY + FUN</div><h2>Renew the right stuff, not everything</h2>
+<div class="grid three searchable">
+<article class="card"><div class="top"><h3>High-priority rubber</h3><span class="status gold">INSPECT</span></div><ul><li>Rear differential bushing</li><li>Front compression/tension bushings</li><li>Ball joints / tie rods</li><li>Sway bushings/end links</li><li>Dust boots and axle boots</li></ul></article>
+<article class="card"><div class="top"><h3>Stay soft unless needed</h3><span class="status green">STREET</span></div><ul><li>Engine mounts</li><li>Transmission mount</li><li>Rear subframe bushings</li><li>Random chassis bushings</li></ul><p>OEM-quality rubber first. Street urethane where control matters. Solid/spherical only with a real reason.</p></article>
+<article class="card"><div class="top"><h3>Best future fun</h3><span class="status purple">LATER</span></div><ul><li>Great tires + alignment</li><li>LSD if open diff</li><li>Cat-back exhaust</li><li>OEM+ brakes if desired</li><li>Bags + proper geometry</li><li>Audio + wrap</li></ul></article>
 </div>
 </section>
 
-<section id="vision">
-<div class="eyebrow">CURRENT VISION</div><h2>The look + the function</h2>
-<div class="vision">
-<div class="row"><b>Current car</b><span>2009 370Z Base • Pearl White • black interior • 6-speed manual • RWD • 112,563 miles</span></div>
-<div class="row"><b>Dealer listing</b><span><a href="https://www.lhmnissanmesa.com/used/Nissan/2009-Nissan-370Z-Mesa-dec6cfb8ac185c3035c89e237be65479.htm" target="_blank" rel="noopener">Larry H. Miller Nissan Mesa — current candidate</a></span></div>
-<div class="row"><b>Wheels</b><span>RAYS Gram Lights 57DR — Gunblue</span></div>
-<div class="row"><b>Fitment</b><span>18×9.5 +22 front / 18×10.5 +12 rear target</span></div>
-<div class="row"><b>Tires</b><span>Approx. 255/40R18 front / 285/35R18 rear; real highway-worthy street tires, no silly stretch</span></div>
-<div class="row"><b>Suspension</b><span>Air suspension: low when parked, properly aligned at repeatable drive height</span></div>
-<div class="row"><b>Air management</b><span>Two smaller hidden reservoirs + dual electric compressors integrated into the hatch</span></div>
-<div class="row"><b>Audio</b><span>Upgraded speakers + custom subs + sound treatment, designed alongside the air install</span></div>
-<div class="row"><b>Cooling</b><span>Thermostatic oil cooler on the shortlist after baseline inspection/use confirms the need</span></div>
+<section id="tools">
+<div class="eyebrow">GARAGE / TOOL LINKS</div><h2>Buy once, use forever</h2>
+<p class="muted">Current prices shown are snapshots from Harbor Freight on Sep. 7, 2026 and can change. The links are the useful part.</p>
+<div class="grid three searchable">
+
+<article class="card tool-card"><div class="top"><h3>DAYTONA 3-ton long-reach low-profile jack</h3><span class="status red">CORE</span></div><div class="price">$269.99</div><p>3¼-inch minimum height and 24¼-inch max on the black version. The long reach is the reason we like it for a low Z.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/automotive/jacks-jack-stands/floor-jacks/low-profile/3-ton-long-reach-low-profile-professional-floor-jack-with-rapid-pump-black-64781.html" target="_blank" rel="noopener">Shop jack ↗</a></div><label class="owned-row"><input data-owned="tool-jack" type="checkbox"> I own this / equivalent</label></article>
+
+<article class="card tool-card"><div class="top"><h3>HERCULES 20V ½-inch Ultra Torque impact</h3><span class="status red">CORE</span></div><div class="price">$199.99</div><p>Up to 1500 ft-lb breakaway. Impact removes; torque wrench still does final tightening.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/20v-brushless-cordless-12-in-ultra-torque-impact-wrench-with-friction-ring-tool-only-58887.html" target="_blank" rel="noopener">Shop impact ↗</a><a class="btn" href="https://www.harborfreight.com/automotive/impact-wrenches/electric-impact-wrenches/cordless.html" target="_blank" rel="noopener">Compare impacts</a></div><label class="owned-row"><input data-owned="tool-impact" type="checkbox"> I own this / equivalent</label></article>
+
+<article class="card tool-card"><div class="top"><h3>ICON ½-inch torque wrench</h3><span class="status red">CORE</span></div><div class="price">$139–160</div><p>Split-beam or flex-head click type. A real calibrated torque wrench is non-negotiable for wheels/chassis work.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/12-in-drive-50-to-250-ft-lb-professional-flex-head-click-torque-wrench-56470.html" target="_blank" rel="noopener">Flex-head ↗</a><a class="btn" href="https://www.harborfreight.com/hand-tools/sockets-ratchets/torque-wrenches/1-2-in-drive.html" target="_blank" rel="noopener">Compare ½-inch</a></div><label class="owned-row"><input data-owned="tool-torque" type="checkbox"> I own this / equivalent</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Digital multimeter</h3><span class="status gold">AUDIO</span></div><p>Useful for battery/charging, grounds, fuse checks, speaker wiring and the custom hatch electrical system.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/automotive/diagnostic-testing-scanning/multimeters-probes-testers/multimeters.html" target="_blank" rel="noopener">Shop meters ↗</a></div><label class="owned-row"><input data-owned="tool-meter" type="checkbox"> I own one</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Digital caliper / measuring tools</h3><span class="status gold">FAB</span></div><p>Wheel/hardware measurements, brackets, rivnuts, tubing and custom hatch fabrication.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/home/hobby-tools/precision-tools/precision-measuring-tools/digital-calipers.html" target="_blank" rel="noopener">Shop calipers ↗</a></div><label class="owned-row"><input data-owned="tool-caliper" type="checkbox"> I own one</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Low-profile creeper</h3><span class="status purple">NICE</span></div><div class="price">$39.99</div><p>Not glamorous, very useful once we're inspecting bushings, leaks, undertray and exhaust.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/collections/automotive-tools/300-lb-capacity-low-profile-creeper-gray-63372.html" target="_blank" rel="noopener">Shop creeper ↗</a></div><label class="owned-row"><input data-owned="tool-creeper" type="checkbox"> I own one</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Trim / panel tools</h3><span class="status gold">AUDIO</span></div><p>Needed before we start pulling hatch/door panels for sound deadening, wiring and speakers.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/search?q=trim+removal+tools" target="_blank" rel="noopener">Search trim tools ↗</a></div><label class="owned-row"><input data-owned="tool-trim" type="checkbox"> I own a set</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Ratcheting crimper / wiring tools</h3><span class="status gold">AUDIO</span></div><p>For proper terminals, heat shrink, power distribution and clean amp/air-management wiring.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/search?q=ratcheting+crimper" target="_blank" rel="noopener">Search crimpers ↗</a></div><label class="owned-row"><input data-owned="tool-crimper" type="checkbox"> I own one</label></article>
+
+<article class="card tool-card"><div class="top"><h3>Rivnut / nutsert tool</h3><span class="status purple">FAB</span></div><p>Excellent for removable false-floor panels and custom brackets instead of permanent mystery fasteners.</p><div class="shop"><a class="btn primary" href="https://www.harborfreight.com/search?q=rivet+nut+tool" target="_blank" rel="noopener">Search rivnut tools ↗</a></div><label class="owned-row"><input data-owned="tool-rivnut" type="checkbox"> I own one</label></article>
+
+</div>
+<div class="card" style="margin-top:11px"><h3>Already owned</h3><p>One pair of jack stands • pry bar • metric impact sockets. Add/remove checks above as the garage grows.</p><div class="shop"><a class="btn" href="https://www.harborfreight.com/search?q=wheel+chocks" target="_blank" rel="noopener">Wheel chocks</a><a class="btn" href="https://www.harborfreight.com/search?q=jack+stands" target="_blank" rel="noopener">Second pair of stands</a><a class="btn" href="https://www.harborfreight.com/search?q=breaker+bar" target="_blank" rel="noopener">Breaker bars</a><a class="btn" href="https://www.harborfreight.com/search?q=work+light" target="_blank" rel="noopener">Work lights</a></div></div>
+</section>
+
+<section id="build">
+<div class="eyebrow">BUILD MODULES + PART LINKS</div><h2>Where the fun money eventually goes</h2>
+<div class="grid two searchable">
+
+<article class="card part-card"><div class="top"><h3>Wheels + tires</h3><span class="status purple">TARGET</span></div><p><b>RAYS Gram Lights 57DR Gunblue</b><br>18×9.5 +22 front / 18×10.5 +12 rear.<br>Current tire target: 255/40R18 + 285/35R18.</p><p>The wheel pair and exact tire combination exist on real Z34 builds, but our tires stay provisional until brake + Air Lift + DRIVE-height clearance is measured.</p><div class="shop"><a class="btn" href="https://www.customwheeloffset.com/wheel-offset-gallery/553820/2016-nissan-370z-rays-engineering-57dr-bc-racing-coilovers-michelin-pilot-super-sport" target="_blank" rel="noopener">Real fitment example ↗</a><a class="btn" href="PARTS.md">Our fitment notes</a></div></article>
+
+<article class="card part-card"><div class="top"><h3>Air suspension</h3><span class="status purple">PLANNED</span></div><p>Current architecture: Air Lift front 76010 / rear 76510, ALP4 3/8-inch management, optional height upgrade, dual compressors, two hidden reservoirs as one shared reserve.</p><p>Plan for possible front shock-tower clearance work and rear spring-seat drilling. This is a custom install, not a slap-it-on weekend shortcut.</p><div class="shop"><a class="btn primary" href="https://www.airliftperformance.com/vehicle/nissan/370z/2009" target="_blank" rel="noopener">Air Lift 2009 fitment ↗</a><a class="btn" href="https://www.airliftperformance.com/product-lines/alp4" target="_blank" rel="noopener">ALP4 ↗</a></div></article>
+
+<article class="card part-card"><div class="top"><h3>Geometry / bushings</h3><span class="status gold">MEASURE FIRST</span></div><p>Street-bushed front/rear adjustability only where alignment needs it. Rear toe correction must preserve the factory spring bucket for the planned rear Air Lift layout.</p><div class="shop"><a class="btn" href="https://www.spcalignment.com/product/72265" target="_blank" rel="noopener">SPC 72265 ↗</a><a class="btn" href="https://www.z1motorsports.com/control-arms/z1-motorsports/z1-370z-g37-forged-front-upper-control-arms-p-47498.html" target="_blank" rel="noopener">Z1 FUCAs ↗</a><a class="btn" href="https://www.z1motorsports.com/z1-products/z1-motorsports/z1-motorsports-370z-g37-adjustable-suspension-kit-p-12183.html" target="_blank" rel="noopener">Z1 street suspension kit ↗</a></div></article>
+
+<article class="card part-card"><div class="top"><h3>Differential</h3><span class="status gold">VERIFY</span></div><p>Inspect the fluid-filled rear diff bushing early. If failed, current preference is quality street urethane rather than solid aluminum. If the car proves open-diff, a quiet street-friendly LSD becomes a high-value later fun upgrade.</p><div class="shop"><a class="btn" href="https://www.z1motorsports.com/z1-products/z1-motorsports/z1-urethane-rear-differential-bushing-set-p-10356.html" target="_blank" rel="noopener">Z1 urethane diff bushing ↗</a></div></article>
+
+<article class="card part-card"><div class="top"><h3>Cooling</h3><span class="status green">LIKELY</span></div><p>Baseline engine health first, then a thermostatic external oil cooler is one of the strongest likely longevity upgrades for spirited summer use. Healthy OEM radiator/fans stay.</p><div class="shop"><a class="btn" href="https://www.edmunds.com/nissan/370z/2009/long-term-road-test/" target="_blank" rel="noopener">2009 long-term heat history ↗</a><a class="btn" href="https://www.z1motorsports.com/z1-products/z1-motorsports/coolant-temperature-sensor-adapter-bleeder-port-heater-hose-p-9367.html" target="_blank" rel="noopener">Metal heater-hose bleeder example ↗</a></div></article>
+
+<article class="card part-card"><div class="top"><h3>Audio + hidden air hatch</h3><span class="status purple">DESIGN TOGETHER</span></div><p>Identify the current head unit and existing wiring first. Then speakers + amp(s) + subs + sound treatment + manifold + tanks + compressors become one removable/serviceable hatch architecture.</p><ul><li>No mystery splices</li><li>Main fuse near power source</li><li>Proper grounds</li><li>Compressor ventilation</li><li>Accessible drains</li><li>Keep useful cargo space</li></ul></article>
+
+<article class="card part-card"><div class="top"><h3>Wrap / exterior</h3><span class="status purple">FUTURE</span></div><p>Pearl White is only the starting point. PDR, cracks, chips, paint failure and panel alignment get handled before wrap. Paint can remain a far-future decision.</p></article>
+
+<article class="card part-card"><div class="top"><h3>Brakes</h3><span class="status gold">DECIDE BEFORE WHEELS</span></div><p>If physically verified as base brakes, good pads/rotors/fluid may be all we need initially. An Akebono/Sport-style conversion remains a nice OEM+ path if we want thermal capacity and looks.</p><div class="shop"><a class="btn" href="https://www.auto-brochures.com/makes/Nissan/370Z/Nissan_US%20370Z_2009.pdf" target="_blank" rel="noopener">2009 factory brochure ↗</a></div></article>
+
 </div>
 </section>
 
-<section id="plan">
-<div class="eyebrow">ROADMAP</div><h2>Build plan</h2>
-<div class="grid two">
-<article class="card"><div class="top"><h3>Wheels + tires</h3><span class="status planned">PLANNED</span></div><ul><li>Gram Lights 57DR Gunblue</li><li>18×9.5 +22 / 18×10.5 +12 target</li><li>Meaty street tire; wet/highway manners matter</li><li>Final fitment verified on the actual car before ordering</li></ul></article>
-<article class="card"><div class="top"><h3>Air suspension</h3><span class="status research">RESEARCH</span></div><ul><li>Z34-specific performance air hardware</li><li>Pressure + height-based management preferred</li><li>Dual electric compressors</li><li>Two smaller hidden tanks as one shared reserve</li><li>Drive / lift / aired-out presets</li></ul></article>
-<article class="card"><div class="top"><h3>Geometry</h3><span class="status research">RESEARCH</span></div><ul><li>Front camber correction as needed</li><li>Rear camber correction</li><li>Rear toe solution compatible with rear air-spring location</li><li>Street-oriented bushings/joints where sensible</li><li>Alignment at normal drive height</li></ul></article>
-<article class="card"><div class="top"><h3>Audio + treatment</h3><span class="status planned">PLANNED</span></div><ul><li>Keep/assess upgraded head unit</li><li>Speaker upgrade</li><li>Subs are non-negotiable</li><li>Sound deadening where it adds real value</li><li>False floor shared intelligently with air management</li></ul></article>
-<article class="card"><div class="top"><h3>Cooling</h3><span class="status research">WATCH</span></div><ul><li>Baseline temps and maintenance first</li><li>Thermostatic oil cooler if warranted</li><li>Clean routing, airflow, and service access</li></ul></article>
-<article class="card"><div class="top"><h3>Forever-build details</h3><span class="status planned">RULE</span></div><ul><li>Hidden/protected wiring and plumbing</li><li>Threaded service points where appropriate</li><li>Photograph and label disassembly</li><li>Custom pieces remain removable/serviceable</li></ul></article>
+<section id="budget">
+<div class="eyebrow">ROUGH BUDGET BOARD</div><h2>Our money, our priorities</h2>
+<p class="muted">Enter whatever numbers we learn. These are local planning fields, not quotes.</p>
+<div class="money">
+<label>Purchase / OTD<input data-money="purchase" type="number" min="0" step="1" placeholder="0"></label>
+<label>Baseline repairs/service<input data-money="baseline" type="number" min="0" step="1" placeholder="0"></label>
+<label>Garage/tools<input data-money="tools" type="number" min="0" step="1" placeholder="0"></label>
+<label>Wheels/tires<input data-money="wheels" type="number" min="0" step="1" placeholder="0"></label>
+<label>Air + geometry<input data-money="air" type="number" min="0" step="1" placeholder="0"></label>
+<label>Cooling/driveline<input data-money="mechanical" type="number" min="0" step="1" placeholder="0"></label>
+<label>Audio<input data-money="audio" type="number" min="0" step="1" placeholder="0"></label>
+<label>Wrap/body<input data-money="wrap" type="number" min="0" step="1" placeholder="0"></label>
+</div>
+<div class="total">Planning total: <span id="budgetTotal">$0</span></div>
+</section>
+
+<section id="links">
+<div class="eyebrow">SOURCE / RESEARCH HUB</div><h2>Useful links, not bookmarks lost in chat</h2>
+<div class="link-list searchable">
+<a href="https://owners.nissanusa.com/content/techpub/ManualsAndGuides/ZCoupe/2009/2009-ZCoupe-owner-manual.pdf" target="_blank" rel="noopener"><b>2009 370Z Owner's Manual</b><span>Factory operation / fluids / specs.</span></a>
+<a href="https://owners.nissanusa.com/content/techpub/common/2009/2009-nissan-service-maintenance-guide.pdf" target="_blank" rel="noopener"><b>2009 Nissan Maintenance Guide</b><span>Factory inspection/service schedule context.</span></a>
+<a href="https://www.nissanusa.com/maintenance-schedules/2009/370z/components/" target="_blank" rel="noopener"><b>Nissan 2009 370Z maintenance lookup</b><span>Current Nissan maintenance intervals.</span></a>
+<a href="https://static.nhtsa.gov/odi/tsbs/2013/SB-10051829-6628.pdf" target="_blank" rel="noopener"><b>P3208 steering-lock campaign bulletin</b><span>Official early-370Z campaign information.</span></a>
+<a href="PLAN_AUDIT.md"><b>Our Total Plan Audit</b><span>Research-backed gut check tying all modules together.</span></a>
+<a href="CHECKLIST.md"><b>Master Checklist</b><span>Full acquisition → maintenance → build → forever ownership checklist.</span></a>
+<a href="LONGEVITY_AND_FUN.md"><b>Longevity + Fun Plan</b><span>Bushings, mounts, fluids, driveline, cooling, fun upgrades.</span></a>
+<a href="DECISIONS.md"><b>Build Decisions</b><span>Why the build is street-first and serviceable.</span></a>
 </div>
 </section>
 
-<section id="garage">
-<div class="eyebrow">GARAGE</div><h2>Tool planner</h2>
-<p class="muted">The three things already owned start checked. Your checks save only in this browser.</p>
-<div class="muted" id="count">0 / 0</div><div class="progress"><div id="bar"></div></div>
-<div class="tools" id="tools">
-<label class="tool"><input type="checkbox" data-k="stands" checked><span><b>Pair of jack stands</b><small>Owned</small></span></label>
-<label class="tool"><input type="checkbox" data-k="pry" checked><span><b>Pry bar</b><small>Owned</small></span></label>
-<label class="tool"><input type="checkbox" data-k="sockets" checked><span><b>Metric impact sockets</b><small>Owned</small></span></label>
-<label class="tool"><input type="checkbox" data-k="jack"><span><b>3-ton low-profile long-reach jack</b><small>Core buy</small></span></label>
-<label class="tool"><input type="checkbox" data-k="stands2"><span><b>Second pair of jack stands</b><small>Full-car work</small></span></label>
-<label class="tool"><input type="checkbox" data-k="chocks"><span><b>Wheel chocks</b><small>Safety</small></span></label>
-<label class="tool"><input type="checkbox" data-k="impact"><span><b>20V 1/2-inch high-torque impact</b><small>Battery-first</small></span></label>
-<label class="tool"><input type="checkbox" data-k="compact"><span><b>Compact 3/8-inch impact</b><small>Tight spaces</small></span></label>
-<label class="tool"><input type="checkbox" data-k="ratchet"><span><b>3/8-inch cordless ratchet</b><small>Quality-of-life</small></span></label>
-<label class="tool"><input type="checkbox" data-k="drill"><span><b>20V drill/driver</b><small>Fab / cooler / audio</small></span></label>
-<label class="tool"><input type="checkbox" data-k="torque12"><span><b>Good 1/2-inch torque wrench</b><small>Critical</small></span></label>
-<label class="tool"><input type="checkbox" data-k="torque38"><span><b>3/8-inch torque wrench</b><small>Smaller fasteners</small></span></label>
-<label class="tool"><input type="checkbox" data-k="breaker"><span><b>Long 1/2-inch breaker bar</b><small>Stubborn hardware</small></span></label>
-<label class="tool"><input type="checkbox" data-k="wrenches"><span><b>Metric ratcheting wrench set</b><small>Metric-first</small></span></label>
-<label class="tool"><input type="checkbox" data-k="extensions"><span><b>Extensions / wobble / universals</b><small>Access matters</small></span></label>
-<label class="tool"><input type="checkbox" data-k="light"><span><b>Battery work light + headlamp</b><small>Everything</small></span></label>
-<label class="tool"><input type="checkbox" data-k="drain"><span><b>Covered drain pan + funnels</b><small>Maintenance</small></span></label>
-<label class="tool"><input type="checkbox" data-k="trim"><span><b>Nylon trim tools</b><small>Interior / audio</small></span></label>
-<label class="tool"><input type="checkbox" data-k="meter"><span><b>Digital multimeter</b><small>Electrical</small></span></label>
-<label class="tool"><input type="checkbox" data-k="crimper"><span><b>Stripper + ratcheting crimper</b><small>Clean wiring</small></span></label>
-<label class="tool"><input type="checkbox" data-k="rivnut"><span><b>Rivnut / nutsert tool</b><small>Custom mounts</small></span></label>
-<label class="tool"><input type="checkbox" data-k="bits"><span><b>Step bits + deburring tools</b><small>Fab basics</small></span></label>
-<label class="tool"><input type="checkbox" data-k="aircutter"><span><b>Dedicated airline cutter</b><small>When bagging</small></span></label>
-</div>
+<section id="notes" class="notes">
+<div class="eyebrow">ROB'S SCRATCHPAD</div><h2>Stuff we do not want to forget</h2>
+<textarea id="scratch" placeholder="Rich said..., ask dealer..., wheel color idea..., random midnight Z thought..."></textarea>
+<div class="shop"><button class="btn" id="clearNotes">Clear notes</button><button class="btn" id="resetChecks">Reset browser checks</button></div>
 </section>
 
-<section id="log">
-<div class="eyebrow">JOURNAL</div><h2>Latest build-log entries</h2>
-<div class="timeline">
-<article><time>2026-09-07</time><div><h3>Current target changes to the Pearl White 2009 6MT</h3><p>The active candidate is now the 2009 370Z Base at Larry H. Miller Nissan Mesa: Pearl White, black interior, 6-speed manual, RWD, 112,563 miles. Still waiting on the sales process, so it remains a candidate rather than an owned car.</p></div></article>
-<article><time>2026-09-07</time><div><h3>The GitHub build journal goes live</h3><p>Created the Forever Z repository and established this site as the permanent place for the plan, decisions, parts research, tool prep, and future install history.</p></div></article>
-<article><time>2026-09-07</time><div><h3>Garage planning</h3><p>Existing gear: one pair of jack stands, pry bar, and impact sockets. Direction is cordless/battery-first rather than building the shop around pneumatic tools.</p></div></article>
-<article><time>2026-09-07</time><div><h3>Hidden air concept</h3><p>Leaning toward two smaller hidden reservoirs and dual compressors, packaged with audio instead of sacrificing the hatch to one large display tank.</p></div></article>
-<article><time>2026-09-06</time><div><h3>57DR direction</h3><p>Gunblue Gram Lights 57DR became the current wheel target with staggered 18-inch fitment and real street tires.</p></div></article>
+<footer class="footer">Forever Z Mission Control • live GitHub build journal • learn the car before changing the car • impact removes, torque wrench finishes • subs are happening.</footer>
 </div>
-<p class="links"><a href="BUILD_LOG.md">Read the full Markdown build log →</a></p>
-</section>
 
-<section id="rules">
-<div class="eyebrow">BUILD RULES</div><h2>Non-negotiables</h2>
-<div class="rules">
-<div><b>1.</b><span>It has to drive well, not just photograph well.</span></div>
-<div><b>2.</b><span>Impact removes. Torque wrench finishes.</span></div>
-<div><b>3.</b><span>Airline and wiring stay protected from heat, abrasion, and movement.</span></div>
-<div><b>4.</b><span>Custom work remains removable and serviceable.</span></div>
-<div><b>5.</b><span>Drive-height alignment matters more than aired-out alignment.</span></div>
-<div><b>6.</b><span>Subs are happening. This is settled law.</span></div>
-</div>
-</section>
-
-<footer>Forever Z Build • a11ast3r-rob • started before the car arrived</footer>
-</div>
 <script>
-const boxes=[...document.querySelectorAll('[data-k]')];
-const get=k=>{try{return localStorage.getItem(k)}catch(e){return null}},set=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
-boxes.forEach(b=>{const v=get('fz_'+b.dataset.k);if(v!==null)b.checked=v==='1';b.addEventListener('change',()=>{set('fz_'+b.dataset.k,b.checked?'1':'0');draw()})});
-function draw(){const n=boxes.filter(x=>x.checked).length,p=Math.round(n/boxes.length*100);document.getElementById('count').textContent=n+' / '+boxes.length+' ('+p+'%)';document.getElementById('bar').style.width=p+'%'}draw();
+const KEY='foreverz-v3-';
+const $$=s=>[...document.querySelectorAll(s)];
+function get(k){try{return localStorage.getItem(KEY+k)}catch(e){return null}}
+function set(k,v){try{localStorage.setItem(KEY+k,v)}catch(e){}}
+
+const checks=$$('[data-check]');
+checks.forEach(x=>{const v=get('check-'+x.id);if(v!==null)x.checked=v==='1';x.addEventListener('change',()=>{set('check-'+x.id,x.checked?'1':'0');drawProgress()})});
+function drawProgress(){const n=checks.filter(x=>x.checked).length,total=checks.length,p=total?Math.round(n/total*100):0;document.getElementById('doneCount').textContent=n+'/'+total;document.getElementById('globalBar').style.width=p+'%'}
+drawProgress();
+
+const owned=$$('[data-owned]');
+owned.forEach(x=>{const k='owned-'+x.dataset.owned,v=get(k);if(v!==null)x.checked=v==='1';x.addEventListener('change',()=>set(k,x.checked?'1':'0'))});
+
+const stage=document.getElementById('stage'),savedStage=get('stage');if(savedStage)stage.value=savedStage;
+const stageNames={candidate:['Stage: waiting on Rich','WAITING'],acquired:['Stage: acquired / Day 1','DAY 1'],baseline:['Stage: baseline / stabilize','STABILIZE'],modify:['Stage: ready to modify','READY'],build:['Stage: build underway','BUILDING']};
+function drawStage(){const a=stageNames[stage.value]||stageNames.candidate;document.getElementById('stageChip').textContent=a[0];document.getElementById('gateText').textContent=a[1];set('stage',stage.value)}
+stage.addEventListener('change',drawStage);drawStage();
+
+const money=$$('[data-money]');
+money.forEach(x=>{const k='money-'+x.dataset.money,v=get(k);if(v!==null)x.value=v;x.addEventListener('input',()=>{set(k,x.value);drawMoney()})});
+function drawMoney(){const t=money.reduce((s,x)=>s+(Number(x.value)||0),0);document.getElementById('budgetTotal').textContent=t.toLocaleString(undefined,{style:'currency',currency:'USD',maximumFractionDigits:0})}
+drawMoney();
+
+const scratch=document.getElementById('scratch');scratch.value=get('scratch')||'';scratch.addEventListener('input',()=>set('scratch',scratch.value));
+document.getElementById('clearNotes').addEventListener('click',()=>{if(confirm('Clear the local scratchpad?')){scratch.value='';set('scratch','')}});
+document.getElementById('resetChecks').addEventListener('click',()=>{if(confirm('Reset all browser-only checklist and owned-tool checks?')){checks.forEach(x=>{x.checked=false;set('check-'+x.id,'0')});owned.forEach(x=>{x.checked=false;set('owned-'+x.dataset.owned,'0')});drawProgress()}});
+
+const filter=document.getElementById('filter');
+filter.addEventListener('input',()=>{const q=filter.value.trim().toLowerCase();$$('.searchable,.tool-card,.part-card').forEach(el=>{el.classList.toggle('hidden-by-filter',q && !el.textContent.toLowerCase().includes(q))})});
+
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+const done=checks.filter(x=>x.checked).map(x=>document.querySelector('label[for="'+x.id+'"]')?.childNodes[0]?.textContent?.trim()).filter(Boolean);
+const tools=owned.filter(x=>x.checked).map(x=>x.closest('.tool-card')?.querySelector('h3')?.textContent).filter(Boolean);
+const total=document.getElementById('budgetTotal').textContent;
+const text=['FOREVER Z SNAPSHOT','Stage: '+(stageNames[stage.value]?.[0]||stage.value),'Checklist: '+done.length+'/'+checks.length,'Owned tools: '+(tools.join(', ')||'none checked'),'Planning total: '+total,'','Completed:','- '+(done.join('\n- ')||'none'),'','Notes:',scratch.value||'none'].join('\n');
+try{await navigator.clipboard.writeText(text);document.getElementById('copyBtn').textContent='Copied ✓';setTimeout(()=>document.getElementById('copyBtn').textContent='Copy project snapshot',1600)}catch(e){alert(text)}
+});
 </script>
 </body>
 </html>
