@@ -2,6 +2,27 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — Interactive Mission Control
+
+Rebuilt the GitHub Pages homepage as one interactive project dashboard.
+
+Added:
+- candidate known/unknown summary
+- end-to-end browser-saved checklist
+- stage selector and progress meter
+- longevity/bushing priorities
+- direct Harbor Freight tool links
+- Air Lift / SPC / Z1 / factory-document research links
+- wheel/tire, air, geometry, diff, cooling, audio, brake and wrap modules
+- browser-saved owned-tool checks
+- browser-saved rough budget board
+- searchable page content
+- local scratchpad
+- copyable project snapshot
+- print / Save PDF support
+
+The interactive state is browser-local; verified project facts still get committed to the repository.
+
 ## 2026-09-07 — Total-plan research gut check
 
 Cross-checked the acquisition, maintenance, cooling, wheel/tire, air-suspension, alignment, bushing, clutch/CSC, brake, differential, audio and wrap plans against current dealer data, Nissan factory information, Air Lift/SPC/Z1 documentation, independent testing, real-world fitment data and community experience.
