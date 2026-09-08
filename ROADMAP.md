@@ -3,21 +3,28 @@
 ## Phase 0 — Buy the right Z
 Current candidate: 2009 Nissan 370Z Base, Pearl White, 6-speed manual, 112,563 miles.
 
-- Inspect history and condition.
+- CARFAX review completed: 9 previous owners, two damage/accident events, substantial service history, no total loss/airbag deployment/rollback indicated.
+- Obtain the February 14, 2026 front-cover/water-pump repair order and August 7, 2026 Peoria Nissan work order.
+- Get a collision/body inspection focused on the 2019 right-rear damage and 2023 sideswipe repair quality.
 - Verify exact trim/brake/wheel configuration and whether the car truly has any Sport Package hardware.
 - Verify Nissan P3208 steering-lock campaign status for this 2009 car.
 - Get a real pre-purchase mechanical inspection.
 - Establish a warm mechanical oil-pressure baseline; diagnose abnormal pressure instead of assuming a gallery-gasket failure.
-- Establish clutch-hydraulic / fluid / leak / cooling-system baseline.
-- If no documented spark-plug replacement exists, include plugs in the baseline service (Nissan interval: 105,000 miles for Base/Touring).
+- Establish current clutch-hydraulic / fluid / leak / cooling-system baseline; CARFAX shows master/slave replacement in 2017.
+- Spark plugs were documented replaced at 97,797 mi in 2024; inspect/identify them but do not replace again solely for mileage.
+- Inspect the documented cold-air intake and verify tune status.
 - Inspect the rear differential bushing and the aging heater-hose connector/bleeder.
+- Verify the 2024 power-steering pump/line work is dry and quiet.
+- Verify current brakes despite documented 2024 pad/rotor and 2025 rotor work.
 - Baseline maintenance before modifying.
 - Measure the actual car before ordering final fitment-sensitive hardware.
 
 ## Phase 1 — Baseline + garage
 - Build out the battery-first tool collection.
-- Fluids, filters, inspection, brakes/tires as needed.
-- Document stock condition and measurements.
+- Do not blindly repeat the Aug 2026 oil/coolant service; verify level/spec/condition and use the recent service as the starting point if correct.
+- Transmission/differential/brake/clutch-fluid history still needs confirmation/reset as needed.
+- Inspect brakes/tires/suspension/body and document as-acquired condition.
+- Document stock vs existing-mod condition and measurements.
 
 ## Phase 2 — Brake / differential decision gate
 The dealer listing is consistent with a non-Sport Base car, so before final wheel ordering:
