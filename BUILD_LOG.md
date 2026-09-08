@@ -2,6 +2,23 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — Total-plan research gut check
+
+Cross-checked the acquisition, maintenance, cooling, wheel/tire, air-suspension, alignment, bushing, clutch/CSC, brake, differential, audio and wrap plans against current dealer data, Nissan factory information, Air Lift/SPC/Z1 documentation, independent testing, real-world fitment data and community experience.
+
+Main refinements:
+- Dealer configuration is consistent with a non-Sport Base car, pending physical verification.
+- Warm mechanical oil-pressure testing is elevated in the early-car baseline.
+- Spark plugs become baseline service if no 105k-mile replacement can be documented.
+- Aging heater-hose plastic connector/bleeder is added to the cooling inspection.
+- Exact 57DR wheel specs are validated in real 370Z builds, but tire sizing remains provisional until Air Lift/brake/clearance measurements.
+- Brake path is now a decision gate before final wheel ordering.
+- Air Lift front/rear installation modification notes are explicitly tracked.
+- Spring-bucket-delete true-style rear toe arms remain prohibited with the planned rear Air Lift layout.
+- Rear differential bushing remains a high-priority inspection, not an automatic solid-bushing conversion.
+
+Created `PLAN_AUDIT.md` as the research-backed master gut check.
+
 ## 2026-09-07 — Master intake checklist + evidence-driven expansion plan
 
 The project now has a full end-to-end workflow from candidate-car research through purchase, as-acquired documentation, first-drive baseline, modification inventory, maintenance gate, measurements, build modules, and ongoing forever-car maintenance.
