@@ -25,6 +25,25 @@ For a street/highway car, do not replace every rubber part with solid metal just
 
 ---
 
+# CARFAX changes our baseline
+
+Documented service means we can stop treating several items as completely unknown:
+
+- Clutch master + slave replaced in 2017 at 55,781 mi.
+- Cold air intake installed in 2019 at 75,637 mi.
+- Upper radiator hose replaced in 2021 at 83,686 mi.
+- Power-steering pump/lines serviced/replaced in 2024 at 96,494 mi.
+- Fuel pump replaced in 2024 at 96,815 mi.
+- Ignition coil(s) + spark plugs replaced in 2024 at 97,797 mi.
+- Water pump + front/timing-cover work performed in Feb 2026.
+- Oil/filter + coolant service performed Aug 2026 at 112,498 mi.
+
+This does **not** mean those systems are automatically healthy today. It means inspection replaces blind preventive replacement.
+
+The February 2026 front-cover invoice is now especially important because CARFAX does not say whether oil-gallery gaskets were part of that work.
+
+---
+
 # 2) Engine health — first priority
 
 ## Baseline
@@ -49,7 +68,7 @@ Our approach:
 
 ## Ignition / tune-up
 At this mileage, verify whether these have been done:
-- [ ] Spark plugs — Nissan Base/Touring interval is 105,000 miles; at 112,563 miles replace if undocumented
+- [x] Spark plugs — CARFAX documents replacement at 97,797 mi on 2024-08-09; no mileage-based repeat needed now
 - [ ] Engine air filters
 - [ ] Cabin filter
 - [ ] PCV valves
