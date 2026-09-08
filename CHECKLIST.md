@@ -44,6 +44,7 @@ Use these three states whenever we learn something new:
 - [ ] Confirm no unresolved lien / title issue
 
 ## 2009-specific verification
+- [ ] Verify physical Sport vs non-Sport hardware: 19-inch RAYS? large Sport brakes? SynchroRev Match? VLSD?
 - [ ] Verify electronic steering-column-lock campaign / repair status
 - [ ] Ask whether steering-lock fuse/bypass work has already been done
 - [ ] Note any clutch hydraulic / CSC history
@@ -57,6 +58,7 @@ Use these three states whenever we learn something new:
 - [ ] Inspect for leaks
 - [ ] Inspect engine oil condition
 - [ ] Inspect coolant condition
+- [ ] Inspect heater-hose connector/bleeder near the firewall for age, cracking or coolant residue
 - [ ] Inspect clutch fluid / brake fluid
 - [ ] Inspect tires and date codes
 - [ ] Inspect brakes
@@ -287,10 +289,13 @@ This is the **mod inventory**.
 
 ## Mechanical baseline
 - [ ] Full OBD scan saved
+- [ ] Warm mechanical oil-pressure baseline recorded by a qualified shop
 - [ ] Engine-oil service history known
 - [ ] Transmission-fluid history known
 - [ ] Differential-fluid history known
 - [ ] Coolant history known
+- [ ] Spark-plug replacement documented; if not, replace as baseline because the Base/Touring Nissan interval is 105,000 miles
+- [ ] Heater-hose connector/bleeder condition documented; replace with a quality metal piece during coolant service if original/aged
 - [ ] Brake-fluid history known
 - [ ] Clutch-fluid history known
 - [ ] Serpentine belt condition
@@ -303,7 +308,7 @@ This is the **mod inventory**.
 ## Early-Z watch items
 - [ ] Steering-lock status verified
 - [ ] Clutch hydraulic / CSC health verified
-- [ ] Warm oil-pressure health checked by a qualified shop if history/symptoms justify it
+- [ ] Warm oil-pressure result reviewed; abnormal pressure investigated before modifications
 - [ ] Oil-consumption baseline started
 - [ ] Oil-temperature baseline logged
 
@@ -375,6 +380,12 @@ This is the **mod inventory**.
 
 # Phase 8 — Build modules
 
+## Brake / differential decision gate
+- [ ] Verify base vs Sport/Akebono brakes
+- [ ] Decide whether a Sport/Akebono conversion is a near-term goal before ordering wheels
+- [ ] Verify open differential vs VLSD / aftermarket LSD
+- [ ] Decide whether a street LSD belongs in the later fun roadmap
+
 ## Wheels + tires
 Current direction:
 - Gram Lights 57DR Gunblue
@@ -384,8 +395,8 @@ Current direction:
 - ~285/35R18 rear
 
 Checklist:
-- [ ] Verify final brake clearance
-- [ ] Verify final fender / suspension clearance
+- [ ] Verify final brake clearance for the brake setup we actually intend to run
+- [ ] Verify final fender / suspension / Air Lift clearance
 - [ ] Select tire model
 - [ ] Select hub rings if required
 - [ ] Select proper M12x1.25 lug hardware
@@ -395,6 +406,8 @@ Checklist:
 - [ ] Recheck torque after initial miles
 
 ## Air suspension
+- [ ] Confirm acceptance/plan for possible front shock-tower indenting
+- [ ] Confirm plan for required rear upper/lower spring-seat drilling
 - [ ] Final air hardware selected
 - [ ] Management selected
 - [ ] Height sensors selected / planned
