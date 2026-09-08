@@ -1,8 +1,12 @@
 # Current Roadmap
 
 ## Phase 0 — Buy the right Z
+Current candidate: 2009 Nissan 370Z Base, Pearl White, 6-speed manual, 112,563 miles.
+
 - Inspect history and condition.
 - Verify exact trim/brake/wheel configuration.
+- Verify Nissan P3208 steering-lock campaign status for this 2009 car.
+- Get a real pre-purchase mechanical inspection and establish oil-pressure / clutch-hydraulic / fluid / leak baseline.
 - Baseline maintenance before modifying.
 - Measure the actual car before ordering final fitment-sensitive hardware.
 
