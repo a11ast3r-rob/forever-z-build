@@ -21,6 +21,9 @@ This repository includes a self-contained static site in `index.html` and is rea
 
 ## Docs
 
+- [Current State](CURRENT_STATE.md)
+- [End-to-End Checklist](CHECKLIST.md)
+- [Expansion Plan](EXPANSION_PLAN.md)
 - [Build Log](BUILD_LOG.md)
 - [Current Roadmap](ROADMAP.md)
 - [Parts & Fitment](PARTS.md)
