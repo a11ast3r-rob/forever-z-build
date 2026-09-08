@@ -16,6 +16,27 @@ The goal is not to turn community anecdotes into facts. The project separates **
 
 ---
 
+# CARFAX addendum — 2026-09-07
+
+The CARFAX report materially improves the plan:
+
+- 9 previous owners and 25 service records are reported.
+- Minor right-rear damage occurred in 2019.
+- A sideswipe collision was reported in 2023.
+- No total loss, airbag deployment, or odometer rollback is reported.
+- Clutch master/slave were replaced in 2017.
+- A cold air intake was installed in 2019.
+- Upper radiator hose was replaced in 2021.
+- Power-steering pump/lines, fuel pump, ignition coil(s), and spark plugs received major work in 2024.
+- The water pump and engine timing/front-cover were replaced in Feb 2026.
+- Oil/filter and coolant were serviced at 112,498 mi in Aug 2026.
+
+The front-cover work does **not** prove gallery-gasket replacement. Obtain the repair invoice and keep the warm mechanical oil-pressure test.
+
+The recent ownership churn and two accident events increase the importance of a PPI + collision/body inspection, but the report alone is not an automatic walk-away.
+
+---
+
 # Bottom line
 
 **The overall plan is coherent and worth keeping.**
