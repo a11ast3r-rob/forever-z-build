@@ -2,6 +2,32 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+## 2026-09-07 — CARFAX review integrated
+
+Reviewed the supplied CARFAX report and folded the actual history into Mission Control and the repo.
+
+Major facts now documented:
+- 9 previous owners and 25 service-history records
+- minor right-rear damage in 2019
+- sideswipe collision in 2023
+- no total loss, airbag deployment, or odometer rollback indicated by CARFAX
+- clutch master + slave replaced in 2017
+- cold-air intake installed in 2019
+- upper radiator hose replaced in 2021
+- major power-steering work, fuel pump replacement, ignition coil(s), and spark plugs in 2024
+- water pump + engine timing/front-cover work in Feb 2026
+- recent oil/filter + coolant service at 112,498 mi in Aug 2026
+
+Plan changes:
+- spark plugs are removed from the immediate baseline replacement list
+- recent oil/coolant service should be verified, not blindly repeated
+- the Feb 2026 front-cover repair order becomes a top-priority document because CARFAX does not say whether oil-gallery gaskets were replaced
+- accident repair quality and rapid 2025–2026 ownership turnover move into the PPI/body-inspection questions
+- cold-air intake is now a known existing modification
+- warm mechanical oil-pressure testing remains in the baseline
+
+Created `CARFAX_HISTORY.md` as the source-of-truth summary.
+
 ## 2026-09-07 — Interactive Mission Control
 
 Rebuilt the GitHub Pages homepage as one interactive project dashboard.
