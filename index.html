@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d12">
+<title>Forever Z Build</title>
+<style>
+:root{--bg:#090d12;--panel:#111923;--line:#27394d;--text:#eef5fb;--muted:#9fb1c3;--blue:#5aa7ff;--cyan:#7bd2ff;--green:#76d79f;--gold:#ffd166;--purple:#cda8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at 85% 5%,rgba(90,167,255,.14),transparent 28rem),linear-gradient(180deg,#080c11,#0d141d)}
+.wrap{max-width:1160px;margin:auto;padding:18px}.hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:26px;padding:32px;background:linear-gradient(135deg,#162432,#0b1219);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.hero:after{content:"Z";position:absolute;right:25px;top:-58px;font-size:220px;font-weight:1000;font-style:italic;color:rgba(255,255,255,.028)}.kicker,.eyebrow{font-size:11px;letter-spacing:.18em;font-weight:900;color:var(--cyan)}
+h1{font-size:clamp(40px,8vw,76px);line-height:.93;letter-spacing:-.055em;margin:8px 0 14px}h2{font-size:25px;margin:5px 0 14px}h3{margin:0 0 8px;font-size:16px}.lead{max-width:820px;color:var(--muted);line-height:1.65}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.chips span,.pill{padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:#0d151e;color:var(--cyan);font-size:11px;font-weight:800}
+nav{position:sticky;top:0;z-index:10;display:flex;gap:8px;overflow:auto;padding:10px 0 16px;background:linear-gradient(180deg,var(--bg) 70%,transparent)}nav a{white-space:nowrap;color:var(--muted);text-decoration:none;font-size:12px;font-weight:800;padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:#0d151e}
+section{margin:26px 0 42px}.grid{display:grid;gap:12px}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{border:1px solid var(--line);border-radius:17px;padding:16px;background:linear-gradient(180deg,var(--panel),#0e161f)}.card p,.card li{color:var(--muted);font-size:13px;line-height:1.55}.card ul{padding-left:19px;margin:9px 0 0}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.status{font-size:9px;letter-spacing:.12em;font-weight:1000;padding:5px 7px;border:1px solid var(--line);border-radius:999px}.waiting{color:var(--gold)}.planned{color:var(--cyan)}.research{color:var(--purple)}.owned{color:var(--green)}
+.vision{border:1px solid var(--line);border-radius:18px;overflow:hidden}.row{display:grid;grid-template-columns:190px 1fr;gap:12px;padding:13px 15px;background:#101923;border-bottom:1px solid var(--line)}.row:last-child{border-bottom:0}.row span{color:var(--muted)}
+.tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.tool{display:flex;gap:11px;align-items:center;padding:13px;border:1px solid var(--line);border-radius:14px;background:#101923;cursor:pointer}.tool input{width:21px;height:21px;accent-color:var(--blue)}.tool span{display:flex;flex-direction:column}.tool small{color:var(--muted);font-size:10px}.tool b{font-size:13px}
+.progress{height:8px;background:#0d141c;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:7px 0 15px}.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:.2s}.muted{color:var(--muted);font-size:13px}
+.timeline{position:relative;margin-left:8px}.timeline:before{content:"";position:absolute;left:86px;top:0;bottom:0;width:1px;background:var(--line)}.timeline article{display:grid;grid-template-columns:72px 1fr;gap:28px;padding-bottom:24px;position:relative}.timeline article:before{content:"";position:absolute;left:82px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 4px var(--bg)}.timeline time{font-size:10px;color:var(--cyan);font-weight:900}.timeline p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+.rules{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.rules div{display:flex;gap:10px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#101923}.rules b{color:var(--cyan)}.rules span{color:#cad7e3;font-size:13px}
+.links a{color:var(--cyan);text-decoration:none}.links a:hover{text-decoration:underline}footer{border-top:1px solid var(--line);padding:26px 3px 48px;color:var(--muted);font-size:11px}
+@media(max-width:800px){.wrap{padding:12px}.hero{padding:23px}.two,.three,.tools,.rules{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:4px}.timeline:before{left:0}.timeline article{grid-template-columns:1fr;padding-left:22px;gap:5px}.timeline article:before{left:-4px}.hero:after{font-size:170px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="kicker">A11AST3R-ROB // THE FOREVER Z</div>
+  <h1>Forever Z Build</h1>
+  <p class="lead">The living build journal for a future Nissan 370Z — started before the car even reached the driveway. Wheels, bags, suspension, cooling, audio, tools, fabrication, decisions, and eventually every install.</p>
+  <div class="chips"><span>Target: silver 2013 370Z</span><span>Status: waiting on the deal</span><span>Street/highway first</span><span>Forever-car mentality</span></div>
+</header>
+
+<nav><a href="#status">Status</a><a href="#vision">Vision</a><a href="#plan">Build Plan</a><a href="#garage">Garage</a><a href="#log">Log</a><a href="#rules">Rules</a></nav>
+
+<section id="status">
+<div class="top"><div><div class="eyebrow">RIGHT NOW</div><h2>Acquisition status</h2></div><span class="status waiting">WAITING</span></div>
+<div class="grid three">
+<article class="card"><h3>Target car</h3><p>Silver 2013 Nissan 370Z currently under consideration.</p></article>
+<article class="card"><h3>Current phase</h3><p>Window-shopping, platform research, build planning, and garage prep while the purchase process moves along.</p></article>
+<article class="card"><h3>Build philosophy</h3><p>Not a flip. Personal, serviceable, usable, and built over time instead of chasing a one-weekend transformation.</p></article>
+</div>
+</section>
+
+<section id="vision">
+<div class="eyebrow">CURRENT VISION</div><h2>The look + the function</h2>
+<div class="vision">
+<div class="row"><b>Body</b><span>Silver Z34</span></div>
+<div class="row"><b>Wheels</b><span>RAYS Gram Lights 57DR — Gunblue</span></div>
+<div class="row"><b>Fitment</b><span>18×9.5 +22 front / 18×10.5 +12 rear target</span></div>
+<div class="row"><b>Tires</b><span>Approx. 255/40R18 front / 285/35R18 rear; real highway-worthy street tires, no silly stretch</span></div>
+<div class="row"><b>Suspension</b><span>Air suspension: low when parked, properly aligned at repeatable drive height</span></div>
+<div class="row"><b>Air management</b><span>Two smaller hidden reservoirs + dual electric compressors integrated into the hatch</span></div>
+<div class="row"><b>Audio</b><span>Upgraded speakers + custom subs + sound treatment, designed alongside the air install</span></div>
+<div class="row"><b>Cooling</b><span>Thermostatic oil cooler on the shortlist after baseline inspection/use confirms the need</span></div>
+</div>
+</section>
+
+<section id="plan">
+<div class="eyebrow">ROADMAP</div><h2>Build plan</h2>
+<div class="grid two">
+<article class="card"><div class="top"><h3>Wheels + tires</h3><span class="status planned">PLANNED</span></div><ul><li>Gram Lights 57DR Gunblue</li><li>18×9.5 +22 / 18×10.5 +12 target</li><li>Meaty street tire; wet/highway manners matter</li><li>Final fitment verified on the actual car before ordering</li></ul></article>
+<article class="card"><div class="top"><h3>Air suspension</h3><span class="status research">RESEARCH</span></div><ul><li>Z34-specific performance air hardware</li><li>Pressure + height-based management preferred</li><li>Dual electric compressors</li><li>Two smaller hidden tanks as one shared reserve</li><li>Drive / lift / aired-out presets</li></ul></article>
+<article class="card"><div class="top"><h3>Geometry</h3><span class="status research">RESEARCH</span></div><ul><li>Front camber correction as needed</li><li>Rear camber correction</li><li>Rear toe solution compatible with rear air-spring location</li><li>Street-oriented bushings/joints where sensible</li><li>Alignment at normal drive height</li></ul></article>
+<article class="card"><div class="top"><h3>Audio + treatment</h3><span class="status planned">PLANNED</span></div><ul><li>Keep/assess upgraded head unit</li><li>Speaker upgrade</li><li>Subs are non-negotiable</li><li>Sound deadening where it adds real value</li><li>False floor shared intelligently with air management</li></ul></article>
+<article class="card"><div class="top"><h3>Cooling</h3><span class="status research">WATCH</span></div><ul><li>Baseline temps and maintenance first</li><li>Thermostatic oil cooler if warranted</li><li>Clean routing, airflow, and service access</li></ul></article>
+<article class="card"><div class="top"><h3>Forever-build details</h3><span class="status planned">RULE</span></div><ul><li>Hidden/protected wiring and plumbing</li><li>Threaded service points where appropriate</li><li>Photograph and label disassembly</li><li>Custom pieces remain removable/serviceable</li></ul></article>
+</div>
+</section>
+
+<section id="garage">
+<div class="eyebrow">GARAGE</div><h2>Tool planner</h2>
+<p class="muted">The three things already owned start checked. Your checks save only in this browser.</p>
+<div class="muted" id="count">0 / 0</div><div class="progress"><div id="bar"></div></div>
+<div class="tools" id="tools">
+<label class="tool"><input type="checkbox" data-k="stands" checked><span><b>Pair of jack stands</b><small>Owned</small></span></label>
+<label class="tool"><input type="checkbox" data-k="pry" checked><span><b>Pry bar</b><small>Owned</small></span></label>
+<label class="tool"><input type="checkbox" data-k="sockets" checked><span><b>Metric impact sockets</b><small>Owned</small></span></label>
+<label class="tool"><input type="checkbox" data-k="jack"><span><b>3-ton low-profile long-reach jack</b><small>Core buy</small></span></label>
+<label class="tool"><input type="checkbox" data-k="stands2"><span><b>Second pair of jack stands</b><small>Full-car work</small></span></label>
+<label class="tool"><input type="checkbox" data-k="chocks"><span><b>Wheel chocks</b><small>Safety</small></span></label>
+<label class="tool"><input type="checkbox" data-k="impact"><span><b>20V 1/2-inch high-torque impact</b><small>Battery-first</small></span></label>
+<label class="tool"><input type="checkbox" data-k="compact"><span><b>Compact 3/8-inch impact</b><small>Tight spaces</small></span></label>
+<label class="tool"><input type="checkbox" data-k="ratchet"><span><b>3/8-inch cordless ratchet</b><small>Quality-of-life</small></span></label>
+<label class="tool"><input type="checkbox" data-k="drill"><span><b>20V drill/driver</b><small>Fab / cooler / audio</small></span></label>
+<label class="tool"><input type="checkbox" data-k="torque12"><span><b>Good 1/2-inch torque wrench</b><small>Critical</small></span></label>
+<label class="tool"><input type="checkbox" data-k="torque38"><span><b>3/8-inch torque wrench</b><small>Smaller fasteners</small></span></label>
+<label class="tool"><input type="checkbox" data-k="breaker"><span><b>Long 1/2-inch breaker bar</b><small>Stubborn hardware</small></span></label>
+<label class="tool"><input type="checkbox" data-k="wrenches"><span><b>Metric ratcheting wrench set</b><small>Metric-first</small></span></label>
+<label class="tool"><input type="checkbox" data-k="extensions"><span><b>Extensions / wobble / universals</b><small>Access matters</small></span></label>
+<label class="tool"><input type="checkbox" data-k="light"><span><b>Battery work light + headlamp</b><small>Everything</small></span></label>
+<label class="tool"><input type="checkbox" data-k="drain"><span><b>Covered drain pan + funnels</b><small>Maintenance</small></span></label>
+<label class="tool"><input type="checkbox" data-k="trim"><span><b>Nylon trim tools</b><small>Interior / audio</small></span></label>
+<label class="tool"><input type="checkbox" data-k="meter"><span><b>Digital multimeter</b><small>Electrical</small></span></label>
+<label class="tool"><input type="checkbox" data-k="crimper"><span><b>Stripper + ratcheting crimper</b><small>Clean wiring</small></span></label>
+<label class="tool"><input type="checkbox" data-k="rivnut"><span><b>Rivnut / nutsert tool</b><small>Custom mounts</small></span></label>
+<label class="tool"><input type="checkbox" data-k="bits"><span><b>Step bits + deburring tools</b><small>Fab basics</small></span></label>
+<label class="tool"><input type="checkbox" data-k="aircutter"><span><b>Dedicated airline cutter</b><small>When bagging</small></span></label>
+</div>
+</section>
+
+<section id="log">
+<div class="eyebrow">JOURNAL</div><h2>Latest build-log entries</h2>
+<div class="timeline">
+<article><time>2026-09-07</time><div><h3>The GitHub build journal goes live</h3><p>Created the Forever Z repository and established this site as the permanent place for the plan, decisions, parts research, tool prep, and future install history.</p></div></article>
+<article><time>2026-09-07</time><div><h3>Garage planning</h3><p>Existing gear: one pair of jack stands, pry bar, and impact sockets. Direction is cordless/battery-first rather than building the shop around pneumatic tools.</p></div></article>
+<article><time>2026-09-07</time><div><h3>Hidden air concept</h3><p>Leaning toward two smaller hidden reservoirs and dual compressors, packaged with audio instead of sacrificing the hatch to one large display tank.</p></div></article>
+<article><time>2026-09-06</time><div><h3>57DR direction</h3><p>Gunblue Gram Lights 57DR became the current wheel target with staggered 18-inch fitment and real street tires.</p></div></article>
+</div>
+<p class="links"><a href="BUILD_LOG.md">Read the full Markdown build log →</a></p>
+</section>
+
+<section id="rules">
+<div class="eyebrow">BUILD RULES</div><h2>Non-negotiables</h2>
+<div class="rules">
+<div><b>1.</b><span>It has to drive well, not just photograph well.</span></div>
+<div><b>2.</b><span>Impact removes. Torque wrench finishes.</span></div>
+<div><b>3.</b><span>Airline and wiring stay protected from heat, abrasion, and movement.</span></div>
+<div><b>4.</b><span>Custom work remains removable and serviceable.</span></div>
+<div><b>5.</b><span>Drive-height alignment matters more than aired-out alignment.</span></div>
+<div><b>6.</b><span>Subs are happening. This is settled law.</span></div>
+</div>
+</section>
+
+<footer>Forever Z Build • a11ast3r-rob • started before the car arrived</footer>
+</div>
+<script>
+const boxes=[...document.querySelectorAll('[data-k]')];
+const get=k=>{try{return localStorage.getItem(k)}catch(e){return null}},set=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+boxes.forEach(b=>{const v=get('fz_'+b.dataset.k);if(v!==null)b.checked=v==='1';b.addEventListener('change',()=>{set('fz_'+b.dataset.k,b.checked?'1':'0');draw()})});
+function draw(){const n=boxes.filter(x=>x.checked).length,p=Math.round(n/boxes.length*100);document.getElementById('count').textContent=n+' / '+boxes.length+' ('+p+'%)';document.getElementById('bar').style.width=p+'%'}draw();
+</script>
+</body>
+</html>
