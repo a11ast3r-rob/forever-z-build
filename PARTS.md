@@ -69,3 +69,16 @@ Oil cooler remains a conditional but high-value likely item:
 - Custom subs
 - Sound treatment
 - Air/audio packaging designed together
+
+
+## Existing documented modification
+
+CARFAX documents a **cold air intake installed at 75,637 mi on 2019-11-02**.
+
+Before buying intake/tune parts:
+- identify brand/model
+- inspect filter and MAF placement/wiring
+- inspect heat shielding
+- determine whether a tune is present
+
+Do not assume the car is stock underhood.
