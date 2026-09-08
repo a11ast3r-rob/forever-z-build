@@ -3,16 +3,28 @@
 Last structured update: 2026-09-07
 
 ## Status
-**Candidate / waiting on deal**
+**Two finalist candidates / waiting on deal + history**
 
-## Active candidate
+## Finalist A — Pearl White / Mesa
 - 2009 Nissan 370Z Base
-- Pearl White
-- Black interior
+- Pearl White / black interior
 - 6-speed manual
 - RWD
 - 112,563 advertised miles
 - VIN: JN1AZ44E29M409293
+
+## Finalist B — Solid Red / Georgia
+- 2009 Nissan 370Z
+- Solid Red
+- 6-speed manual
+- RWD
+- 87,011 advertised miles
+- VIN: JN1AZ44EX9M410384
+- Global Auto Gallery retail: $15,999 + $599 dealer fee
+- Cars.com classifies this VIN as Touring
+- Listing/photos strongly suggest Sport Package hardware: LSD listed, rear spoiler listed, 19-inch Sport RAYS appear present
+- JD Power seller notes claim a documented engine/transmission-out refresh about 3,000 miles ago with new clutch, flywheel, gaskets, seals, belt and fluids
+- Red CARFAX / full history still needed before trusting the lead
 
 ## Known
 - Current dealer candidate is the 2009 Pearl White Base 6MT.
@@ -62,15 +74,17 @@ Last structured update: 2026-09-07
 - Heater-hose connector/bleeder condition and whether it is still the original plastic piece
 
 ## Next evidence wanted
-1. Dealer / Rich update
-2. February 14, 2026 repair order for front-cover, water-pump, coolant, alignment, and A/C work
-3. August 7, 2026 Peoria Nissan inspection/work order
-4. PPI + collision/body inspection notes
-5. Better photos / underbody photos if available
-6. Exact current wheel/tire/brake information
-7. Exact current suspension information
-8. Exact head-unit/audio information
-9. Clarification on the rapid 2025–2026 ownership changes and March 2026 lien entry
+1. Dealer / Rich update on the white car
+2. CARFAX/history + refresh invoices for the red car
+3. February 14, 2026 repair order for front-cover, water-pump, coolant, alignment, and A/C work
+4. August 7, 2026 Peoria Nissan inspection/work order
+5. PPI + collision/body inspection notes for whichever finalist survives history review
+6. Better photos / underbody photos if available
+7. Exact current wheel/tire/brake information
+8. Exact current suspension information
+9. Exact head-unit/audio information
+10. White: clarify rapid 2025–2026 ownership changes and March 2026 lien entry
+11. Red: verify why engine/transmission were removed, shop identity, exact parts, CSC, oil-gallery gasket work, and warranty
 
 ## Next build gate
 Do not lock fitment-critical wheel, tire, or air-suspension purchases until the actual car is acquired and measured.
