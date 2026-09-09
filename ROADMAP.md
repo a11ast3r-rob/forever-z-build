@@ -51,11 +51,20 @@ Final sizing remains subject to brake, fender, alignment, and air-suspension cle
 - Final street alignment at repeatable drive height.
 
 ## Phase 5 — Audio + hatch fabrication
-- Speaker refresh.
-- Subs.
-- Sound treatment.
-- Shared false-floor/hidden packaging design for air and audio.
-- Serviceable mounting, wiring, ventilation, and drains.
+- Verify the actual Bose head unit/amp/speaker wiring and test every factory speaker/sub first.
+- Keep the working Bose system initially; do not tear it apart before the complete replacement architecture is chosen.
+- Final system bypasses the Bose amplifier for aftermarket speaker power.
+- Reuse intact factory speaker-wire runs to the doors/dash where practical by tying into the speaker-side wiring after the Bose amp.
+- Run new door/dash speaker wire only if condition, final power, or an active-DSP layout gives us a real reason.
+- New dedicated fused OFC amplifier power, proper ground, required signal/interconnect wiring, and new dedicated subwoofer wire.
+- Front component speakers are the priority; rear fill is optional after tuning.
+- Subs remain part of the plan.
+- Door sound treatment happens during the speaker install: butyl damping plus foam/decoupling at trim-contact areas where useful.
+- Hatch/trunk acoustic treatment happens before the false floor: damping on useful resonant panels and rattle treatment before final reassembly.
+- Preserve drains, service holes, trim fasteners, amp controls/fuses and air-system service points.
+- Shared false-floor/hidden packaging design for tanks, compressors, management, amps and subs.
+- Serviceable mounting, wiring, ventilation and drains.
+- See [AUDIO_PLAN.md](AUDIO_PLAN.md) for the complete sequence.
 
 ## Phase 6 — Cooling / performance support
 - Baseline oil-temperature behavior first.
