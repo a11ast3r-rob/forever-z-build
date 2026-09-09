@@ -74,6 +74,16 @@ The actual 2013 NISMO is Bose-equipped, so the audio plan is now Bose-specific.
 - DVD is dropped.
 - CD is a nice-to-have only; do not compromise the rest of the system to keep a disc mechanism.
 
+**Subwoofer / enclosure direction**
+- Current default: **dual 8-inch sealed subwoofers** behind the seats / at the forward edge of the cargo area.
+- Leading candidate: pair of KICKER CompRT 8 (48CWRT82), 300 W RMS each, dual 2-ohm voice coils, 2-11/16 in mounting depth.
+- Wiring target: series the coils on each sub, then parallel the pair for a 2-ohm final load; this matches the T1000X5ad's 600 W RMS @ 2 ohms sub channel cleanly.
+- SQ alternative: pair of JL Audio 8W3v3-4, 250 W RMS each, 0.30 cu ft sealed recommendation per driver.
+- Build a removable MDF/fiberglass enclosure after measuring the actual car; protect the drivers with grilles.
+- Wicked C.A.S. 370Z 1×10 corner box is a fabrication/stealth reference, not a dual-box bolt-in plan: the current product is driver-side only.
+- A discontinued JL/Wicked dual-10 Stealthbox mounted behind the seats/forward cargo area, which supports the feasibility of our multi-sub packaging concept.
+- Final enclosure volume and exact geometry wait for real-car measurement.
+
 **Confirmed architecture**
 - Keep/listen to the Bose system initially while we verify the exact current head unit and wiring.
 - Final system bypasses the Bose amplifier for aftermarket speaker power.
