@@ -64,11 +64,29 @@ Oil cooler remains a conditional but high-value likely item:
 
 ## Audio
 
-- Existing upgraded head unit: assess after purchase
-- Speaker upgrade
-- Custom subs
-- Sound treatment
-- Air/audio packaging designed together
+The actual 2013 NISMO is Bose-equipped, so the audio plan is now Bose-specific.
+
+**Confirmed architecture**
+- Keep/listen to the Bose system initially while we verify the exact current head unit and wiring.
+- Final system bypasses the Bose amplifier for aftermarket speaker power.
+- Reuse intact factory speaker-wire runs to doors/dash where practical by tying into the speaker side of the Bose amp.
+- Run new speaker wire only where the final power/active-DSP layout or actual wire condition justifies it.
+- New dedicated fused OFC power and proper ground for aftermarket amplification.
+- New signal wiring/interconnects as required.
+- New dedicated speaker wire to the custom subwoofer enclosure.
+- Front component speakers are the priority; rear fill is optional based on final tuning.
+- Subs remain non-negotiable.
+- Air/audio packaging is designed as one removable, serviceable hatch system.
+
+**Sound treatment**
+- Treat doors during the component-speaker install.
+- Treat hatch/trunk floor and useful resonant panels before the false floor is built.
+- Use butyl vibration damping plus foam/decoupling at trim contact areas as needed.
+- Rattle-test before final reassembly.
+- Preserve drains, access holes, fasteners, amp controls/fuses, air-system drains and service points.
+- Deadening roller + heat gun + knife/cutting tools are part of the install kit.
+
+See [AUDIO_PLAN.md](AUDIO_PLAN.md) for the complete wiring, deadening and build-sequence plan.
 
 
 ## Existing documented modification
