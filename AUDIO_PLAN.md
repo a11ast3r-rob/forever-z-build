@@ -121,12 +121,57 @@ The 2013 370Z front doors accept 6-1/2-inch aftermarket speakers with the correc
 
 ### Preferred system direction right now
 
-**DMX958XR → T1000X5ad → Morel Tempo Ultra 602 MKII front stage → custom sub system**
+**DMX958XR → T1000X5ad → Morel Tempo Ultra 602 MKII front stage → dual KICKER CompRT 8s in a custom sealed behind-seat / forward-cargo enclosure**
 
 Camera side:
 **CMOS-740HDLP rear now → CMOS-320-style front/curb camera later**
 
-This is a **direction, not a shopping cart**. The next decision that controls the amp is the subwoofer/enclosure design.
+This is a **direction, not a shopping cart**. The dual-8 concept now makes the T1000X5ad an especially clean match, but final purchases still wait for real-car measurements and enclosure design.
+
+## Subwoofer + enclosure direction — dual 8s
+
+**Current leading concept:** a **pair of 8-inch subs** in a custom sealed enclosure positioned behind the seats / at the forward edge of the cargo area, packaged with the rest of the hidden hatch build.
+
+This is now the default design direction unless real-car measurements show a better packaging solution.
+
+### Leading sub candidate: KICKER CompRT 8 — 48CWRT82
+- 8-inch shallow-mount driver.
+- Dual 2-ohm voice coils.
+- 300 W RMS recommended power per sub.
+- Mounting depth: 2-11/16 in.
+- Manufacturer sealed-box range: 0.2–1.0 cu ft per driver.
+- Two drivers can be wired with each sub's coils in series (4 ohms per sub), then the pair in parallel for a **2-ohm final load**.
+- That is an excellent electrical match for the Rockford Fosgate T1000X5ad sub channel at **600 W RMS × 1 @ 2 ohms** — approximately 300 W available per sub.
+
+### SQ alternative: JL Audio 8W3v3-4
+- 8-inch single 4-ohm driver.
+- 250 W RMS per sub.
+- Optimized for a very small 0.30 cu ft sealed enclosure per driver.
+- Mounting depth: about 4.63 in.
+- A pair wired in parallel presents 2 ohms to the sub amp.
+- The T1000X5ad has enough headroom; gain/output would be set so the pair is not asked to absorb more than its intended power.
+
+### Enclosure concept
+- **Primary concept:** one custom dual-8 sealed enclosure behind the seats / forward cargo area.
+- Build in MDF and/or fiberglass depending on the actual shapes available once the NISMO is here.
+- Make the enclosure removable and serviceable rather than permanently bonded into the car.
+- Protect the cones with grilles because this remains a usable street car.
+- Measure seat travel, hatch trim, strut-brace/body-damper clearance, cargo-floor access, Bose hardware to be removed/bypassed, air-system packaging and amp ventilation before final CAD/template work.
+- Final net volume is chosen from the actual subwoofer manufacturer's enclosure requirements after real-car measurements — no guessing.
+
+### Wicked C.A.S. inspiration / alternate path
+The Wicked C.A.S. 370Z corner enclosure is exactly the kind of OEM-looking fabrication standard we want to emulate:
+- driver-side corner enclosure,
+- one 10-inch woofer,
+- approximately 0.7 cu ft internal volume,
+- approximately 5.9 in mounting depth,
+- stealth/OEM-style trunk integration.
+
+**Important:** the current Wicked C.A.S. 370Z corner product is specifically a **driver-side 1×10 enclosure**, so simply buying two identical boxes does **not** give us a mirrored left/right pair. Two-corner packaging would require a custom passenger-side mirror enclosure and real-car clearance validation.
+
+Wicked C.A.S. also previously sold a JL Audio dual-10 Stealthbox that mounted **behind the front seats in the forward cargo area**. That is useful proof that the behind-seat/forward-cargo zone can support a serious multi-sub enclosure in the 370Z, even though that specific dual-10 product is discontinued.
+
+**Current preference:** use the Wicked/JL installations as packaging inspiration, but DIY a removable dual-8 solution tailored around our air-management system and cargo needs.
 
 ## Final signal + speaker-wire architecture
 
