@@ -51,6 +51,83 @@ The head unit / backup camera can happen before the full audio build:
 Later, when the full system is built:
 **head unit → DSP / aftermarket amp(s) → usable factory speaker-wire runs → new components + custom subs**.
 
+## Camera / amplifier / speaker research shortlist
+
+Status: **researched shortlist — not purchased, verify current fit/availability before ordering**
+
+### Cameras
+
+**Rear camera — leading choice: Kenwood CMOS-740HDLP**
+- Pairs directly with the DMX958XR's HD rear-camera input.
+- 1280×720 HD image, HDR, 180° horizontal view and IP67 weather resistance.
+- Current retail package includes a license-plate mounting attachment.
+- Route through the 370Z license-plate / hatch grommet path; final mounting should look as OEM-like and discreet as practical.
+- Reverse trigger should switch the DMX958XR automatically to the rear view.
+
+**Front / curb camera — leading future choice: Kenwood CMOS-320LP1 / current CMOS-320 package**
+- Lower-resolution than the HD rear camera, but the reason to use it up front is the extremely wide view and multi-view modes.
+- Useful once the car is low/on air for curbs, parking blocks and tight nose-in parking.
+- Do not buy until the front mounting location is measured on the actual NISMO.
+
+**Camera rule:** rear camera is part of the head-unit install; front camera is a later convenience add. Side cameras are optional and not currently planned.
+
+### Amplifiers
+
+**Leading one-box choice: Rockford Fosgate Power T1000X5ad**
+- Compact 5-channel layout fits the hidden-hatch philosophy very well.
+- 100 W RMS × 4 for the cabin channels plus up to 600 W RMS × 1 for the sub channel at a suitable load.
+- The DMX958XR's 5 V preouts, crossover and time-alignment tools can handle the initial system tuning.
+- This leaves us the choice of passive front components + optional rear fill, or a later active front stage using all four full-range channels plus the sub channel.
+
+**Premium DSP alternative: AudioControl D-5.1300**
+- 100 W × 4 + 300 W × 1 at 4 ohms / 500 W sub at 2 ohms.
+- Built-in DSP, 30-band EQ, delay and RTA tools.
+- Excellent one-box tuning solution, but physically wider and gives up some sub-channel power versus the Rockford.
+
+**Value / flexible alternative: Alpine R-A90S**
+- 75 W × 4 plus 500 W bridged to a 4-ohm subwoofer configuration.
+- Strong value and flexible channel layout, but larger than the Rockford compact chassis.
+
+**Amp decision gate:** final amplifier is not ordered until the subwoofer/enclosure target is chosen. Sub impedance and desired bass output must match the amp rather than forcing the subs around an amp we bought too early.
+
+### Front speakers
+
+The 2013 370Z front doors accept 6-1/2-inch aftermarket speakers with the correct adapter, and the Bose system uses separate door and dash speaker paths. That makes a proper component front stage the priority.
+
+**Leading front-stage choice: Morel Tempo Ultra 602 MKII**
+- 6-1/2-inch component set.
+- Silk-dome tweeter, 130 W RMS handling, strong midbass capability.
+- Good match for a musical street cruiser where long-session smoothness matters.
+
+**Strong value / efficiency choice: Hertz CK 165**
+- 6-1/2-inch component set.
+- 95 W RMS handling, high sensitivity and a relatively shallow 2-1/2-inch woofer mounting depth.
+- Excellent match for a ~100 W/ch amplifier.
+
+**Detail-forward alternative: Focal PS 165 FE**
+- 6-1/2-inch Flax Evo component set.
+- 70 W RMS, high sensitivity and very strong detail.
+- More expensive and deeper than the Hertz; final preference should be based on the sound signature we want.
+
+**JL alternative: JL Audio C3-650**
+- 6-1/2-inch convertible component set.
+- 75 W RMS.
+- Flexible tweeter mounting and a solid known option, but not currently ahead of the Morel/Hertz choices for this build.
+
+**Mounting direction**
+- Metra 82-7400 is a documented 2009-2016 370Z front speaker-adapter application for 6 to 6.75-inch aftermarket speakers.
+- Dash tweeter mounting will be verified on the actual car and adapted cleanly under the factory grille.
+- Rear speakers remain low priority; do not spend money there until the front stage + sub are tuned and we know rear fill actually improves the cabin.
+
+### Preferred system direction right now
+
+**DMX958XR → T1000X5ad → Morel Tempo Ultra 602 MKII front stage → custom sub system**
+
+Camera side:
+**CMOS-740HDLP rear now → CMOS-320-style front/curb camera later**
+
+This is a **direction, not a shopping cart**. The next decision that controls the amp is the subwoofer/enclosure design.
+
 ## Final signal + speaker-wire architecture
 
 Preferred plan:
