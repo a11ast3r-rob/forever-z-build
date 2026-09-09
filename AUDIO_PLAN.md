@@ -17,6 +17,40 @@ The factory Bose system is useful as the starting point. We do **not** need to r
 - Photograph connectors, amp location, grounds and any aftermarket wiring before changing anything.
 - Keep the working Bose system intact until the complete replacement architecture is ready.
 
+## Head unit + camera direction — next audio idea
+
+**Leading candidate:** Kenwood Excelon Reference **DMX958XR**.
+
+This is a **direction / shortlist item, not a purchase authorization**. Recheck current availability, price, exact harnesses and camera choice when we are ready to order.
+
+### Must-have head-unit features
+- Wireless Apple CarPlay + Android Auto.
+- Clean standard double-DIN-style fit for the Z.
+- Strong front/rear/sub preamp outputs for the later DSP/amp system.
+- Rear-camera input with automatic reverse switching.
+- Good EQ / time-alignment capability.
+- Steering-wheel audio-control retention with the correct interface.
+- Bose-compatible staged integration so the new head unit can be installed before the full amp/speaker replacement.
+
+### Camera plan
+- Add a discreet **backup camera** with the head-unit install unless the arrival inspection unexpectedly shows one already fitted.
+- Prefer an OEM-looking mount around the license-plate / hatch area rather than a bulky plate-frame camera.
+- Automatic camera display in reverse.
+- Leave expansion room for a **future front/curb camera**, especially useful once the car is lowered / on air.
+
+### Disc-media decision
+- **DVD: dropped.**
+- **CD: nice-to-have only, not a requirement.**
+- Do not compromise the screen, camera support, preouts, phone integration or future audio architecture just to retain a CD mechanism.
+- If a similarly strong receiver with CD capability appears at the right price later, it can be reconsidered; otherwise the mechless direction wins.
+
+### Stage-one integration
+The head unit / backup camera can happen before the full audio build:
+**new head unit → factory Bose amp → factory Bose speakers** using the correct Bose integration interface/harness.
+
+Later, when the full system is built:
+**head unit → DSP / aftermarket amp(s) → usable factory speaker-wire runs → new components + custom subs**.
+
 ## Final signal + speaker-wire architecture
 
 Preferred plan:
