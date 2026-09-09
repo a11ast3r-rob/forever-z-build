@@ -62,3 +62,22 @@ The audio, sound treatment, false floor and hidden air-management system are one
 
 See [AUDIO_PLAN.md](AUDIO_PLAN.md).
 
+## DIY first, take the time to do it properly
+
+This is a project car, not a rush-to-finish parts list.
+
+Default approach:
+- DIY the work we can safely and competently learn to do.
+- Measure, template, mock up and document before cutting or drilling.
+- Buy tools when they create repeatable capability for later work.
+- Use professional help where specialized equipment, safety, alignment, machining, fabrication quality or warranty considerations genuinely justify it.
+- Favor removable/serviceable fabrication over shortcuts.
+- Do one area properly rather than repeatedly tearing the car apart.
+
+Time is part of the build. The goal is to learn the car, build skills and end up with work we are proud to service later.
+
+## Dual-8 subwoofer direction
+
+The current audio packaging target is a **custom sealed pair of 8-inch subwoofers behind the seats / forward cargo area**.
+
+The preferred concept is a removable DIY MDF/fiberglass enclosure integrated around the hidden air-management plan. A stealth 10-inch corner enclosure remains an alternate/reference idea, but the currently available Wicked C.A.S. 370Z corner box is driver-side only and cannot simply be duplicated as a mirrored pair.
