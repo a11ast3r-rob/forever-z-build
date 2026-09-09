@@ -66,6 +66,14 @@ Oil cooler remains a conditional but high-value likely item:
 
 The actual 2013 NISMO is Bose-equipped, so the audio plan is now Bose-specific.
 
+**Head unit / camera direction**
+- Leading candidate: Kenwood Excelon Reference DMX958XR; treat as a shortlist target and recheck current availability/fitment before ordering.
+- Wireless CarPlay/Android Auto, strong preouts, rear-camera support, steering-wheel-control retention and future amp/DSP friendliness are the priorities.
+- Add a discreet backup camera with the head-unit install unless the car unexpectedly arrives with one already fitted.
+- Preserve the option for a future front/curb camera.
+- DVD is dropped.
+- CD is a nice-to-have only; do not compromise the rest of the system to keep a disc mechanism.
+
 **Confirmed architecture**
 - Keep/listen to the Bose system initially while we verify the exact current head unit and wiring.
 - Final system bypasses the Bose amplifier for aftermarket speaker power.
