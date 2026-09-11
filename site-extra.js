@@ -15,6 +15,16 @@
     const nav = document.querySelector('nav');
     addLink(nav, 'tools.html', 'Tools');
     addLink(nav, 'baseline.html', 'Baseline');
+
+    // On phones, put the two working pages first so they are visible without
+    // horizontally scrolling past the section-anchor links.
+    if (nav && window.matchMedia('(max-width: 720px)').matches) {
+      const baseline = nav.querySelector('a[href="baseline.html"]');
+      const tools = nav.querySelector('a[href="tools.html"]');
+      if (tools) nav.insertBefore(tools, nav.firstChild);
+      if (baseline) nav.insertBefore(baseline, nav.firstChild);
+      nav.scrollLeft = 0;
+    }
   }
 
   if (filename === 'tools.html') {
@@ -83,6 +93,9 @@
     #fz-data-dock span{font-size:10px;color:#9ca7b7;padding:0 4px}
     #fz-data-dock button{border:1px solid #303844;background:#111720;color:#eef1f5;border-radius:10px;padding:7px 9px;font-size:10px;font-weight:800;cursor:pointer}
     #fz-data-dock button:hover{border-color:#6e3d44}
+    @media(max-width:720px){
+      nav a[href="baseline.html"],nav a[href="tools.html"]{border-color:#7f3c43;color:#fff;background:linear-gradient(180deg,#2a1519,#151820);box-shadow:inset 0 0 0 1px rgba(255,91,100,.12)}
+    }
     @media(max-width:620px){#fz-data-dock{left:8px;right:8px;justify-content:center}#fz-data-dock span{display:none}}
   `;
   document.head.appendChild(style);
