@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b0f">
+<title>Forever Z // 144k Baseline</title>
+<style>
+:root{--bg:#090b0f;--panel:#121720;--panel2:#171d27;--line:#28303d;--text:#f7f8fb;--muted:#9ca7b7;--soft:#cfd6df;--red:#e43d46;--green:#75d69b;--amber:#f3c86a;--blue:#7eb8ff;--shadow:0 22px 70px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 88% 0%,rgba(228,61,70,.16),transparent 26rem),linear-gradient(180deg,#080a0d,#0c1016 38%,#090b10);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.shell{max-width:1180px;margin:auto;padding:20px 16px 90px}a{color:inherit;text-decoration:none}.topbar{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:18px}.toplinks,.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid var(--line);background:#111720;color:var(--text);padding:10px 13px;border-radius:12px;font-weight:800;cursor:pointer}.btn:hover{border-color:#664048}.hero{border:1px solid var(--line);border-radius:28px;padding:30px;background:linear-gradient(135deg,rgba(228,61,70,.11),rgba(126,184,255,.04)),#10151d;box-shadow:var(--shadow)}.eyebrow{font-size:11px;font-weight:950;letter-spacing:.18em;color:#ff7d84}.hero h1{font-size:clamp(38px,7vw,72px);line-height:.94;margin:9px 0 14px;letter-spacing:-.05em}.lead{color:var(--soft);max-width:900px;font-size:16px;line-height:1.62}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.stat{border:1px solid var(--line);border-radius:17px;background:rgba(0,0,0,.22);padding:15px}.stat b{display:block;font-size:24px}.stat small{color:var(--muted);line-height:1.35}.saved{color:var(--green)}section{margin-top:34px}.section-head{display:flex;justify-content:space-between;gap:14px;align-items:end;margin-bottom:12px}.section-head h2{margin:5px 0 0;font-size:28px}.muted{color:var(--muted);font-size:12px;line-height:1.5}.grid{display:grid;gap:10px}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(21,27,36,.97),rgba(13,18,25,.98));border-radius:18px;padding:16px}.card h3{margin:0 0 8px;font-size:16px}.check{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;padding:12px;border:1px solid #28303a;border-radius:14px;background:#0e141c}.check input{width:20px;height:20px;accent-color:var(--red)}.check b{font-size:12px}.check small{display:block;color:var(--muted);font-size:10px;line-height:1.45;margin-top:3px}label.field{display:grid;gap:6px;font-size:11px;color:#d7dde5}.field input,.field select,.field textarea,.system select,.system textarea,.service select,.service input{width:100%;border:1px solid #303844;background:#0a1017;color:white;border-radius:10px;padding:10px;font:inherit}.field textarea,.system textarea{min-height:86px;resize:vertical}.formgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.compression{overflow:auto;border:1px solid var(--line);border-radius:16px}.compression table{width:100%;border-collapse:collapse;min-width:650px;background:#0d131a}.compression th,.compression td{padding:10px;border-bottom:1px solid #232b35;text-align:left;font-size:11px}.compression th{color:#aeb8c5;font-size:9px;text-transform:uppercase;letter-spacing:.08em}.compression input{width:100%;min-width:86px;border:1px solid #303844;background:#090f16;color:white;border-radius:9px;padding:9px}.system,.service{display:grid;grid-template-columns:160px 170px 1fr;gap:9px;align-items:start;padding:11px;border:1px solid #28303a;border-radius:14px;background:#0e141c}.system b,.service b{font-size:12px;padding-top:9px}.system textarea{min-height:42px}.service input{min-height:42px}.note{border-left:3px solid var(--red);background:var(--panel2);padding:14px 16px;border-radius:10px;color:var(--soft);font-size:12px;line-height:1.55}.footer{margin-top:44px;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:12px;line-height:1.55}@media(max-width:800px){.stats,.two,.three,.formgrid{grid-template-columns:1fr 1fr}.system,.service{grid-template-columns:1fr}.system b,.service b{padding-top:0}.topbar,.section-head{align-items:flex-start;flex-direction:column}}@media(max-width:560px){.stats,.two,.three,.formgrid{grid-template-columns:1fr}.hero{padding:23px}.shell{padding:12px 9px 90px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="topbar">
+    <div class="toplinks"><a class="btn" href="./">← Mission Control</a><a class="btn" href="tools.html">Tools</a><a class="btn" href="MECHANICAL_BASELINE.md">Mechanical plan</a></div>
+    <div class="actions"><button class="btn" id="copySummary">Copy summary</button><button class="btn" id="exportBaseline">Export baseline</button><button class="btn" id="importBaseline">Import</button><input id="importFile" type="file" accept="application/json" hidden></div>
+  </div>
+
+  <header class="hero">
+    <div class="eyebrow">FOREVER Z · ARRIVAL / FIRST MONTH</div>
+    <h1>144k Baseline</h1>
+    <p class="lead">This is the detailed worksheet we use when the 2013 NISMO lands. The point is to turn 144,007 miles from an unknown into documented evidence: what passed, what needs service, what we are watching, and what actually deserves money.</p>
+    <div class="stats">
+      <div class="stat"><b id="arrivalStat">0 / 8</b><small>arrival checks complete</small></div>
+      <div class="stat"><b id="compressionStat">0 / 6</b><small>dry compression readings entered</small></div>
+      <div class="stat"><b id="systemsStat">0 / 11</b><small>systems classified</small></div>
+      <div class="stat"><b id="saveStat" class="saved">Ready</b><small>autosaves on this browser</small></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">ARRIVAL</div><h2>First look before we modify anything</h2></div><span class="muted">Photos and evidence first. Clear no codes.</span></div>
+    <div class="grid two">
+      <label class="check"><input data-key="arrival.transportPhotos" type="checkbox"><div><b>Transport / exterior photos</b><small>All sides, wheels, glass, NISMO aero, odometer and visible underside before the transporter leaves.</small></div></label>
+      <label class="check"><input data-key="arrival.coldStart" type="checkbox"><div><b>True cold start recorded</b><small>Smoke, rattles, knocks, idle, warning lights and noises before revving.</small></div></label>
+      <label class="check"><input data-key="arrival.obd" type="checkbox"><div><b>OBD scan saved</b><small>Stored, pending, permanent codes and readiness monitors before clearing anything.</small></div></label>
+      <label class="check"><input data-key="arrival.fluids" type="checkbox"><div><b>Fluid / leak check</b><small>Oil, coolant, brake, clutch and power-steering levels plus visible leaks.</small></div></label>
+      <label class="check"><input data-key="arrival.roadTest" type="checkbox"><div><b>Gentle road test</b><small>Clutch, all gears, steering, brakes, bearings, vibration, diff clunks and suspension noise.</small></div></label>
+      <label class="check"><input data-key="arrival.underbody" type="checkbox"><div><b>Underbody inspection</b><small>2018 damage area, subframes, oil pan, rack, exhaust, mounts, diff, axles, hubs and bushings.</small></div></label>
+      <label class="check"><input data-key="arrival.cooling" type="checkbox"><div><b>Cooling hardware verified</b><small>Radiator, fans, hoses, factory engine oil heat exchanger and power-steering cooler / lines.</small></div></label>
+      <label class="check"><input data-key="arrival.tiresBrakes" type="checkbox"><div><b>Tires + brakes measured</b><small>Tread / date codes / wear plus pads, rotors, calipers and lines.</small></div></label>
+    </div>
+    <div class="formgrid" style="margin-top:10px">
+      <label class="field">Arrival date<input data-key="meta.arrivalDate" type="date"></label>
+      <label class="field">Odometer<input data-key="meta.mileage" type="number" placeholder="144007"></label>
+      <label class="field">OBD / cold-start notes<input data-key="meta.obdSummary" placeholder="Codes, readiness, smoke/noise notes..."></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">ENGINE HEALTH</div><h2>Compression baseline</h2></div><span class="muted">Repeat any questionable reading before drawing conclusions.</span></div>
+    <div class="formgrid" style="margin-bottom:10px">
+      <label class="field">Test date<input data-key="compression.date" type="date"></label>
+      <label class="field">Mileage at test<input data-key="compression.mileage" type="number"></label>
+      <label class="field">Test condition<input data-key="compression.condition" placeholder="Warm engine / charger connected / throttle open..."></label>
+    </div>
+    <div class="compression"><table><thead><tr><th>Cylinder</th><th>Dry PSI</th><th>Repeat PSI</th><th>Wet PSI if needed</th><th>Leak-down % if needed</th></tr></thead><tbody id="compressionRows"></tbody></table></div>
+    <label class="field" style="margin-top:10px">Compression / leak-down notes<textarea data-key="compression.notes" placeholder="Gauge used, cranking consistency, unusual cylinder behavior, borescope findings..."></textarea></label>
+    <div class="note" style="margin-top:10px">If a number looks wrong: verify test conditions → repeat it → wet test if appropriate → leak-down / borescope or professional confirmation before disassembly. During the dealer powertrain-warranty window, document first and contact the warranty/dealer before tearing into the engine.</div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">SYSTEM HEALTH</div><h2>PASS / WATCH / SERVICE / REPLACE / UPGRADE LATER</h2></div><span class="muted">One status and one useful note beats “seems fine.”</span></div>
+    <div id="systems" class="grid"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">CLOCK RESET</div><h2>Maintenance we prove or establish</h2></div><span class="muted">Do not replace documented-good items just for ceremony.</span></div>
+    <div id="services" class="grid"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">NOTES</div><h2>What we learn about our exact car</h2></div></div>
+    <label class="field"><textarea data-key="notes.general" style="min-height:180px" placeholder="Part numbers, photos to take, noises, measurements, things to recheck, dealer/warranty calls, next actions..."></textarea></label>
+  </section>
+
+  <footer class="footer">Everything on this page autosaves in local storage for this browser. Use <b>Backup</b> in the site data dock or <b>Export baseline</b> above to keep a portable copy. Local browser storage is not cross-device cloud sync.</footer>
+</div>
+<script>
+const STORAGE_KEY='forever-z-baseline-v1';
+const statuses=['','PASS','WATCH','SERVICE','REPLACE','UPGRADE LATER'];
+const systems=[
+ ['engine','Engine / VQ37','Cold start, leaks, idle, oil use, belt / PCV, mounts, compression evidence.'],
+ ['cooling','Cooling / heat management','Radiator, fans, hoses, pressure test, factory engine oil heat exchanger, P/S cooler and observed temps.'],
+ ['transmission','6MT transmission','Cold/hot shifts, synchros, leaks, mount and driveline vibration.'],
+ ['clutch','Clutch + hydraulics','Engagement, slip, pedal return, master / CSC evidence, fluid.'],
+ ['differential','VLSD / rear driveline','Diff leaks, rear bushing, mounts, axles/CVs, driveshaft, clunks and VLSD behavior.'],
+ ['suspension','Suspension / chassis','NISMO dampers/springs, joints, bushings, links, pickup points, old damage evidence.'],
+ ['steering','Steering','Rack, tie rods, pump noise, hoses, P/S cooler / lines and play.'],
+ ['brakes','Brakes','Pad thickness, rotors, calipers, hoses, hard lines and fluid condition.'],
+ ['tires','Wheels / tires / hubs','Tread, dates, wear pattern, wheel condition, hub/bearing play and noise.'],
+ ['underbody','Underbody / 2018 damage area','Subframes, rails, radiator support, oil pan, rack mounts, exhaust, braces, pinch welds.'],
+ ['electrical','Electrical / cabin / Bose','Battery/charging, warning lights, factory/aftermarket equipment, Bose/HU/speaker baseline.']
+];
+const services=[
+ ['mtFluid','Manual-transmission fluid'],['diffFluid','Differential fluid'],['brakeFluid','Brake fluid'],['clutchFluid','Clutch fluid'],['coolant','Coolant'],['psFluid','Power-steering fluid'],['plugs','NISMO spark plugs / 120k proof'],['filters','Engine + cabin filters'],['beltPcv','Drive belt / PCV by condition']
+];
+let state={};try{state=JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}')}catch(e){state={}}
+const getPath=(path)=>path.split('.').reduce((o,k)=>o&&o[k],state);
+const setPath=(path,value)=>{const parts=path.split('.');let o=state;parts.forEach((p,i)=>{if(i===parts.length-1)o[p]=value;else o=o[p]||(o[p]={});});save();};
+const esc=s=>String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+
+const rows=document.getElementById('compressionRows');
+for(let i=1;i<=6;i++) rows.insertAdjacentHTML('beforeend',`<tr><td><b>${i}</b></td><td><input data-key="compression.c${i}.dry" type="number" inputmode="numeric"></td><td><input data-key="compression.c${i}.repeat" type="number" inputmode="numeric"></td><td><input data-key="compression.c${i}.wet" type="number" inputmode="numeric"></td><td><input data-key="compression.c${i}.leakdown" type="number" step="0.1" inputmode="decimal"></td></tr>`);
+
+document.getElementById('systems').innerHTML=systems.map(([id,name,help])=>`<div class="system"><b>${esc(name)}</b><select data-key="systems.${id}.status">${statuses.map(s=>`<option value="${s}">${s||'Not checked yet'}</option>`).join('')}</select><textarea data-key="systems.${id}.notes" placeholder="${esc(help)}"></textarea></div>`).join('');
+document.getElementById('services').innerHTML=services.map(([id,name])=>`<div class="service"><b>${esc(name)}</b><select data-key="services.${id}.status"><option value="">Unknown / verify</option><option>DOCUMENTED GOOD</option><option>INSPECT</option><option>SERVICE NOW</option><option>COMPLETED</option><option>NOT NEEDED</option></select><input data-key="services.${id}.notes" placeholder="Date / mileage / fluid or receipt / next due..."></div>`).join('');
+
+function bind(){document.querySelectorAll('[data-key]').forEach(el=>{const key=el.dataset.key;const saved=getPath(key);if(saved!==undefined){if(el.type==='checkbox')el.checked=!!saved;else el.value=saved;}const event=el.type==='checkbox'||el.tagName==='SELECT'?'change':'input';el.addEventListener(event,()=>{setPath(key,el.type==='checkbox'?el.checked:el.value);refresh();});});refresh();}
+function save(){state.savedAt=new Date().toISOString();localStorage.setItem(STORAGE_KEY,JSON.stringify(state));const el=document.getElementById('saveStat');if(el){el.textContent='Saved';clearTimeout(save._t);save._t=setTimeout(()=>el.textContent='Autosave',1300);}}
+function refresh(){const arrivals=[...document.querySelectorAll('[data-key^="arrival."]')];document.getElementById('arrivalStat').textContent=`${arrivals.filter(x=>x.checked).length} / ${arrivals.length}`;let comp=0;for(let i=1;i<=6;i++){const x=document.querySelector(`[data-key="compression.c${i}.dry"]`);if(x&&x.value)comp++;}document.getElementById('compressionStat').textContent=`${comp} / 6`;const sys=[...document.querySelectorAll('[data-key^="systems."][data-key$=".status"]')];document.getElementById('systemsStat').textContent=`${sys.filter(x=>x.value).length} / ${sys.length}`;}
+function payload(){return{version:1,car:{year:2013,model:'370Z NISMO',mileageAtPurchase:144007},exportedAt:new Date().toISOString(),data:state};}
+document.getElementById('exportBaseline').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(payload(),null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`forever-z-144k-baseline-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);});
+document.getElementById('copySummary').addEventListener('click',async()=>{const comp=[];for(let i=1;i<=6;i++)comp.push(document.querySelector(`[data-key="compression.c${i}.dry"]`).value||'—');const lines=['FOREVER Z // 144k BASELINE',`Mileage: ${getPath('meta.mileage')||getPath('compression.mileage')||'—'}`,`Dry compression: ${comp.join(' / ')}`,'',...systems.map(([id,name])=>`${name}: ${getPath(`systems.${id}.status`)||'NOT CHECKED'}${getPath(`systems.${id}.notes`)?' — '+getPath(`systems.${id}.notes`):''}`)];try{await navigator.clipboard.writeText(lines.join('\n'));alert('Baseline summary copied.');}catch(e){alert('Could not copy automatically.');}});
+const file=document.getElementById('importFile');document.getElementById('importBaseline').addEventListener('click',()=>file.click());file.addEventListener('change',async()=>{if(!file.files[0])return;try{const parsed=JSON.parse(await file.files[0].text());const incoming=parsed.data||parsed;if(!incoming||typeof incoming!=='object')throw new Error();if(confirm('Replace the saved 144k baseline on this browser with this file?')){state=incoming;save();location.reload();}}catch(e){alert('That does not look like a valid baseline export.');}file.value='';});
+bind();
+</script>
+</body>
+</html>
