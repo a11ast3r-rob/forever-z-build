@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b0f">
+<title>Forever Z // Tool Roadmap</title>
+<style>
+:root{--bg:#090b0f;--panel:#121720;--panel2:#171d27;--line:#28303d;--text:#f7f8fb;--muted:#9ca7b7;--soft:#cfd6df;--red:#e43d46;--green:#75d69b;--amber:#f3c86a;--blue:#7eb8ff;--shadow:0 22px 70px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 90% 0%,rgba(228,61,70,.16),transparent 26rem),linear-gradient(180deg,#080a0d,#0c1016 38%,#090b10);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.shell{max-width:1160px;margin:auto;padding:20px 16px 70px}a{color:inherit;text-decoration:none}.topbar{display:flex;gap:12px;justify-content:space-between;align-items:center;margin-bottom:18px}.btn{border:1px solid var(--line);background:#111720;color:var(--text);padding:10px 14px;border-radius:12px;font-weight:700;cursor:pointer}.btn:hover{border-color:#47546a}.hero{border:1px solid var(--line);border-radius:28px;padding:30px;background:linear-gradient(135deg,rgba(228,61,70,.10),rgba(126,184,255,.04)),#10151d;box-shadow:var(--shadow)}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.18em;color:var(--red)}h1{font-size:clamp(34px,7vw,70px);line-height:.95;margin:9px 0 14px;letter-spacing:-.045em}h2{font-size:28px;margin:0}.lead{color:var(--soft);max-width:820px;font-size:17px;line-height:1.6}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.stat{border:1px solid var(--line);border-radius:18px;background:rgba(0,0,0,.2);padding:16px}.stat b{display:block;font-size:26px}.stat small{color:var(--muted)}section{margin-top:32px}.section-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:12px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tool{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:14px;min-height:76px}.tool input{width:20px;height:20px;accent-color:var(--red)}.tool b{display:block}.tool small{display:block;color:var(--muted);margin-top:4px;line-height:1.35}.pill{font-size:10px;font-weight:900;letter-spacing:.08em;border:1px solid var(--line);border-radius:999px;padding:5px 7px;color:var(--soft);white-space:nowrap}.owned .pill{color:var(--green);border-color:rgba(117,214,155,.3)}.arrival .pill{color:var(--amber);border-color:rgba(243,200,106,.3)}.diagnostic .pill{color:var(--blue);border-color:rgba(126,184,255,.3)}.note{border-left:3px solid var(--red);padding:16px 18px;background:var(--panel2);border-radius:10px;line-height:1.55;color:var(--soft)}.dontbuy{display:flex;flex-wrap:wrap;gap:8px}.tag{border:1px solid var(--line);padding:8px 10px;border-radius:999px;background:#111720;color:var(--muted);font-size:13px}.footer{margin-top:42px;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:14px;line-height:1.55}@media(max-width:760px){.grid,.stats{grid-template-columns:1fr}.topbar,.section-head{align-items:flex-start;flex-direction:column}.hero{padding:23px}.tool{grid-template-columns:auto 1fr}.tool .pill{grid-column:2;justify-self:start}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="topbar"><a class="btn" href="./">← Back to Mission Control</a><a class="btn" href="TOOLS.md">Source notes</a></div>
+  <header class="hero">
+    <div class="eyebrow">FOREVER Z · GARAGE CAPABILITY</div>
+    <h1>Tool Roadmap</h1>
+    <p class="lead">2013 Nissan 370Z NISMO · 6MT · 144k baseline. We buy tools that create reusable capability, borrow or rent one-job specialty equipment, and let the car tell us what deeper diagnostic gear is actually justified.</p>
+    <div class="stats"><div class="stat"><b id="ownedCount">4</b><small>tools / capabilities owned</small></div><div class="stat"><b id="checkedCount">4</b><small>items checked off</small></div><div class="stat"><b id="totalCount">0</b><small>tracked items</small></div></div>
+  </header>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">KNOWN OWNED</div><h2>Already in the garage</h2></div><span class="muted">These start checked.</span></div>
+    <div class="grid">
+      <label class="tool owned"><input data-tool="stands-pair" type="checkbox" checked><div><b>One pair of jack stands</b><small>Existing support capability.</small></div><span class="pill">OWNED</span></label>
+      <label class="tool owned"><input data-tool="pry-bar" type="checkbox" checked><div><b>Pry bar</b><small>Useful for bushing, mount and play checks.</small></div><span class="pill">OWNED</span></label>
+      <label class="tool owned"><input data-tool="impact-sockets" type="checkbox" checked><div><b>Metric impact sockets</b><small>Known owned.</small></div><span class="pill">OWNED</span></label>
+      <label class="tool owned"><input data-tool="air-tank" type="checkbox" checked><div><b>Small portable air tank</b><small>Useful for brief air needs; not a substitute for a regulated shop compressor during a full leak-down test.</small></div><span class="pill">OWNED</span></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">TIER 1</div><h2>Buy before / around arrival</h2></div><span class="muted">The 144k baseline kit.</span></div>
+    <div class="grid">
+      <label class="tool arrival"><input data-tool="floor-jack" type="checkbox"><div><b>3-ton low-profile long-reach floor jack</b><small>Core garage buy for safe access under the Z.</small></div><span class="pill">ARRIVAL</span></label>
+      <label class="tool arrival"><input data-tool="stands-second" type="checkbox"><div><b>Second pair of quality jack stands</b><small>Gets us to four stands for full-car work.</small></div><span class="pill">SAFETY</span></label>
+      <label class="tool arrival"><input data-tool="wheel-chocks" type="checkbox"><div><b>Wheel chocks</b><small>Cheap, basic and mandatory.</small></div><span class="pill">SAFETY</span></label>
+      <label class="tool arrival"><input data-tool="jack-pads" type="checkbox"><div><b>Z jack-point / pinch-weld pads</b><small>Protect proper lifting points.</small></div><span class="pill">SAFETY</span></label>
+      <label class="tool arrival"><input data-tool="torque-half" type="checkbox"><div><b>1/2-inch torque wrench</b><small>Impact removes; torque wrench finishes.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="torque-three-eighth" type="checkbox"><div><b>3/8-inch torque wrench</b><small>Better control for smaller engine, brake and chassis fasteners.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="breaker-bar" type="checkbox"><div><b>1/2-inch breaker bar</b><small>Controlled leverage before reaching for power tools.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="socket-set" type="checkbox"><div><b>Complete metric hand-socket set</b><small>Shallow + deep sockets.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="ratchets-extensions" type="checkbox"><div><b>Ratchets, extensions + wobble/universal extensions</b><small>Needed for access around the VQ37.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="wrench-set" type="checkbox"><div><b>Metric combination-wrench set</b><small>Basic mechanical coverage.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="lighting" type="checkbox"><div><b>Good work light / headlamp</b><small>Inspection quality matters as much as wrenching.</small></div><span class="pill">INSPECT</span></label>
+      <label class="tool arrival"><input data-tool="parts-trays" type="checkbox"><div><b>Magnetic parts trays</b><small>Keep hardware organized during baseline work.</small></div><span class="pill">ORGANIZE</span></label>
+      <label class="tool arrival"><input data-tool="mirror-pickup" type="checkbox"><div><b>Inspection mirror + magnetic pickup tool</b><small>For tight engine-bay and underbody checks.</small></div><span class="pill">INSPECT</span></label>
+      <label class="tool arrival"><input data-tool="tire-gauge" type="checkbox"><div><b>Digital tire-pressure gauge</b><small>Arrival and ongoing tire baseline.</small></div><span class="pill">ARRIVAL</span></label>
+      <label class="tool arrival"><input data-tool="tread-gauge" type="checkbox"><div><b>Tread-depth gauge</b><small>Record inner / center / outer wear.</small></div><span class="pill">ARRIVAL</span></label>
+      <label class="tool arrival"><input data-tool="fluid-containers" type="checkbox"><div><b>Drain pan, funnels + measuring containers</b><small>Needed for our fluid-clock reset.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool arrival"><input data-tool="fluid-pump" type="checkbox"><div><b>Fluid-transfer / hand pump</b><small>For 6MT and differential service.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool arrival"><input data-tool="obd" type="checkbox"><div><b>Quality OBD-II scanner</b><small>Stored, pending and permanent codes plus useful live data.</small></div><span class="pill">DIAGNOSE</span></label>
+      <label class="tool arrival"><input data-tool="battery-maintainer" type="checkbox"><div><b>Battery charger / maintainer</b><small>Stable cranking and garage maintenance.</small></div><span class="pill">CORE</span></label>
+      <label class="tool arrival"><input data-tool="compression" type="checkbox"><div><b>Compression tester</b><small>Must include the correct VQ37 spark-plug-thread adapter. No compressor required.</small></div><span class="pill">BASELINE</span></label>
+      <label class="tool arrival"><input data-tool="spark-plug-socket" type="checkbox"><div><b>Thin-wall spark-plug socket + extensions</b><small>For compression testing and likely plug service.</small></div><span class="pill">BASELINE</span></label>
+      <label class="tool arrival"><input data-tool="multimeter" type="checkbox"><div><b>Digital multimeter</b><small>Charging, grounds, sensors, audio and air management later.</small></div><span class="pill">ELECTRICAL</span></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">TIER 2</div><h2>First-month baseline helpers</h2></div><span class="muted">Useful, but not all day-one purchases.</span></div>
+    <div class="grid">
+      <label class="tool diagnostic"><input data-tool="cooling-pressure" type="checkbox"><div><b>Cooling-system pressure tester</b><small>Buy if sensible; borrowing/renting is fine.</small></div><span class="pill">COOLING</span></label>
+      <label class="tool diagnostic"><input data-tool="bleeder" type="checkbox"><div><b>Brake / clutch pressure or vacuum bleeder</b><small>Supports our likely fluid baseline.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool diagnostic"><input data-tool="caliper" type="checkbox"><div><b>Digital caliper</b><small>Measurements, wear checks and fabrication later.</small></div><span class="pill">MEASURE</span></label>
+      <label class="tool diagnostic"><input data-tool="stethoscope" type="checkbox"><div><b>Mechanic's stethoscope</b><small>Helps isolate bearing, accessory and valvetrain noises.</small></div><span class="pill">DIAGNOSE</span></label>
+      <label class="tool diagnostic"><input data-tool="borescope" type="checkbox"><div><b>Borescope / inspection camera</b><small>Useful for cylinders, cavities and hard-to-see areas.</small></div><span class="pill">DIAGNOSE</span></label>
+      <label class="tool diagnostic"><input data-tool="ir-temp" type="checkbox"><div><b>Infrared thermometer</b><small>Quick temperature comparisons during diagnosis.</small></div><span class="pill">DIAGNOSE</span></label>
+      <label class="tool diagnostic"><input data-tool="pick-set" type="checkbox"><div><b>Pick / hook set</b><small>Seals, clips and small service work.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool diagnostic"><input data-tool="hose-pliers" type="checkbox"><div><b>Hose-clamp pliers</b><small>Cooling and vacuum service.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool diagnostic"><input data-tool="clip-pliers" type="checkbox"><div><b>Trim-clip pliers</b><small>Undertrays, interior and hatch work.</small></div><span class="pill">SERVICE</span></label>
+      <label class="tool diagnostic"><input data-tool="angle-gauge" type="checkbox"><div><b>Torque-angle gauge</b><small>Only needed when an exact future procedure calls for it.</small></div><span class="pill">LATER</span></label>
+      <label class="tool diagnostic"><input data-tool="creeper" type="checkbox"><div><b>Creeper or thick mechanic mat</b><small>Makes repeated under-car inspections much nicer.</small></div><span class="pill">GARAGE</span></label>
+      <label class="tool diagnostic"><input data-tool="ppe" type="checkbox"><div><b>Gloves, shop towels + eye protection</b><small>Consumable garage basics.</small></div><span class="pill">SAFETY</span></label>
+      <label class="tool diagnostic"><input data-tool="labels" type="checkbox"><div><b>Paint marker, labels + zip bags</b><small>Document removed hardware and service routes.</small></div><span class="pill">NOTES</span></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">TIER 3</div><h2>Buy only if diagnosis points here</h2></div><span class="muted">No parts-cannon, no tools-cannon.</span></div>
+    <div class="grid">
+      <label class="tool diagnostic"><input data-tool="leakdown" type="checkbox"><div><b>Cylinder leak-down tester</b><small>Escalation tool if compression results are questionable.</small></div><span class="pill">IF NEEDED</span></label>
+      <label class="tool diagnostic"><input data-tool="compressor" type="checkbox"><div><b>Regulated shop compressor</b><small>Needed for consistent full leak-down testing; don't buy solely for arrival compression testing.</small></div><span class="pill">IF NEEDED</span></label>
+      <label class="tool diagnostic"><input data-tool="fuel-pressure" type="checkbox"><div><b>Fuel-pressure test equipment</b><small>Only if symptoms point to fuel delivery.</small></div><span class="pill">IF NEEDED</span></label>
+      <label class="tool diagnostic"><input data-tool="smoke-machine" type="checkbox"><div><b>Smoke machine</b><small>For intake / vacuum leak diagnosis if symptoms justify it.</small></div><span class="pill">IF NEEDED</span></label>
+      <label class="tool diagnostic"><input data-tool="vacuum-fill" type="checkbox"><div><b>Cooling-system vacuum-fill tool</b><small>Worth considering only if repeated cooling work makes it useful.</small></div><span class="pill">IF NEEDED</span></label>
+    </div>
+    <p class="note"><b>Compression vs. leak-down:</b> our arrival compression tester uses the engine's own cranking pressure. The small portable air tank may help with brief air needs, but stable regulated compressor pressure is preferable if we ever need a proper leak-down test.</p>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">TIER 4</div><h2>Suspension, brakes + air build</h2></div><span class="muted">Buy as those jobs actually arrive.</span></div>
+    <div class="grid">
+      <label class="tool"><input data-tool="impact-high" type="checkbox"><div><b>High-torque 1/2-inch cordless impact</b><small>For chassis and stubborn hardware.</small></div><span class="pill">CHASSIS</span></label>
+      <label class="tool"><input data-tool="impact-mid" type="checkbox"><div><b>Low / mid-torque cordless impact or ratchet</b><small>Speed without using the big gun everywhere.</small></div><span class="pill">CHASSIS</span></label>
+      <label class="tool"><input data-tool="ball-joint" type="checkbox"><div><b>Ball-joint / separator tools</b><small>Only the exact type required by the job.</small></div><span class="pill">AS NEEDED</span></label>
+      <label class="tool"><input data-tool="spring-tools" type="checkbox"><div><b>Suspension specialty tools</b><small>Only if the exact suspension job requires them.</small></div><span class="pill">AS NEEDED</span></label>
+      <label class="tool"><input data-tool="brake-piston" type="checkbox"><div><b>Brake-caliper piston tools</b><small>As required by service work.</small></div><span class="pill">BRAKES</span></label>
+      <label class="tool"><input data-tool="flare-wrenches" type="checkbox"><div><b>Flare-nut wrenches</b><small>Brake and hydraulic lines.</small></div><span class="pill">BRAKES</span></label>
+      <label class="tool"><input data-tool="airline-cutter" type="checkbox"><div><b>Dedicated airline cutter</b><small>Clean square cuts for the air-management build.</small></div><span class="pill">AIR</span></label>
+      <label class="tool"><input data-tool="air-leak" type="checkbox"><div><b>Air-line leak-test supplies</b><small>Commissioning and service checks.</small></div><span class="pill">AIR</span></label>
+      <label class="tool"><input data-tool="camber-gauge" type="checkbox"><div><b>Digital angle / camber gauge</b><small>Rough garage checks only; final drive-height alignment goes on a real rack.</small></div><span class="pill">AIR</span></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">TIER 5</div><h2>Audio, electrical + hatch fabrication</h2></div><span class="muted">For our hidden dual-8 / air-management build.</span></div>
+    <div class="grid">
+      <label class="tool"><input data-tool="trim-tools" type="checkbox"><div><b>Nylon trim-tool set</b><small>Interior disassembly without chewing up panels.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="stripper" type="checkbox"><div><b>Quality wire stripper</b><small>Clean electrical work.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="crimper" type="checkbox"><div><b>Ratcheting crimper</b><small>Repeatable terminals for power and signal.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="heatshrink" type="checkbox"><div><b>Heat-shrink / heat-gun setup</b><small>Harness finishing and protection.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="ferrules" type="checkbox"><div><b>Ferrule / terminal tooling</b><small>Match to the final wiring architecture.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="deadening-roller" type="checkbox"><div><b>Deadening roller</b><small>Doors and hatch resonance control.</small></div><span class="pill">AUDIO</span></label>
+      <label class="tool"><input data-tool="knives" type="checkbox"><div><b>Sharp utility / craft knives</b><small>Deadening and fabrication consumables.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="rivnut" type="checkbox"><div><b>Rivnut / nutsert tool</b><small>Serviceable removable hatch structures.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="step-bits" type="checkbox"><div><b>Step bits</b><small>Clean panel and mounting holes.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="deburr" type="checkbox"><div><b>Deburring tools</b><small>Finish every hole and cut properly.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="drill" type="checkbox"><div><b>Drill / driver</b><small>General fabrication and installation.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="jigsaw" type="checkbox"><div><b>Jigsaw / panel-cutting tool</b><small>Choose based on final enclosure materials.</small></div><span class="pill">FAB</span></label>
+      <label class="tool"><input data-tool="layout-tools" type="checkbox"><div><b>Clamps, straightedge + marking tools</b><small>Measure first, fabricate once.</small></div><span class="pill">FAB</span></label>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div><div class="eyebrow">HOLD</div><h2>Don't buy yet</h2></div></div>
+    <div class="dontbuy"><span class="tag">engine hoist / stand</span><span class="tag">transmission jack</span><span class="tag">press</span><span class="tag">welder</span><span class="tag">large shop compressor</span><span class="tag">advanced scan / scope equipment</span><span class="tag">specialty Nissan timing / engine tools</span></div>
+    <p class="note"><b>Arrival minimum:</b> floor jack + four stands + chocks + torque wrench + hand tools + OBD scanner + compression tester + battery charger + fluid-service tools + good lighting. That gets us through most of the 144k baseline before paying a shop for every inspection step.</p>
+  </section>
+
+  <div class="footer">Checkboxes save only in this browser using local storage. The permanent source-of-truth roadmap remains <a href="TOOLS.md"><b>TOOLS.md</b></a>. We can keep expanding this page as the garage and the car evolve.</div>
+</div>
+<script>
+const key='forever-z-tools-v1';
+const boxes=[...document.querySelectorAll('[data-tool]')];
+let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){}
+boxes.forEach(box=>{if(Object.prototype.hasOwnProperty.call(saved,box.dataset.tool)) box.checked=!!saved[box.dataset.tool];box.addEventListener('change',()=>{saved[box.dataset.tool]=box.checked;localStorage.setItem(key,JSON.stringify(saved));refresh();});});
+function refresh(){document.getElementById('totalCount').textContent=boxes.length;document.getElementById('checkedCount').textContent=boxes.filter(x=>x.checked).length;document.getElementById('ownedCount').textContent=boxes.slice(0,4).filter(x=>x.checked).length;}
+refresh();
+</script>
+</body>
+</html>
