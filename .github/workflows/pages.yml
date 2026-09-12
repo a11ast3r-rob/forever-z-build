@@ -75,7 +75,7 @@ jobs:
           ])
 
           # Shared browser-local backup/restore + cross-page tool-state sync.
-          marker = '<script src="./site-extra.js?v=20260911-4"></script>\n<script src="./parts-shelf.js?v=20260911-1"></script>'
+          marker = '<script src="./site-extra.js?v=20260911-4"></script>\n<script src="./parts-shelf.js?v=20260911-1"></script>\n<script src="./maintenance-extra.js?v=20260911-1"></script>'
           for page in Path('_site').glob('*.html'):
               text = page.read_text(encoding='utf-8')
               if 'site-extra.js' not in text and '</body>' in text:
