@@ -15,9 +15,6 @@
     const nav = document.querySelector('nav');
     addLink(nav, 'tools.html', 'Tools');
     addLink(nav, 'baseline.html', 'Baseline');
-
-    // On phones, put the two working pages first so they are visible without
-    // horizontally scrolling past the section-anchor links.
     if (nav && window.matchMedia('(max-width: 720px)').matches) {
       const baseline = nav.querySelector('a[href="baseline.html"]');
       const tools = nav.querySelector('a[href="tools.html"]');
@@ -33,18 +30,10 @@
   }
 
   const TOOL_MAP = {
-    'stands-pair': 'stands',
-    'pry-bar': 'pry',
-    'impact-sockets': 'impact-sockets',
-    'floor-jack': 'jack',
-    'stands-second': 'second-stands',
-    'wheel-chocks': 'chocks',
-    'torque-half': 'torque',
-    'impact-high': 'impact',
-    'multimeter': 'meter',
-    'trim-tools': 'trim',
-    'crimper': 'crimper',
-    'deadening-roller': 'deadening-kit',
+    'stands-pair': 'stands', 'pry-bar': 'pry', 'impact-sockets': 'impact-sockets',
+    'floor-jack': 'jack', 'stands-second': 'second-stands', 'wheel-chocks': 'chocks',
+    'torque-half': 'torque', 'impact-high': 'impact', 'multimeter': 'meter',
+    'trim-tools': 'trim', 'crimper': 'crimper', 'deadening-roller': 'deadening-kit',
     'rivnut': 'rivnut'
   };
 
@@ -53,7 +42,6 @@
       const detailKey = 'forever-z-tools-v1';
       let detail = {};
       try { detail = JSON.parse(localStorage.getItem(detailKey) || '{}'); } catch (_) {}
-
       Object.entries(TOOL_MAP).forEach(([detailId, mainId]) => {
         const mainKey = `forever-z-nismo-v1:tool:${mainId}`;
         const box = document.querySelector(`[data-tool="${detailId}"]`);
@@ -66,9 +54,7 @@
           }
         }
         localStorage.setItem(mainKey, box.checked ? '1' : '0');
-        box.addEventListener('change', () => {
-          localStorage.setItem(mainKey, box.checked ? '1' : '0');
-        });
+        box.addEventListener('change', () => localStorage.setItem(mainKey, box.checked ? '1' : '0'));
       });
       localStorage.setItem(detailKey, JSON.stringify(detail));
     }
@@ -89,14 +75,12 @@
 
   const style = document.createElement('style');
   style.textContent = `
-    #fz-data-dock{position:fixed;right:12px;bottom:12px;z-index:9999;display:flex;align-items:center;gap:7px;padding:8px;border:1px solid #303844;border-radius:14px;background:rgba(9,13,19,.94);box-shadow:0 12px 34px rgba(0,0,0,.35);backdrop-filter:blur(12px);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    #fz-data-dock{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:9999;display:flex;align-items:center;gap:7px;padding:8px;border:1px solid #303844;border-radius:14px;background:rgba(9,13,19,.94);box-shadow:0 12px 34px rgba(0,0,0,.35);backdrop-filter:blur(12px);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     #fz-data-dock span{font-size:10px;color:#9ca7b7;padding:0 4px}
     #fz-data-dock button{border:1px solid #303844;background:#111720;color:#eef1f5;border-radius:10px;padding:7px 9px;font-size:10px;font-weight:800;cursor:pointer}
     #fz-data-dock button:hover{border-color:#6e3d44}
-    @media(max-width:720px){
-      nav a[href="baseline.html"],nav a[href="tools.html"]{border-color:#7f3c43;color:#fff;background:linear-gradient(180deg,#2a1519,#151820);box-shadow:inset 0 0 0 1px rgba(255,91,100,.12)}
-    }
-    @media(max-width:620px){#fz-data-dock{left:8px;right:8px;justify-content:center}#fz-data-dock span{display:none}}
+    @media(max-width:720px){nav a[href="baseline.html"],nav a[href="tools.html"]{border-color:#7f3c43;color:#fff;background:linear-gradient(180deg,#2a1519,#151820);box-shadow:inset 0 0 0 1px rgba(255,91,100,.12)}}
+    @media(max-width:620px){#fz-data-dock{left:auto;right:8px;bottom:calc(8px + env(safe-area-inset-bottom,0px));gap:4px;padding:5px;border-radius:11px}#fz-data-dock span{display:none}#fz-data-dock button{padding:6px 8px;font-size:9px;border-radius:8px}}
   `;
   document.head.appendChild(style);
 
