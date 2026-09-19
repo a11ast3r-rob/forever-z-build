@@ -98,7 +98,9 @@ The first professional inspection should cover the normal full-car baseline plus
 ### 6MT / clutch
 - Clutch-fluid condition
 - Master cylinder / hydraulic behavior
-- CSC behavior/history
+- Clutch master + slave/CSC were replaced at 55,781 mi in 2017; original CSC is not still installed
+- Replacement type remains unknown: OEM-style internal vs HD internal vs external/CMAK-style conversion
+- CSC / hydraulic behavior and pedal return hot and cold
 - Pedal return hot and cold
 - Engagement / slip / release noise
 - Synchro / gear engagement
