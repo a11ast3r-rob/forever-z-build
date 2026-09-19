@@ -84,7 +84,9 @@ If by heat exchanger we mean the engine-coolant heat exchanger, that is the radi
 ## 6-speed manual transmission + clutch
 
 ### Known history
-The CSC/slave was replaced at 56,535 mi. That is good history, but it is now roughly 87k miles behind the current odometer.
+The clutch master cylinder and slave/CSC were replaced at 55,781 mi in 2017. The original CSC is therefore not still in the car.
+
+What remains unknown is the replacement type: another OEM-style internal CSC, an upgraded internal CSC, or an external-slave / CSC-delete conversion. Do not call the CSC "fixed" until the installed hardware or repair invoice identifies which strategy was used.
 
 ### Arrival checks
 - Clutch engagement height and consistency.
@@ -103,13 +105,14 @@ The CSC/slave was replaced at 56,535 mi. That is good history, but it is now rou
 Nissan calls for regular inspection of manual-transmission oil; with no documented recent change in the history we have, establish our own fluid baseline unless an invoice proves it was done.
 
 If the transmission ever comes out for a clutch, that is when we deliberately choose:
-- clutch/flywheel,
-- CSC strategy or external CSC conversion,
-- rear main seal inspection,
-- pilot/release hardware,
+- clutch/flywheel based on measured wear and the desired street feel,
+- a proven CSC-delete / external-slave conversion rather than another stock-style plastic internal CSC,
+- rear main seal inspection (replace only if leaking / justified),
+- new pilot bushing and appropriate release hardware,
+- clutch hydraulic hose / fluid service as needed,
 - transmission mount if worn.
 
-Do not pull a healthy transmission just because of mileage.
+Do not pull a healthy transmission just because of mileage. The practical trigger is symptoms, clutch wear, or other work that already requires transmission removal.
 
 ## Differential / rear driveline
 
