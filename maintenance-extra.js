@@ -106,7 +106,7 @@
     if (brakeText) brakeText.placeholder = 'Pad thickness, rotors, calipers, flexible hoses, hard lines and fluid condition.';
 
     const clutchText = document.querySelector('#systems textarea[placeholder*="master / CSC"]');
-    if (clutchText) clutchText.placeholder = 'Engagement, slip, pedal return, master / CSC evidence, fluid level/condition; clutch-fluid OEM spec is Nissan Super Heavy Duty or equivalent DOT 3.';
+    if (clutchText) clutchText.placeholder = 'Engagement, slip, hot/cold pedal return, fluid level/condition, and identify whether the 2017 master/slave repair left an OEM-style internal CSC, HD internal CSC, or external/CMAK-style conversion; clutch-fluid OEM spec is Nissan Super Heavy Duty or equivalent DOT 3.';
 
     const serviceGrid = document.querySelector('#services');
     if (serviceGrid) {
