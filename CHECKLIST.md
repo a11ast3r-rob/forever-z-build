@@ -47,7 +47,8 @@ Use these three states whenever we learn something new:
 - [ ] Verify physical Sport vs non-Sport hardware: 19-inch RAYS? large Sport brakes? SynchroRev Match? VLSD?
 - [ ] Verify electronic steering-column-lock campaign / repair status
 - [ ] Ask whether steering-lock fuse/bypass work has already been done
-- [x] Note any clutch hydraulic / CSC history — clutch master + slave replaced at 55,781 mi in 2017
+- [x] Note clutch hydraulic / CSC history — clutch master + slave replaced at 55,781 mi in 2017; original CSC is not still installed
+- [ ] Identify the 2017 replacement type — OEM-style internal CSC, upgraded internal CSC, or external/CMAK-style conversion
 - [ ] Obtain Feb 14, 2026 front-cover/water-pump invoice and determine whether oil-gallery gaskets/updated hardware were included
 - [ ] Note any engine, transmission, differential, or clutch replacement history
 
@@ -259,7 +260,7 @@ This is the **mod inventory**.
 ## Driveline
 - [ ] Clutch stock or aftermarket — hydraulics were replaced in 2017, clutch itself still unknown
 - [ ] Flywheel stock or aftermarket
-- [ ] CSC elimination / upgrade?
+- [ ] Identify whether the 2017 slave replacement is OEM-style internal, HD internal, or external/CMAK-style
 - [ ] Differential stock or upgraded?
 - [ ] Differential bushing condition
 
@@ -311,7 +312,7 @@ This is the **mod inventory**.
 
 ## Early-Z watch items
 - [ ] Steering-lock status verified
-- [ ] Clutch hydraulic / CSC health verified
+- [ ] Clutch hydraulic / CSC health verified; replacement type documented if visible/known
 - [ ] Warm oil-pressure result reviewed; abnormal pressure investigated before modifications
 - [ ] Oil-consumption baseline started
 - [ ] Oil-temperature baseline logged
