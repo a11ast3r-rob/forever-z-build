@@ -44,7 +44,7 @@ CARFAX does **not** prove current condition, nor does it show every repair ever 
 2013 is the later production era associated with Nissan's updated oil-gallery gasket design, so this is **not** the same proactive-teardown concern as the early Z34 cars. Do not open a healthy engine without evidence.
 
 ### Likely baseline service unless receipts prove it
-- Spark plugs: Nissan's 2013 maintenance guide calls for NISMO 370Z spark-plug replacement at 120,000 miles. CARFAX does not show that service in the records we have.
+- Spark plugs: Nissan's 2013 maintenance guide calls for NISMO 370Z spark-plug replacement every 60,000 miles / 48 months. At 144k, if there is no proof of the most recent interval (especially the ~120k replacement), replace them during baseline.
 - Engine air filters: inspect/replace as needed.
 - Cabin filter: inspect/replace.
 - PCV valves: inexpensive age/mileage item; inspect and likely renew.
@@ -53,33 +53,61 @@ CARFAX does **not** prove current condition, nor does it show every repair ever 
 ## Cooling / heat exchangers
 
 ### What this 2013 NISMO already has
-The 2013 VQ37VHR has a factory **engine oil cooler assembly** (Nissan 21305-JK25A application) that exchanges heat with engine coolant. The car also has a factory **power-steering oil cooler**.
+The 2013 VQ37VHR has a factory **engine oil cooler / coolant-to-oil heat exchanger**. The car also has a factory **power-steering oil cooler**.
 
-So we are **not starting with “no oil cooler.”**
+So we are **not starting with "no oil cooler."**
 
 ### Arrival inspection
-- Confirm the factory engine oil cooler/heat exchanger is present and dry.
-- Inspect its coolant hoses, clamps and oil-cooler gasket area.
+- Confirm the factory engine oil heat exchanger is present and dry.
+- Inspect its coolant hoses, clamps and gasket area.
 - Inspect the factory power-steering cooler and lines for seepage/damage.
-- Inspect radiator condition and airflow path, especially because of the prior front/undercarriage damage.
-- Verify coolant condition/age and pressure-test the system.
-- Inspect heater-core/bleeder connections and aging plastic fittings.
+- Pressure-test the engine cooling system before adding capacity.
+- Confirm both radiator fans operate correctly, including stationary operation with A/C load.
+- Inspect radiator fins/end tanks and the full front airflow path, especially given the prior front/undercarriage damage.
+- Verify coolant condition and service age.
+- Inspect the pressure cap, expansion/pressurized reservoir as applicable, every major hose and clamp, and water-pump circulation / leak evidence.
+- Inspect heater-core/bleeder connections and determine whether the aging plastic heater-hose bleeder/coupler remains installed.
+- Log oil and coolant temperatures in normal city, highway and spirited use.
 
-### External oil-cooler upgrade
-For a street/highway NISMO, the factory coolant-to-oil unit stays unless there is a specific reason to remove it.
+### Planned external oil-cooler configuration
+The preferred kit is now specific rather than open-ended:
 
-A **thermostatic external air-to-oil cooler** remains a likely longevity/fun upgrade if real summer/spirited driving shows oil temperature needs more control.
-- Quality core.
-- Thermostatic sandwich plate.
-- Proper AN hose/fittings.
-- Protected routing.
-- Serviceable mounting.
-- Leak inspection after heat cycles.
+**Z1 Motorsports 370Z / G37 Oil Cooler Kit**
+- 25-row core.
+- Prefer Setrab Series 6; Z1 25-row core is the value alternative.
+- 197°F / 92°C thermostatic sandwich plate.
+- -10AN braided stainless lines.
+- Protective hose wrapping.
+- Retain the healthy factory 2012+ coolant-to-oil exchanger if packaging permits.
 
-Do not buy the external kit before we confirm what is already on the car and log real oil temperature.
+Z1 recommends a thermostatic sandwich plate on daily-driven cars. Its product guidance puts 19-row toward light street/cold-climate duty, 25-row toward more intense/occasional-track use and moderate climates, and 34-row toward forced induction/serious track/high-temperature use. The 2015+ NISMO brace restriction that forces a 34-row core does **not** apply to our 2013.
 
-### “Heat exchanger” note
-If by heat exchanger we mean the engine-coolant heat exchanger, that is the radiator plus the factory coolant-to-oil cooler. There is **no charge-air/intercooler heat exchanger needed on the naturally aspirated VQ37VHR**. A separate front-mounted charge-cooler heat exchanger only becomes relevant if the car is supercharged/turbocharged later.
+This remains a **post-baseline install**: fix any underlying leak, fan, pressure, flow or coolant problem before adding the external cooler. Once the system is healthy, the 25-row thermostatic kit is the planned longevity/heat-management upgrade rather than an unresolved research item.
+
+### Supporting parts
+- If the original plastic heater-hose bleeder/coupler is present, replace it with the Z1 aluminum coolant bleeder port during coolant service.
+- Radiator and heater hoses are condition/age-based; replace when inspection or unknown aging makes them untrustworthy.
+- Nissan Blue coolant: factory fill 105,000 miles / 7 years; subsequent Blue coolant 75,000 miles / 5 years. Reset the clock if current age is undocumented.
+- Use the specified Nissan Blue or equivalent coolant; no stop-leak/sealer additives.
+
+### Radiator strategy
+Keep the OEM radiator if it is structurally healthy, pressure-tests correctly and coolant temperatures remain stable.
+
+If replacement / extra capacity is actually justified, current street target:
+- **Mishimoto MMRAD-370Z-09**
+- Direct-fit 2009-2020 Z34 direction for the manual car.
+- Two-row 1.57-inch core.
+- Incorporated A/C condenser.
+
+Do **not** substitute the **MMRAD-370Z-09TR** track radiator for our daily-driver plan; that version deletes the A/C condenser.
+
+Do not install a low-temperature engine thermostat simply to force the gauge lower.
+
+### Temperature rule
+Nissan states normal oil temperature remains below **280°F (140°C)**. At 280°F or above, Nissan instructs the driver to reduce RPM; engine protection can also reduce power. We want substantial thermal margin before that point, but any unexpected upward temperature trend still triggers diagnosis rather than "add a bigger cooler."
+
+### "Heat exchanger" note
+There is **no charge-air/intercooler heat exchanger needed while the VQ37 remains naturally aspirated**. A separate front-mounted charge-cooler heat exchanger only becomes relevant if the car is supercharged/turbocharged later.
 
 ## 6-speed manual transmission + clutch
 
