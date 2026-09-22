@@ -1,6 +1,6 @@
 # Forever Z — Current State
 
-Last structured update: 2026-09-17
+Last structured update: 2026-09-21
 
 ## Status
 **2013 Pearl White 370Z NISMO purchased — paperwork signed, transport paid, waiting on carrier / driver assignment.**
@@ -90,6 +90,8 @@ The first professional inspection should cover the normal full-car baseline plus
 - Cooling-system pressure / condition check
 - Radiator, fans, hoses, clamps and cap
 - Heater-hose connector / coupler near the firewall; determine whether the aging plastic piece is still present
+- If that plastic bleeder/coupler is still present, current replacement direction is the Z1 aluminum coolant bleeder port
+- Nissan NISMO spark-plug interval is 60,000 miles / 48 months; replace if the most recent interval cannot be documented
 - Serpentine belt, tensioner/idlers and PCV system
 - Exhaust leak / manifold and catalyst-area hardware inspection
 - Primary engine/chassis grounds and battery/charging-system health
@@ -125,7 +127,15 @@ The first professional inspection should cover the normal full-car baseline plus
 The rule remains **inspect first; do not parts-cannon a 144k-mile car simply because of mileage.**
 
 ## Audio + air-ride packaging
-Audio and air management must be designed as one hatch project before either is built.
+
+Current staged audio decision:
+- Head unit selected: **Kenwood Excelon DMX809S**.
+- Stage 1 keeps the factory Bose amp + speakers through the correct Bose integration harness/interface.
+- Front + rear cameras now; third native camera input reserved for a later side camera. No external switcher is needed for the current two-camera plan.
+- Current clean front-stage target: **JL Audio C2-650 components + JL Audio JD400/4**.
+- Dual sealed 8-inch sub direction remains; final mono sub amp waits for final enclosure/impedance/electrical design.
+
+Audio and air management must be designed as one hatch project before the final amp/sub/air installation is built.
 
 Reserve space together for:
 - Subwoofer enclosure / module
@@ -147,7 +157,7 @@ Electrical planning must account for **audio amplifier current + compressor curr
 - Preserve original NISMO hardware / removed factory parts
 - Sound deadening + serious audio / subs
 - Air suspension later, with usable drive height and protected NISMO aero
-- Cooling upgrades based on real data rather than assumptions
+- Planned post-baseline oil cooling: Z1 25-row thermostatic kit with wrapped -10AN lines, retaining the healthy factory coolant-to-oil exchanger; radiator upgrade only if condition/temperature data justifies it
 - Future wheels / appearance work only after the car is proven healthy
 
 ## Next gates
