@@ -45,7 +45,7 @@ Priority is health evidence:
 
 2013 is from the later VQ37 production period associated with updated oil-gallery-gasket construction, so we are not planning a blind gallery-gasket teardown.
 
-The big likely missing service item is **NISMO spark plugs at 120k**. If no receipt proves they were done, they go on the baseline list.
+Nissan's 2013 schedule calls for **NISMO spark plugs every 60,000 miles / 48 months**. At 144k, if no receipt proves the most recent 60k-interval service (especially the ~120k replacement), plugs go on the baseline list.
 
 ## Cooling / heat management
 
@@ -54,16 +54,43 @@ This car already has:
 - a factory power-steering cooler,
 - the normal engine radiator/fan system.
 
-Arrival plan:
-- inspect the engine oil cooler, hoses and gasket area,
-- inspect the P/S cooler and lines,
-- inspect radiator/fans and front airflow path,
+Arrival / baseline:
 - pressure-test the cooling system,
-- verify coolant age/condition,
-- inspect heater hoses/connectors and aging plastic fittings,
-- log oil and coolant temperatures in real street/summer use.
+- inspect the factory oil heat exchanger, hoses and gasket area,
+- inspect the P/S cooler and lines,
+- verify both radiator fans,
+- inspect radiator fins/end tanks and front airflow path,
+- verify cap condition, hose/clamp condition and water-pump circulation,
+- verify coolant age/condition and bleed the system correctly,
+- inspect heater hoses/connectors and the aging plastic heater-hose bleeder/coupler,
+- log oil and coolant temperatures in real street/highway/summer use.
 
-A **thermostatic external air-to-oil cooler** remains a likely fun/longevity upgrade if the logged oil temperatures justify it. It is not an automatic Day-1 purchase.
+### Planned oil-temperature upgrade
+
+The open-ended cooler research is now narrowed to a specific street setup:
+
+**Z1 370Z/G37 Oil Cooler Kit — 25-row + 197°F / 92°C thermostatic plate + -10AN lines + protective hose wrapping.**
+
+- Prefer the Setrab Series 6 25-row core if the configured price makes sense; Z1's own 25-row core is the value alternative.
+- Retain the healthy factory 2012+ coolant-to-oil exchanger if packaging permits.
+- Z1 specifically recommends thermostatic plates for daily-driven cars.
+- Z1's 2015+ NISMO 19/25-row brace restriction does not apply to our 2013 NISMO.
+- 34-row stays reserved for a future use-case change such as forced induction, serious track work or sustained extreme-heat duty.
+- Install only after the baseline confirms there is no underlying leak, pressure, fan or coolant-system fault that should be fixed first.
+
+### Cooling reliability parts
+
+If the original plastic heater-hose bleeder/coupler is present, replace it with the **Z1 aluminum coolant bleeder port** while the system is open. Radiator/heater hoses are condition/age items; renew them when inspection says they are no longer trustworthy rather than replacing good hoses for appearance.
+
+Nissan's 2013 guide specifies factory-fill Blue coolant at **105,000 miles / 7 years**, then **75,000 miles / 5 years** for subsequent Blue-coolant replacements. If the current coolant age is undocumented, reset the clock during baseline.
+
+### Radiator rule
+
+Keep the factory radiator if it pressure-tests clean and temperatures are stable. If an upgraded replacement is actually justified, the **Mishimoto MMRAD-370Z-09** is the current street direction because it retains A/C with an incorporated condenser and fits the 6MT Z34. Do not use the **MMRAD-370Z-09TR** track version; it deletes the A/C condenser.
+
+Do not install a low-temperature engine thermostat merely to chase a lower number. We want stable operating temperature and additional heat-rejection capacity, not chronic overcooling.
+
+Nissan states normal engine-oil temperature remains below **280°F (140°C)** and instructs the driver to reduce RPM at 280°F or above. Our cooler target is extra margin well before that factory protection threshold, not permission to ignore a rising-temperature problem.
 
 A separate charge-air/intercooler heat exchanger is **not applicable while the VQ37 remains naturally aspirated**. That only enters the plan with future forced induction.
 
@@ -146,7 +173,7 @@ Unless receipts prove recent service:
 - clutch fluid,
 - coolant if age is unknown,
 - power-steering fluid by condition/history,
-- NISMO spark plugs if no 120k proof,
+- NISMO spark plugs if no proof of the most recent 60k-interval service,
 - air/cabin filters,
 - belt and PCV items by condition.
 
