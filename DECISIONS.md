@@ -76,8 +76,57 @@ Default approach:
 
 Time is part of the build. The goal is to learn the car, build skills and end up with work we are proud to service later.
 
-## Dual-8 subwoofer direction
+## Front-stage first
 
-The current audio packaging target is a **custom sealed pair of 8-inch subwoofers behind the seats / forward cargo area**.
+The actual car has now told us where the audio money belongs.
 
-The preferred concept is a removable DIY MDF/fiberglass enclosure integrated around the hidden air-management plan. A stealth 10-inch corner enclosure remains an alternate/reference idea, but the currently available Wicked C.A.S. 370Z corner box is driver-side only and cannot simply be duplicated as a mirrored pair.
+Observed after delivery:
+- front speakers sound shot / weak,
+- factory Bose sub still sounds decent.
+
+Decision:
+- fix the front stage first,
+- keep the Bose sub,
+- do not replace working bass merely because the rest of the system is being upgraded.
+
+Current front-stage direction:
+- KICKER KSS650 / 51KSS6504 components
+- KICKER KEY200.4
+- useful door damping / decoupling during the install
+
+The Kenwood DMX809S and its radio/install parts are already ordered.
+
+## Single stealth 10 replaces the dual-8 plan
+
+The old custom dual-8 direction is retired.
+
+If the upgraded front stage eventually exposes the Bose bass as the weak link, the preferred future bass system is:
+
+- Wicked C.A.S. 370Z Corner 1×10 sealed enclosure
+- KICKER CompRT 10 / 48CWRT104
+- dual-4Ω coils wired to a 2Ω nominal load
+- dedicated mono amplifier around 400–500 W RMS @ 2Ω
+
+Why:
+- preserves hatch space,
+- fits the OEM-plus / stealth goal,
+- is simpler to service,
+- reduces conflict with future air-management packaging,
+- and should provide the clean single-sub bass level this car actually needs.
+
+When the aftermarket 10 is installed, retire / disconnect the factory Bose low-bass path rather than intentionally running two different sub systems over the same range.
+
+## Real-car evidence outranks the old plan
+
+Plans written before delivery are provisional.
+
+Now that the car is home:
+- real driving behavior,
+- actual temperatures,
+- actual sound,
+- actual fitment,
+- and actual wear
+
+override assumptions made from listings, photos or generic 370Z build recipes.
+
+That rule applies to audio, cooling, tires, bushings, suspension and every future modification.
