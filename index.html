@@ -265,7 +265,7 @@ const get=k=>{try{return localStorage.getItem(KEY+k)}catch(e){return null}};
 const set=(k,v)=>{try{localStorage.setItem(KEY+k,v)}catch(e){}};
 
 let stage=Math.max(Number(get('stage')??4),4);
-const stageNames=['Deal locked','Paperwork / transport prep','In transport','Delivered','Baseline / stabilize','Build underway'];
+const stageNames=['Deal locked','Paperwork complete','Transport complete','Delivered','Baseline / stabilize','Build underway'];
 function drawStage(){
   $$('.stage').forEach((el,i)=>{el.classList.toggle('done',i<stage);el.classList.toggle('active',i===stage)});
   $('#heroStage').textContent=stageNames[stage]||'Build tracker';set('stage',stage);
