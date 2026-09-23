@@ -2,6 +2,31 @@
 
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
+
+## 2026-09-23 — Ownership phase + front-first audio plan
+
+The Z is home and the project has moved out of acquisition / transport mode.
+
+Real-world update:
+- 150+ miles driven after delivery.
+- Car drives and sounds great mechanically.
+- Oil temperature observed around 220°F while driving.
+- Front speakers sound shot / weak.
+- Factory Bose sub still sounds decent.
+
+Audio decisions:
+- Kenwood Excelon DMX809S + required radio/install/interface parts are ordered.
+- Front-stage target is now KICKER KSS650 / 51KSS6504 components.
+- Front-stage amp target is KICKER KEY200.4.
+- Keep the Bose sub for now and judge it only after the front stage is fixed and tuned.
+- If bass later becomes the weak link, preferred upgrade is Wicked C.A.S. 370Z Corner 1×10 + KICKER CompRT 10 / 48CWRT104 + dedicated ~400–500 W RMS @ 2Ω mono amp.
+- Old JL C2 / JD400/4 and dual-8 direction is retired.
+
+Site / repo changes:
+- Homepage moved from transport status to delivered / 144k baseline.
+- Current-state, roadmap, parts, decisions and audio documents updated to match the owned car.
+- Parts shelf now reflects ordered / next / future audio stages.
+
 ## 2026-09-07 — Red Georgia car becomes finalist B
 
 Added VIN `JN1AZ44EX9M410384` from Global Auto Gallery as a second serious finalist.
