@@ -1,13 +1,15 @@
 # Forever Z — Current State
 
-Last structured update: 2026-09-21
+Last structured update: **2026-09-23**
 
 ## Status
-**2013 Pearl White 370Z NISMO purchased — paperwork signed, transport paid, waiting on carrier / driver assignment.**
 
-The search phase is over. The project is now in the **get it home safely → document delivery → Missouri paperwork → establish a 144k mechanical baseline** phase.
+**2013 Pearl White 370Z NISMO purchased, delivered and now being driven.**
+
+The acquisition / transport phase is over. The project is now in the **own it → establish the 144k baseline → fix the front audio → add longevity upgrades only where they make sense** phase.
 
 ## The car
+
 - 2013 Nissan 370Z NISMO
 - Pearl White Metallic
 - 6-speed manual
@@ -15,162 +17,297 @@ The search phase is over. The project is now in the **get it home safely → doc
 - RWD / factory VLSD
 - Factory NISMO suspension / aero / sport brakes
 - VIN tracked by the site: `JN1AZ4EH8DM382151`
-- Listing mileage on the tracker: 144,007 mi
+- Listing mileage: 144,007 mi
 - Latest documented dealer service: 144,009 mi
 - Seller: Jim Shorkey Nissan of Gainesville, Georgia
+- Car is now home in Missouri
+
+### Real-world ownership report
+
+By September 21, 2026:
+- 150+ miles had been driven after delivery.
+- The car **drives great and sounds great mechanically**.
+- No major drivability problem has surfaced in those first miles.
+- Observed oil temperature is about **220°F while driving**.
+- The obvious current cabin problem is the **front audio**: the front speakers sound shot / weak.
+- The **factory Bose sub still sounds decent** and is not currently a problem to solve.
+
+This is now more valuable than speculation from the listing: the Z is actually being driven and observed.
 
 ## Purchase / money
+
 - Purchase completed and paperwork signed.
 - Dealer payment handled.
-- Transport is separate from the vehicle financing and has been paid in full.
-- Working payment reference remains about $230/month; owner plan is about $300/month so extra goes to principal.
+- Transport was separate from the vehicle financing and is complete.
+- Working payment reference remains about $230/month.
+- Owner plan remains about $300/month when practical so the extra goes toward principal.
 - Insurance: done.
 - GAP: done.
-- Extended warranty / service contract: optional only; do not buy one without reading mileage eligibility and exclusions for seals/gaskets, clutch/manual transmission, modifications, pre-existing conditions and labor limits.
+- Extended warranty / service contract: optional only; do not buy one without reading mileage eligibility and exclusions.
 
 ## Latest documented service
+
 CARFAX documents service at Jim Shorkey Nissan of Gainesville on **2026-09-11 at 144,009 miles**:
 - Vehicle serviced
 - Safety inspection performed
 - Valve-cover gasket(s) replaced
 - Vehicle washed / detailed
 
-Treat the valve-cover work as freshly completed. On arrival, verify the repair stays dry after transport and the first several heat cycles rather than paying to repeat it.
+Treat the valve-cover work as freshly completed. Recheck for seepage after normal heat cycles rather than paying to repeat a fresh repair.
 
-No documentation currently proves a timing-chain replacement/service. Do not record timing work as completed unless an invoice surfaces.
+No documentation currently proves a timing-chain replacement / timing service. Do not record timing work as completed unless an invoice surfaces.
 
-## Transport — current blocker
-Carrier/broker: **Blue Horse Logistics / Blue Horse Transport**.
+## Transport
 
-Current state:
-- Transport paid in full.
-- Dealer/car should otherwise be ready to move.
-- Blue Horse has said it is waiting on driver assignment.
-- No delivery date is considered confirmed until an actual carrier / driver is assigned and a pickup window exists.
+**Complete.**
 
-### Before pickup
-- Get current dealer condition photos before the transporter touches the Z: all four corners, both sides, front/rear, roof, windshield, every wheel, interior, odometer, fuel level and especially the NISMO front lip from above and underneath.
-- Once assigned, record the **actual hauling carrier**, driver name/phone, USDOT, MC number, pickup window and ETA.
-- Get the actual assigned carrier's cargo-insurance certificate / coverage limit if available; do not stop at a generic “we are insured.”
-- Explicitly warn the driver that this is a low NISMO and confirm appropriate ramp/loading clearance for the front lip.
-- Get a copy/photo of the pickup Bill of Lading / condition report after loading.
-- Confirm both key fobs, wheel-lock key if fitted, manuals and whatever spare/inflator/jack equipment is actually with the car.
-- Ask whether the car stays on one carrier or can be transferred en route.
+Blue Horse Logistics handled the transport arrangement. Transport is no longer a project blocker.
 
-### Delivery handoff
-Before signing a clean delivery receipt:
-- Inspect with the driver present.
-- Compare against dealer photos.
-- Photograph all four corners, wheels, glass, panels, NISMO front lip/underside, interior, odometer and dash warning lights.
-- Note visible new damage on the BOL and photograph it before the driver leaves. A clean receipt can make a later visible-damage claim harder.
-- Start the car and confirm there are no obvious new warning lights or transport-related issues.
+Any transport-related notes now belong in the historical build log rather than the active next-step list.
 
 ## Missouri paperwork
-- The Missouri 30-day title/application clock runs from the **purchase date on the paperwork**, not from the date the transporter reaches Joplin.
-- Plan the Missouri ID/odometer requirement and applicable safety inspection for the out-of-state title.
-- Jasper County is outside Missouri's emissions-testing area.
-- Do not assume the Georgia dealer safety inspection substitutes for Missouri's registration requirements.
+
+Registration / title work remains an ownership-admin task until confirmed complete.
+
+Keep:
+- signed purchase/title paperwork,
+- Missouri inspection / ID-OD documents as applicable,
+- proof of tax/fees paid,
+- insurance,
+- and the final registration receipt together with the project records.
+
+Chosen personalized-plate direction: **46N2-Z**.
 
 ## Immediate tire plan
-Selected arrival/daily-driver tires for the factory 19-inch wheels:
+
+Selected daily-driver replacement set for the factory 19-inch NISMO wheels:
+
 - Front: Continental ExtremeContact DWS06 Plus — 245/40ZR19 98Y XL ×2
 - Rear: Continental ExtremeContact DWS06 Plus — 285/35ZR19 99Y ×2
 - Working tire-only target: about $1,188
 - Mount/balance + four-wheel alignment separately
 
+Do not mark the tires purchased until they actually are.
+
 The 18-inch RAYS / Gram Lights direction elsewhere in the project remains a **future build vision**, not the immediate tire purchase.
 
-## First-shop / 144k baseline
-The first professional inspection should cover the normal full-car baseline plus these specific watch items:
+## 144k mechanical baseline
+
+The car feels good, which is encouraging, but the high-mileage baseline still matters.
 
 ### Engine / cooling
+
 - Full OBD scan before clearing codes
-- Fresh valve-cover repair check for re-seep
-- Oil level / condition and baseline oil-consumption log
+- Recheck fresh valve-cover repair for seepage
+- Oil level / condition and oil-consumption log
 - Cooling-system pressure / condition check
 - Radiator, fans, hoses, clamps and cap
-- Heater-hose connector / coupler near the firewall; determine whether the aging plastic piece is still present
-- If that plastic bleeder/coupler is still present, current replacement direction is the Z1 aluminum coolant bleeder port
-- Nissan NISMO spark-plug interval is 60,000 miles / 48 months; replace if the most recent interval cannot be documented
-- Serpentine belt, tensioner/idlers and PCV system
+- Heater-hose connector / coupler near the firewall; replace aging plastic with the Z1 aluminum bleeder if still present
+- NISMO spark-plug history: replace if the latest required interval cannot be documented
+- Serpentine belt, tensioner/idlers and PCV
 - Exhaust leak / manifold and catalyst-area hardware inspection
-- Primary engine/chassis grounds and battery/charging-system health
-- Compression or smoke testing only if condition/symptoms justify it
+- Primary engine/chassis grounds and battery/charging health
+- Compression / smoke testing only if condition or symptoms justify it
+
+### Oil-temperature observation
+
+Current observed oil temperature is about **220°F while driving**.
+
+Current rule:
+- log ambient temperature,
+- log traffic vs highway use,
+- watch repeat behavior,
+- and compare after maintenance / cooling work.
+
+The planned external oil cooler remains a **thermal-margin / longevity upgrade**, not an emergency response to one 220°F reading.
+
+Current preferred cooler direction:
+- Z1 25-row thermostatic oil cooler
+- 197°F / 92°C thermostat
+- -10AN lines
+- protective line wrapping
+- retain the healthy factory coolant-to-oil exchanger
 
 ### 6MT / clutch
-- Clutch-fluid condition
-- Master cylinder / hydraulic behavior
-- Clutch master + slave/CSC were replaced at 55,781 mi in 2017; original CSC is not still installed
-- Replacement type remains unknown: OEM-style internal vs HD internal vs external/CMAK-style conversion
-- CSC / hydraulic behavior and pedal return hot and cold
-- Pedal return hot and cold
-- Engagement / slip / release noise
-- Synchro / gear engagement
-- Manual-transmission fluid history / condition
+
+Known:
+- Clutch master + slave/CSC were replaced at 55,781 mi in 2017.
+- The original CSC is therefore not still installed.
+
+Unknown:
+- OEM-style internal CSC vs upgraded internal unit vs external/CMAK-style conversion.
+- Whether the clutch disc / pressure plate / flywheel are original.
+
+Current photos do **not** prove the clutch itself is stock or aftermarket.
+
+Check:
+- clutch-fluid condition,
+- pedal return hot and cold,
+- engagement point,
+- slip,
+- release noise,
+- synchro / gear engagement,
+- manual-transmission fluid history / condition.
 
 ### Rear end / chassis
-- Rear differential mount and fluid-filled bushing condition, not just differential fluid
+
+- Rear differential mount and fluid-filled bushing condition
 - Differential noise / whine
-- Axles/CVs, hubs/wheel bearings and driveshaft
+- Axles/CVs
+- Hubs / wheel bearings
+- Driveshaft
 - Engine/transmission mounts
-- Control-arm bushings, ball joints, tie rods and sway links
-- Existing suspension modification audit before any air-ride purchases
+- Control-arm bushings
+- Ball joints
+- Tie rods
+- Sway links
+- Existing suspension modification audit before air-ride purchases
 
 ### Brakes / wheels
-- Akebono/NISMO brake pad and rotor condition
+
+- Akebono/NISMO pad and rotor condition
 - Flexible hoses / hard lines
-- Brake-fluid history / condition
+- Brake-fluid history
 - Wheel bends/cracks/repairs/curb damage
 - TPMS operation
 - Tire DOT dates and wear pattern
+- Four-wheel alignment after tire work
 
-The rule remains **inspect first; do not parts-cannon a 144k-mile car simply because of mileage.**
+The rule remains: **inspect first; do not parts-cannon a 144k-mile car simply because of mileage.**
 
-## Audio + air-ride packaging
+## Audio — current locked direction
 
-Current staged audio decision:
-- Head unit selected: **Kenwood Excelon DMX809S**.
-- Stage 1 keeps the factory Bose amp + speakers through the correct Bose integration harness/interface.
-- Front + rear cameras now; third native camera input reserved for a later side camera. No external switcher is needed for the current two-camera plan.
-- Current clean front-stage target: **JL Audio C2-650 components + JL Audio JD400/4**.
-- Dual sealed 8-inch sub direction remains; final mono sub amp waits for final enclosure/impedance/electrical design.
+### Ordered now
 
-Audio and air management must be designed as one hatch project before the final amp/sub/air installation is built.
+- **Kenwood Excelon DMX809S**
+- Required radio / integration / install parts
+
+The DMX809S gives us:
+- wireless Apple CarPlay / Android Auto,
+- 13-band EQ,
+- digital time alignment,
+- three camera inputs,
+- three 5 V preouts.
+
+### What the car is telling us
+
+- Front speakers sound bad.
+- Bose sub sounds decent.
+
+Therefore the front is the priority.
+
+### Next front-stage buys
+
+**KICKER KSS650 / 51KSS6504**
+- 6.5-inch component set
+- 4 ohm
+- silk-dome tweeters
+- 15–125 W RMS recommended range
+
+**KICKER KEY200.4**
+- 50 W × 4 at 4 ohms
+- automatic 40-band EQ
+- automatic time alignment
+- crossover functions
+- bi-amp capable
+
+Door treatment happens with the speaker install.
+
+### Bose sub decision
+
+**Keep it for now.**
+
+Do not replace something that currently sounds acceptable.
+
+Order of operations:
+1. DMX809S install
+2. Verify Bose integration / controls
+3. KSS650 front components
+4. KEY200.4
+5. Tune the front stage
+6. Drive and listen
+7. Replace the Bose bass only if it becomes the weak link
+
+### Future optional sub stage
+
+Preferred direction if / when the Bose sub gets outgrown:
+
+**Wicked C.A.S. 370Z Corner 1×10 enclosure**
+- sealed
+- 0.7 ft³
+- 5.9-inch mounting depth
+- driver-side stealth location
+
+Preferred woofer:
+**KICKER CompRT 10 — 48CWRT104**
+- dual 4-ohm
+- 400 W RMS
+- 3-7/16-inch mounting depth
+- KICKER sealed-box range 0.4–1.25 ft³
+- wire coils in parallel for a 2-ohm nominal load
+
+Future amp:
+- dedicated mono amplifier
+- roughly 400–500 W RMS at 2 ohms
+- exact model waits until the sub stage is actually being purchased
+
+When the aftermarket sub goes in, retire / disconnect the factory Bose low-bass path rather than deliberately running two different sub systems over the same range.
+
+The old JL C2 / JD400/4 + dual-8 direction is retired.
+
+## Cameras
+
+Current plan:
+- front camera,
+- rear camera,
+- hold side camera for later.
+
+The DMX809S has enough native camera inputs for this plan without an external switcher.
+
+## Audio + air packaging
+
+Long term, audio and air management still share one hatch-design problem.
 
 Reserve space together for:
-- Subwoofer enclosure / module
-- Amplifier(s)
-- DSP if used
-- Power distribution / fusing
-- Two hidden air tanks
-- Compressor(s)
-- Manifold / air-management electronics
-- Water trap / drain access
-- Wiring and air-line routing
-- Service access
+- optional future stealth sub / amp,
+- front-stage amp / wiring,
+- power distribution / fusing,
+- two hidden air tanks,
+- compressor(s),
+- manifold / air-management electronics,
+- water trap / drain access,
+- wiring and air-line routing,
+- service access.
 
-Electrical planning must account for **audio amplifier current + compressor current together** before cable, fuse, ground or charging-system decisions are locked.
+Do not build a giant false floor merely because the old dual-sub plan expected one. The new stealth-single-10 direction may let the air system keep much more of the cargo area.
 
 ## Long-term build direction
+
 - Daily-driver and highway usability first
-- Mechanical health before modifications
+- Mechanical health before major modifications
 - Preserve original NISMO hardware / removed factory parts
-- Sound deadening + serious audio / subs
+- Clean audio rather than maximum loudness
 - Air suspension later, with usable drive height and protected NISMO aero
-- Planned post-baseline oil cooling: Z1 25-row thermostatic kit with wrapped -10AN lines, retaining the healthy factory coolant-to-oil exchanger; radiator upgrade only if condition/temperature data justifies it
-- Future wheels / appearance work only after the car is proven healthy
+- Planned post-baseline oil cooling: Z1 25-row thermostatic kit
+- Radiator upgrade only if condition / measured temperature data justifies it
+- Future wheels / appearance work after the car is proven healthy
+- Battery tools for the home garage
+- Keep modifications serviceable and documented
 
 ## Next gates
-1. Driver / carrier assignment
-2. Dealer pre-transport condition photos
-3. Actual carrier identity + cargo coverage verification
-4. Low-NISMO loading-clearance confirmation
-5. Pickup BOL / condition report
-6. Delivery inspection before clean signature
-7. Missouri inspection / ID-OD + title/registration work
-8. Complete 144k mechanical baseline
-9. Factory-size Continental tires + alignment
-10. Drive and learn the car before major modifications
+
+1. Complete Missouri title / registration if still open
+2. Complete the 144k mechanical baseline
+3. Continue logging oil temperature and fluid / leak behavior
+4. Factory-size Continental tires + alignment when due
+5. Install DMX809S + integration parts
+6. Verify all Bose functions after radio install
+7. Buy / install KSS650 front components
+8. Door treatment
+9. Add / tune KEY200.4
+10. Reassess the Bose sub only after the front stage is right
+11. Continue driving and learning the car before major suspension / power changes
 
 ## Build rule
-**Mechanical health first. Tires and brakes second. Learn the car third. Modify it after we know what we actually have.**
+
+**The Z is home and driving well. Fix known problems first, measure what the car actually does, and modify from evidence rather than anxiety.**
