@@ -1,73 +1,141 @@
 # Current Roadmap
 
-## Phase 0 — Buy the right Z
-Current candidate: 2009 Nissan 370Z Base, Pearl White, 6-speed manual, 112,563 miles.
+Updated 2026-09-23.
 
-- CARFAX review completed: 9 previous owners, two damage/accident events, substantial service history, no total loss/airbag deployment/rollback indicated.
-- Obtain the February 14, 2026 front-cover/water-pump repair order and August 7, 2026 Peoria Nissan work order.
-- Get a collision/body inspection focused on the 2019 right-rear damage and 2023 sideswipe repair quality.
-- Verify exact trim/brake/wheel configuration and whether the car truly has any Sport Package hardware.
-- Verify Nissan P3208 steering-lock campaign status for this 2009 car.
-- Get a real pre-purchase mechanical inspection.
-- Establish a warm mechanical oil-pressure baseline; diagnose abnormal pressure instead of assuming a gallery-gasket failure.
-- Establish current clutch-hydraulic / fluid / leak / cooling-system baseline; CARFAX shows master/slave replacement in 2017.
-- Spark plugs were documented replaced at 97,797 mi in 2024; inspect/identify them but do not replace again solely for mileage.
-- Inspect the documented cold-air intake and verify tune status.
-- Inspect the rear differential bushing and the aging heater-hose connector/bleeder.
-- Verify the 2024 power-steering pump/line work is dry and quiet.
-- Verify current brakes despite documented 2024 pad/rotor and 2025 rotor work.
-- Baseline maintenance before modifying.
-- Measure the actual car before ordering final fitment-sensitive hardware.
+## Phase 0 — Acquisition / transport
 
-## Phase 1 — Baseline + garage
-- Build out the battery-first tool collection.
-- Do not blindly repeat the Aug 2026 oil/coolant service; verify level/spec/condition and use the recent service as the starting point if correct.
-- Transmission/differential/brake/clutch-fluid history still needs confirmation/reset as needed.
-- Inspect brakes/tires/suspension/body and document as-acquired condition.
-- Document stock vs existing-mod condition and measurements.
+**Complete.**
 
-## Phase 2 — Brake / differential decision gate
-The dealer listing is consistent with a non-Sport Base car, so before final wheel ordering:
-- Physically verify base vs Sport brakes.
-- Decide whether an Akebono/Sport-style brake conversion is a near-term goal.
-- Verify open differential vs any prior-owner LSD/VLSD swap.
-- If the car is open-diff and healthy, keep a street-oriented LSD as a high-value future fun upgrade.
+The 2013 Pearl White 370Z NISMO 6MT is purchased, delivered and being driven.
 
-## Phase 3 — Wheels + tires
-Current target:
-- Gram Lights 57DR Gunblue
-- 18×9.5 +22 front
-- 18×10.5 +12 rear
-- Approx. 255/40R18 + 285/35R18
+Historical acquisition work remains in the build log; it is no longer the active project phase.
 
-Final sizing remains subject to brake, fender, alignment, and air-suspension clearance checks on the real car.
+## Phase 1 — 144k baseline + registration
 
-## Phase 4 — Air suspension + geometry
+Current active phase.
+
+- Finish Missouri title / registration if still open.
+- Keep the documented 2026-09-11 valve-cover gasket replacement in the completed column; verify for re-seep after heat cycles.
+- Full OBD scan / readiness-state capture.
+- Establish fluid history and condition.
+- Inspect belts, PCV, cooling hoses, radiator, fans and heater-hose coupler.
+- Inspect brakes, tires, wheel condition, hubs and alignment.
+- Inspect rear differential bushing and driveline.
+- Verify clutch / CSC behavior hot and cold.
+- Identify what clutch / CSC hardware is actually installed if practical.
+- Continue driving and logging real behavior rather than replacing parts from mileage alone.
+
+Current road report:
+- 150+ miles driven after delivery.
+- Car drives and sounds great mechanically.
+- Oil temperature observed around 220°F while driving.
+- Front speakers are the obvious weak point.
+
+## Phase 2 — Immediate daily-driver setup
+
+### Tires
+
+Selected factory-19-inch set:
+- Continental ExtremeContact DWS06 Plus
+- 245/40ZR19 front
+- 285/35ZR19 rear
+
+Mount/balance and align when the tire replacement is actually due.
+
+### Cooling / longevity
+
+Keep logging oil temperature and cooling behavior.
+
+Planned post-baseline oil-cooler direction:
+- Z1 25-row
+- thermostatic sandwich plate
+- 197°F / 92°C thermostat
+- -10AN lines
+- protective line wrapping
+- retain healthy factory coolant-to-oil exchanger
+
+Radiator replacement remains condition-based.
+
+## Phase 3 — Audio: front first
+
+### Ordered
+
+- Kenwood Excelon DMX809S
+- required radio / install / integration parts
+
+### Next buys
+
+- KICKER KSS650 / 51KSS6504 6.5-inch component speakers
+- KICKER KEY200.4 DSP amplifier
+- door damping / foam / speaker-mounting materials
+
+### Current bass decision
+
+**Keep the factory Bose sub.**
+
+It still sounds decent. Do not replace it before hearing the upgraded front stage.
+
+Install order:
+1. DMX809S + integration
+2. Verify factory functions
+3. KSS650 front components
+4. Door treatment
+5. KEY200.4
+6. Tune / listen
+7. Reassess bass
+
+### Optional later sub upgrade
+
+Only if the Bose sub becomes the weak link:
+
+- Wicked C.A.S. 370Z Corner 1×10 sealed enclosure
+- KICKER CompRT 10 / 48CWRT104
+- dedicated mono amp around 400–500 W RMS @ 2Ω
+- retire / disconnect the Bose low-bass path when the aftermarket sub is installed
+
+The old JL C2 / JD400/4 + dual-8 direction is retired.
+
+## Phase 4 — Brake / chassis / bushing decision gate
+
+Before suspension changes:
+- verify brake condition,
+- inspect suspension / bushings,
+- inspect diff mount,
+- establish alignment numbers,
+- identify any existing modifications.
+
+Replace worn parts because inspection proves they need it.
+
+## Phase 5 — Air suspension + geometry
+
 - Z34-specific air hardware.
-- Pressure + height management preferred.
+- Modern pressure / height management.
 - Dual electric compressors.
 - Two smaller hidden reservoirs.
-- Camber/toe correction hardware as required.
+- Camber / toe correction only as required by the final drive height.
 - Final street alignment at repeatable drive height.
+- Protect the NISMO front aero.
 
-## Phase 5 — Audio + hatch fabrication
-- Verify the actual Bose head unit/amp/speaker wiring and test every factory speaker/sub first.
-- Keep the working Bose system initially; do not tear it apart before the complete replacement architecture is chosen.
-- Final system bypasses the Bose amplifier for aftermarket speaker power.
-- Reuse intact factory speaker-wire runs to the doors/dash where practical by tying into the speaker-side wiring after the Bose amp.
-- Run new door/dash speaker wire only if condition, final power, or an active-DSP layout gives us a real reason.
-- New dedicated fused OFC amplifier power, proper ground, required signal/interconnect wiring, and new dedicated subwoofer wire.
-- Front component speakers are the priority; rear fill is optional after tuning.
-- Subs remain part of the plan.
-- Door sound treatment happens during the speaker install: butyl damping plus foam/decoupling at trim-contact areas where useful.
-- Hatch/trunk acoustic treatment happens before the false floor: damping on useful resonant panels and rattle treatment before final reassembly.
-- Preserve drains, service holes, trim fasteners, amp controls/fuses and air-system service points.
-- Shared false-floor/hidden packaging design for tanks, compressors, management, amps and subs.
-- Serviceable mounting, wiring, ventilation and drains.
-- See [AUDIO_PLAN.md](AUDIO_PLAN.md) for the complete sequence.
+Because the preferred future sub is now a stealth corner 10 rather than a large dual-8 false-floor build, re-measure the hatch plan before committing to tank / compressor placement.
 
-## Phase 6 — Cooling / performance support
-- Baseline oil-temperature behavior first.
-- Thermostatic external oil cooler is the preferred street configuration if warranted.
-- Keep the factory radiator/fans if healthy and measured coolant temperatures are normal.
-- Other power/performance mods only after the chassis and maintenance baseline are solid.
+## Phase 6 — Wheels / appearance
+
+Future vision:
+- RAYS Gram Lights 57DR
+- Gunblue
+- approximately 18×9.5 +22 front
+- approximately 18×10.5 +12 rear
+
+Final sizing still waits for real brake / suspension / fender / drive-height measurements.
+
+Preserve the factory NISMO wheels with the car.
+
+## Phase 7 — Performance
+
+Power modifications wait until:
+- the car is mechanically baselined,
+- temperatures are understood,
+- clutch / driveline health is known,
+- and the chassis / brakes are sorted.
+
+The project stays street-first and highway-friendly.
