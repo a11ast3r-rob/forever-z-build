@@ -117,95 +117,125 @@ Nissan states normal oil temperature remains below **280°F (140°C)** and instr
 
 ## Audio
 
-The actual 2013 NISMO is Bose-equipped. The plan is deliberately staged so the radio can be enjoyed now and the full clean-sound build can happen later.
+The 2013 NISMO is Bose-equipped. The real car has now established the priority: **front stage first; keep the Bose sub for now**.
 
-### Head unit — selected
+### Head unit — ORDERED
 
 **Kenwood Excelon DMX809S**
-- https://www.kenwood.com/usa/car/excelon/dmx809s/
-- User-found purchase target: about **$336.99 shipped**.
-- Wireless Apple CarPlay / Android Auto.
-- 13-band EQ and digital time alignment.
-- **Three camera inputs.**
-- **Three 5.0 V preouts** for the later amp/sub build.
-- Front + rear cameras can be installed now using native camera inputs.
-- Keep the third input open for one future side/blind-spot camera.
-- **No camera switcher is needed for the current front + rear plan.** A switcher only becomes relevant if the final camera count exceeds the receiver's three inputs.
 
-### Stage-one Bose integration — verify exact connectors before checkout
+https://www.kenwood.com/usa/car/excelon/dmx809s/
 
-- **Metra 70-7554** Bose amp-integration harness: https://www.metraonline.com/product/70-7554
-  - Designed for select 2010-2014 Nissan Bose systems and retains the OE amplifier.
-  - Use only after confirming the exact vehicle connector/trim fit.
-- **Metra 99-7607B** dash kit if our car has the non-navigation dash: https://www.metraonline.com/product/99-7607B
-- **Metra 40-NI12** antenna adapter: https://www.metraonline.com/product/40-NI12
-- Compatible steering-wheel-control interface.
-- On 2010-2014 non-nav 370Zs, verify the factory Bluetooth-module bypass / steering-control wiring before finalizing the install.
+Key specs:
+- wireless Apple CarPlay / Android Auto
+- 13-band EQ
+- digital time alignment
+- three camera inputs
+- three 5.0 V preouts
+- short chassis
 
-Stage 1 signal path:
-**DMX809S → Bose integration harness/interface → factory Bose amp → factory Bose speakers**
+The radio and required install / integration parts are ordered.
 
-Final signal path:
-**DMX809S → aftermarket amplification → usable factory speaker-side runs → new front components + subs**
+### Front speaker fit / next buy
 
-### Front stage — clean-sound target
+Crutchfield's 2013 370Z fit database lists:
+- front door: 6.5-inch aftermarket fit class
+- corner dash: 2.75-inch location
 
-**JL Audio C2-650 component set**
-- Current target price: about **$300-$330 / pair**.
-- 6.5-inch component layout.
-- Silk-dome-tweeter / smooth, natural sound direction.
-- Priority is clarity, separation and long-session listening, not SPL.
+Current selected front component set:
 
-**JL Audio JD400/4**
-- https://www.garmin.com/en-US/p/1693301/pn/010-03184-00/
-- Current reference price: about **$299.99**.
-- 75 W × 4 at 4 ohms.
-- Gives useful clean headroom while staying in the value tier.
+**KICKER KSS650 / 51KSS6504**
 
-Initial tuning direction:
-- Front components passive first.
-- High-pass around **80 Hz** as a starting point.
-- Subs handle low bass.
-- Rear fill stays optional until the front stage is tuned.
-- Door damping / sealing happens at the same time as the component install.
+https://www.kicker.com/51KSS6504
+
+Published specs:
+- 6.5-inch component system
+- 4 ohm
+- 1-inch silk-dome tweeters
+- 15–125 W RMS recommended power
+- shallow-mount architecture
+
+The earlier 6x9 shopping direction is dropped.
+
+### Front amplifier — next buy
+
+**KICKER KEY200.4**
+
+https://shop.kicker.com/key-2004-4-channel-smart-amplifier
+
+Published specs:
+- 50 W × 4 at 4 ohms
+- auto 40-band EQ
+- auto time alignment
+- selectable high-pass filters
+- bi-amp capable
+- compact chassis
+
+The KEY handles the front stage. The optional future sub gets its own mono amp.
+
+### Factory Bose sub — KEEP
+
+The Bose sub currently sounds decent.
+
+Do not buy a replacement sub simply because the radio / front stage are being upgraded.
+
+Reassess only after:
+1. DMX809S is installed,
+2. KSS650 front components are installed,
+3. KEY200.4 is installed / tuned,
+4. the car has been driven and listened to.
+
+### Optional future subwoofer
+
+If the Bose sub becomes the weak link:
+
+**Wicked C.A.S. 370Z Corner 1×10 enclosure**
+
+https://shop.wickedcas.com/nissan-370z-corner-1x10-enclosure-sub-box-subwoofer-enclosure-stealth-look.html
+
+Published box data:
+- sealed
+- 0.7 ft³
+- 5.9-inch mounting depth
+- driver-side corner location
+
+Preferred woofer:
+
+**KICKER CompRT 10 / 48CWRT104**
+
+https://shop.kicker.com/comp-rt-10-4-ohm-subwoofer
+
+Published specs:
+- 10 inch
+- dual 4-ohm voice coils
+- 400 W RMS
+- 3-7/16-inch mounting depth
+- recommended sealed volume 0.4–1.25 ft³
+
+Wiring target:
+- coils in parallel
+- 2-ohm nominal final load
+- dedicated mono amp around 400–500 W RMS at 2 ohms
+
+Exact mono amp waits until the sub stage becomes a real purchase.
 
 ### Cameras
 
-Current requirement: **front + rear now; side camera later**.
-- DMX809S supports three camera inputs.
-- Rear camera gets reverse-trigger behavior.
-- Front camera is for parking/curb protection, especially once the car is lower.
-- A current RCA-output waterproof camera is acceptable; do **not** buy the Kenwood CMOS-740HD solely because it is "HD" — the DMX809S is not the Kenwood HD-camera-input model we were previously considering.
-- Kenwood CMOS-320 is a useful front/rear multi-view reference but is discontinued in the U.S.; do not overpay simply to keep the badge.
-- Final camera models wait for mount-location and image-quality review, but the wiring route should be installed cleanly while the radio is out.
+Current requirement remains:
+- front + rear
+- side camera later
 
-### Subwoofer / enclosure direction
+DMX809S has three native camera inputs, so an external switcher is not required for the current plan.
 
-**Current default: dual 8-inch sealed subwoofers** behind the seats / at the forward edge of the cargo area.
-- Leading candidate remains a pair of KICKER CompRT 8 (48CWRT82), 300 W RMS each, dual 2-ohm voice coils.
-- Wiring target: series each sub's coils, then parallel the pair for a 2-ohm final load.
-- SQ alternative remains pair of JL Audio 8W3v3-4.
-- Build a removable MDF/fiberglass enclosure only after measuring the actual car.
-- Protect the drivers with grilles.
-- Do not lock the final sub amp until enclosure/sub impedance and the electrical plan for the future air compressors are finalized.
+### Wiring / acoustic treatment
 
-### Confirmed architecture
-
-- Keep the Bose amp/speakers for the first radio stage.
-- Final system bypasses the Bose amplifier for aftermarket speaker power.
-- Reuse intact factory speaker-wire runs to doors/dash where practical by tying into the speaker side of the Bose amp.
-- Run new speaker wire where the final power/layout or wire condition actually requires it.
-- New dedicated fused OFC power and proper ground for aftermarket amplification.
-- New dedicated speaker wire to the subwoofer enclosure.
-- Air/audio packaging is designed as one removable, serviceable hatch system.
-
-### Sound treatment
-
-- Treat doors during the component-speaker install.
-- Treat hatch/trunk floor and useful resonant panels before the false floor.
-- Use butyl vibration damping plus foam/decoupling at trim contact areas as needed.
-- Rattle-test before final reassembly.
-- Preserve drains, access holes, fasteners, amp controls/fuses, air-system drains and service points.
+- Keep factory Bose integration intact during the radio stage.
+- When adding the aftermarket front amp, intentionally preserve the Bose sub signal path until the sub is actually replaced.
+- Reuse healthy factory speaker-side runs where practical.
+- Use dedicated fused OFC power / proper ground for aftermarket amplification.
+- Treat the doors during the component install.
+- Use butyl damping and foam / decoupling where it solves resonance.
+- Preserve drains, service holes, trim fasteners and wiring access.
+- Treat the hatch only where useful; the new stealth-single-10 direction may avoid a large false-floor audio build.
 
 See [AUDIO_PLAN.md](AUDIO_PLAN.md) for the complete staged audio plan.
 
