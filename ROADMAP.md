@@ -97,26 +97,37 @@ The old JL C2 / JD400/4 + dual-8 direction is retired.
 
 ## Phase 4 — Brake / chassis / bushing decision gate
 
+Current evidence:
+- highway cruising is good,
+- no steering-wheel vibration at speed,
+- normal-road ride can feel semi-jarring / rough,
+- some feedback is present under harder braking.
+
 Before suspension changes:
-- verify brake condition,
-- inspect suspension / bushings,
-- inspect diff mount,
-- establish alignment numbers,
+- verify cold tire pressure / tire condition,
+- inspect shocks for leakage and real damping control rather than condemning them by mileage,
+- inspect bump stops / mounts,
+- inspect front lower-control-arm bushings, ball joints, tie rods and steering play,
+- inspect rear links / bushings, sway links / bushings, hubs / wheel bearings and the rear diff bushing,
+- inspect pads, rotors, caliper hardware and hoses; measure runout / thickness variation if the brake feedback points there,
+- establish alignment numbers after any real suspension / steering repair,
 - identify any existing modifications.
 
-Replace worn parts because inspection proves they need it.
+Replace only confirmed wear. Subframe collars are optional chassis stiffening, not baseline maintenance. A temporary stock-style damper replacement is acceptable only if the current dampers are actually worn and the air build is still far away.
 
 ## Phase 5 — Air suspension + geometry
 
-- Z34-specific air hardware.
-- Modern pressure / height management.
-- Dual electric compressors.
-- Two smaller hidden reservoirs.
+- Air Lift Performance 76010 front + 76510 vehicle-specific divorced rear as the default hardware direction.
+- Air Lift ALP4 management, with optional height sensing for repeatable daily ride height.
+- Compact compressor setup with rubber isolation.
+- Target one 2.5–3 gallon tank under the hatch floor; final size/layout waits for measurements.
+- Sound deaden the spare-well / management area.
+- Keep manifold, drain, wiring and plumbing serviceable.
 - Camber / toe correction only as required by the final drive height.
-- Final street alignment at repeatable drive height.
+- Final street alignment at the repeatable normal drive height.
 - Protect the NISMO front aero.
 
-Because the preferred future sub is now a stealth corner 10 rather than a large dual-8 false-floor build, re-measure the hatch plan before committing to tank / compressor placement.
+The eventual corner-mounted single 10-inch sub can free the spare-well / under-floor area for air management. Keep the Bose sub until that combined air/audio phase is real.
 
 ## Phase 6 — Wheels / appearance
 
