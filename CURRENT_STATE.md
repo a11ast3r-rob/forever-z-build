@@ -272,14 +272,38 @@ Reserve space together for:
 - optional future stealth sub / amp,
 - front-stage amp / wiring,
 - power distribution / fusing,
-- two hidden air tanks,
-- compressor(s),
+- one compact 2.5–3 gallon tank target (final size only after real hatch measurements),
+- compact compressor setup on rubber isolation,
+
 - manifold / air-management electronics,
 - water trap / drain access,
 - wiring and air-line routing,
 - service access.
 
 Do not build a giant false floor merely because the old dual-sub plan expected one. The new stealth-single-10 direction may let the air system keep much more of the cargo area.
+
+## Current ride / chassis observations — Sep 24, 2026
+
+Real-car feedback now overrides generic high-mileage assumptions:
+
+- 150+ miles have been driven after delivery.
+- Highway cruising is good.
+- No steering-wheel vibration has been noticed at highway speed.
+- Normal roads can feel semi-jarring / rough.
+- Some feedback is felt under harder braking.
+
+Near-term strategy is **inspect first, replace second**:
+- verify cold tire pressure and tire condition,
+- inspect dampers for leakage and actual loss of control,
+- inspect bump stops / mounts,
+- inspect front lower-control-arm bushings, ball joints and tie rods,
+- inspect rear links / bushings, sway links / bushings and wheel-bearing play,
+- inspect the fluid-filled rear differential bushing for leakage / movement,
+- inspect pads, rotors, caliper hardware and brake hoses; measure runout / thickness variation only if evidence calls for it.
+
+Do not assume shocks, wheel bearings, ball joints or bushings are failed just because the car has 144k miles. Subframe collars are an optional stiffening modification, not maintenance.
+
+If a damper is actually worn and the full air build is still far away, a sensible temporary replacement is acceptable. Otherwise keep the money pointed toward the final air system.
 
 ## Long-term build direction
 
@@ -298,8 +322,10 @@ Do not build a giant false floor merely because the old dual-sub plan expected o
 
 1. Complete Missouri title / registration if still open
 2. Complete the 144k mechanical baseline
-3. Continue logging oil temperature and fluid / leak behavior
-4. Factory-size Continental tires + alignment when due
+3. Diagnose the rough-road feel + hard-brake feedback with a condition-based chassis/brake inspection
+4. Repair only confirmed wear, then align if suspension/steering work was performed
+5. Continue logging oil temperature and fluid / leak behavior
+6. Factory-size Continental tires + alignment when due
 5. Install DMX809S + integration parts
 6. Verify all Bose functions after radio install
 7. Buy / install KSS650 front components
