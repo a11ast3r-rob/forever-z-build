@@ -292,14 +292,15 @@ const defaultLog=[
  {date:'2026-09-08',title:'The NISMO won',detail:'2013 Pearl White 6MT NISMO selected over the 2009 options.'},
  {date:'2026-09-11',title:'Valve-cover service',detail:'At 144,009 miles: valve-cover gasket(s) replaced, safety inspection performed and vehicle washed/detailed.'},
  {date:'2026-09-21',title:'The Z is home',detail:'More than 150 miles driven after delivery; drives and sounds great mechanically. Oil temperature observed around 220°F while driving.'},
- {date:'2026-09-23',title:'Audio direction locked',detail:'DMX809S + install parts ordered. Fronts next: KICKER KSS650 + KEY200.4. Keep the Bose sub for now; stealth single-10 is optional later.'}
+ {date:'2026-09-23',title:'Audio direction locked',detail:'DMX809S + install parts ordered. Fronts next: KICKER KSS650 + KEY200.4. Keep the Bose sub for now; stealth single-10 is optional later.'},
+ {date:'2026-09-24',title:'Ride/chassis baseline updated',detail:'Highway cruising is good with no steering-wheel vibration; normal roads feel semi-jarring and hard braking gives some feedback. Inspect tires, dampers, brakes, bushings/joints and diff mount before buying parts; phase the refresh and save the full suspension spend for the later stealth air build.'}
 ];
 let log;try{log=JSON.parse(get('serviceLog'))||defaultLog}catch(e){log=defaultLog}
 function saveLog(){set('serviceLog',JSON.stringify(log));drawLog()}
 function drawLog(){const root=$('#serviceLog');root.innerHTML=log.slice().reverse().map((e,idx)=>`<div class="log-entry"><time>${e.date||''}</time><div><b>${escapeHtml(e.title||'')}</b><span>${escapeHtml(e.detail||'')}</span></div><button title="Delete" data-del="${log.length-1-idx}">×</button></div>`).join('')||'<p class="muted">No entries yet.</p>';root.querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click',()=>{log.splice(Number(b.dataset.del),1);saveLog()}))}
 function escapeHtml(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
 drawLog();
-$('#logDate').value='2026-09-23';
+$('#logDate').value='2026-09-24';
 $('#addLog').addEventListener('click',()=>{const date=$('#logDate').value,title=$('#logTitle').value.trim(),detail=$('#logDetail').value.trim();if(!title)return;log.push({date,title,detail});$('#logTitle').value='';$('#logDetail').value='';saveLog()});
 
 const scratch=$('#scratch');scratch.value=get('scratch')||'';scratch.addEventListener('input',()=>set('scratch',scratch.value));$('#clearNotes').addEventListener('click',()=>{if(confirm('Clear the local scratchpad?')){scratch.value='';set('scratch','')}});
@@ -309,6 +310,7 @@ $('#exportState').addEventListener('click',()=>{const blob=new Blob([JSON.string
 $('#copySnapshot').addEventListener('click',async()=>{const s=state(),n=Object.values(s.checks).filter(Boolean).length;const text=`FOREVER Z // 2013 NISMO\nStage: ${stageNames[stage]}\nVIN: ${s.car.vin}\nMileage: ${s.car.mileage.toLocaleString()}\nDeal: $7,000 down • Wells Fargo ~10.79% • 60 mo • ~$230/mo • transport separate\nArrival checklist: ${n}/${checks.length}\nBuild spend: ${money(sum(spent))}\nNotes: ${s.notes||'none'}`;try{await navigator.clipboard.writeText(text);$('#copySnapshot').textContent='Copied ✓';setTimeout(()=>$('#copySnapshot').textContent='Copy snapshot',1400)}catch(e){alert(text)}});
 </script>
 <script src="site-extra.js"></script>
+<script src="maintenance-extra.js"></script>
 <script src="parts-shelf.js"></script>
 </body>
 </html>
