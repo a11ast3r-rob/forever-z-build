@@ -138,6 +138,15 @@ The car starts with genuine NISMO:
 - performance body dampers,
 - sport brakes.
 
+### Current ride evidence — Sep 24, 2026
+
+- Highway cruising is good.
+- No steering-wheel vibration has been noticed at highway speed.
+- Normal-road ride can feel semi-jarring / rough.
+- Some feedback is present under harder braking.
+
+Those symptoms justify inspection, not a declaration that the shocks, wheel bearings or bushings are automatically failed.
+
 At 144k, inspect rather than worship the badge:
 - shocks/top mounts,
 - compression/tension bushings,
@@ -150,7 +159,7 @@ At 144k, inspect rather than worship the badge:
 - body-damper mounts,
 - alignment/bent-part evidence.
 
-Because air suspension is planned, do **not** automatically buy fresh stock shocks/springs right before removing them. Fix unsafe/sloppy joints and bushings now; let the final air/geometry build handle parts it truly replaces.
+Because air suspension is planned, do **not** automatically buy fresh stock shocks/springs right before removing them. Inspect damper leakage/control and bump stops first. Fix unsafe/sloppy joints and bushings now; use a temporary stock-style damper only if a current damper is actually worn and the air build is still far away. Let the final air/geometry build handle parts it truly replaces. Subframe collars remain an optional stiffening modification, not maintenance.
 
 ## Brakes
 
@@ -161,6 +170,8 @@ Measure, don't guess:
 - flex hoses/hard lines.
 
 Brake fluid was documented in 2019; unless later paperwork proves otherwise, flush it during baseline.
+
+The current hard-brake feedback moves pads, rotors, caliper hardware, hoses, wheel play and front control-arm bushings higher on the inspection list; measure runout / thickness variation if the evidence points there. Do not pre-diagnose one bushing or rotor from mileage alone.
 
 Preserve the factory NISMO brake package.
 
