@@ -116,6 +116,29 @@ Why:
 
 When the aftermarket 10 is installed, retire / disconnect the factory Bose low-bass path rather than intentionally running two different sub systems over the same range.
 
+## Chassis refresh before air — condition based
+
+Current real-car evidence:
+- highway manners are good,
+- no steering-wheel vibration at highway speed,
+- normal-road ride can feel semi-jarring,
+- harder braking gives some feedback.
+
+Decision:
+- inspect tire pressure/condition, dampers, bump stops, brake hardware/rotors, control-arm bushings, ball joints, tie rods, rear links/bushings, sway hardware, wheel-bearing play and the rear differential bushing,
+- replace only confirmed wear,
+- do not call shocks/bushings/bearings “bad” from 144k mileage alone,
+- do not treat subframe collars as maintenance,
+- use a temporary stock-style damper only if a current damper is actually worn and the full air build is still far away,
+- align after real suspension/steering repairs.
+
+## Stealth air end state
+
+- Air Lift 76010 front + 76510 divorced rear remains the default hardware direction.
+- ALP4 is the management target, with optional height sensing.
+- Aim for a measured 2.5–3 gallon tank and compact rubber-isolated compressor packaging under a serviceable, sound-deadened hatch floor.
+- Keep the Bose sub now; when air is built, the eventual corner 10 can handle bass and free the spare-well / under-floor area for air management.
+
 ## Real-car evidence outranks the old plan
 
 Plans written before delivery are provisional.
