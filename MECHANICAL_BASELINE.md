@@ -173,8 +173,19 @@ The car starts with real NISMO hardware: tuned shocks/springs, stabilizer bars, 
 
 At 144k, age matters more than the badge.
 
+### Current real-world ride note — Sep 24, 2026
+
+After 150+ post-delivery miles:
+- highway cruising is good,
+- there is no noticed steering-wheel vibration at highway speed,
+- normal roads can feel semi-jarring / rough,
+- harder braking produces some feedback.
+
+Treat those as diagnostic clues, not proof that a particular 144k-mile part has failed.
+
 ### Inspect every corner
-- Shock leakage and damping control.
+- Cold tire pressure / tire condition before blaming suspension.
+- Shock leakage and actual damping control; inspect bump stops / boots too.
 - Spring condition/seating.
 - Top mounts.
 - Front compression/tension-rod bushings.
@@ -194,6 +205,7 @@ Because air suspension is planned:
 - Do not automatically replace healthy NISMO shocks/springs with fresh stock pieces shortly before removing them.
 - Fix any unsafe/sloppy ball joint, bushing, hub, tie rod or bent component now.
 - Save geometry/camber/toe upgrades for the final air-suspension layout where possible.
+- Treat subframe collars as an optional stiffening modification, not required maintenance.
 - Keep the original NISMO components with the car.
 
 ## Brakes
@@ -203,6 +215,7 @@ Because air suspension is planned:
 - Inspect caliper dust boots, slide/pad hardware and piston behavior.
 - Inspect flex hoses and hard lines.
 - Brake fluid was documented in 2019; unless a later receipt exists, flush it now.
+- Because hard-brake feedback is present, inspect front control-arm bushings under load as well as pads/rotors/caliper hardware; check rotor runout / thickness variation if warranted.
 - Preserve the factory NISMO/Akebono-style brake package unless condition requires repair.
 
 ## Power steering
