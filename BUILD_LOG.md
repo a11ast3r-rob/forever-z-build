@@ -3,6 +3,33 @@
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
 
+## 2026-09-24 — Ride feedback + phased chassis refresh
+
+New real-world observations:
+- highway cruising remains good,
+- no steering-wheel vibration noticed at highway speed,
+- normal roads can feel semi-jarring / rough,
+- some feedback is felt under harder braking.
+
+Plan update:
+- condition-based inspection before buying suspension parts,
+- cold tire pressure / tire condition first,
+- inspect dampers, bump stops, control-arm bushings, ball joints, tie rods, rear links/bushings, sway hardware, wheel-bearing play and rear diff bushing,
+- inspect pads, rotors, caliper hardware and hoses; measure rotor runout / thickness variation if the feedback points there,
+- do not assume shocks/bushings/bearings have failed because of 144k mileage,
+- subframe collars remain optional chassis stiffening rather than maintenance,
+- temporary stock-style dampers are acceptable only if current dampers are actually worn and the full air build is still far away.
+
+Final air direction refined:
+- Air Lift 76010 front + 76510 divorced rear,
+- ALP4 management with optional height sensing,
+- measured 2.5–3 gallon stealth tank target,
+- compact rubber-isolated compressor setup,
+- serviceable sound-deadened false floor,
+- eventual corner 10-inch sub frees under-floor/spare-well space for air management.
+
+Site and source docs were updated together so the live tracker and repo plan stay aligned.
+
 ## 2026-09-23 — Ownership phase + front-first audio plan
 
 The Z is home and the project has moved out of acquisition / transport mode.
