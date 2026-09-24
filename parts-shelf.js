@@ -18,8 +18,9 @@
 
     ['Cooling + longevity','Z1 370Z / G37 Oil Cooler Kit','PLANNED AFTER BASELINE','research','Observed oil temperature is about 220°F in current driving. Keep logging conditions; the cooler remains a longevity/thermal-margin plan rather than a reaction to one normal-use reading.','370Z/NISMO fitment • thermostatic 25-row direction',[['Z1 oil cooler','https://www.z1motorsports.com/z1-products/z1-motorsports/z1-motorsports-370z-g37-oil-cooler-kit-p-4135.html']]],
 
-    ['Air + alignment geometry','Air Lift Performance 76010 + 76510','Planned hardware','target','Front and rear Z34 air hardware tied to the hidden hatch/audio packaging plan.','76010 front • 76510 rear • adjustable dampers',[['Front 76010','https://www.airliftperformance.com/product/76010'],['Rear 76510','https://www.airliftperformance.com/product/76510']]],
-    ['Air + alignment geometry','Air Lift ALP4 — 27485','Management target','target','Current management target for the hidden dual-compressor/tank concept.','3/8-in airline management • tank/compressors separate',[['ALP4 27485','https://www.airliftperformance.com/product/27485'],['ALP4 system info','https://www.airliftperformance.com/product-lines/alp4']]],
+    ['Air + alignment geometry','Air Lift Performance 76010 + 76510','Planned hardware','target','Vehicle-specific Z34 air hardware for the final daily/show setup. Keep the 76510 divorced-rear layout by default rather than converting to a true rear without a compelling specialist reason.','76010 front • 76510 divorced rear • adjustable dampers',[['Front 76010','https://www.airliftperformance.com/product/76010'],['Rear 76510','https://www.airliftperformance.com/product/76510']]],
+    ['Air + alignment geometry','Air Lift ALP4 — 27485','Management target','target','Current management target for the stealth install. Start pressure-based if desired and keep the optional height-sensor path available for repeatable daily ride height.','3/8-in airline management • optional height sensing • tank/compressor separate',[['ALP4 27485','https://www.airliftperformance.com/product/27485'],['ALP4 system info','https://www.airliftperformance.com/product-lines/alp4']]],
+    ['Air + alignment geometry','2.5–3 gallon stealth tank + isolated compressor','MEASURE FIRST','research','Packaging target for the under-floor hatch install. Measure the actual spare-well / false-floor envelope before ordering; keep drain, manifold, wiring and compressor service access.','2.5–3 gal target • rubber-isolated compressor • serviceable false floor',[]],
     ['Air + alignment geometry','Z1 front upper control arms','Geometry','research','Front camber adjustability candidate for the final drive-height alignment.','Adjustable FUCA • buy only if final geometry needs it',[['View Z1 FUCA','https://www.z1motorsports.com/z1-products/z1-motorsports/z1-adjustable-front-upper-control-arms-370z-g37-q50-q60-p-11659.html']]],
     ['Air + alignment geometry','Z1 rear camber arms','Geometry','research','Rear camber correction candidate; final ride height and alignment numbers decide.','Adjustable rear camber • street setup priority',[['View Z1 camber arms','https://www.z1motorsports.com/z1-products/z1-motorsports/z1-370z-g37-adjustable-rear-camber-arms-p-10766.html']]],
     ['Air + alignment geometry','Z1 rear traction arms','Geometry','research','Rear-geometry shortlist item if final alignment behavior justifies the extra adjustability.','Adjustable rear traction arm • conditional purchase',[['View traction arms','https://www.z1motorsports.com/z1-products/z1-motorsports/z1-motorsports-370z-g37-adjustable-rear-traction-arms-p-12038.html']]],
@@ -32,7 +33,7 @@
     'Audio + sound treatment':'Do the deadening while the interior is apart',
     'Tires + future wheels':'Factory RAYS first; 57DR later',
     'Cooling + longevity':'Measure first; buy second',
-    'Air + alignment geometry':'One system, aligned at real drive height'
+    'Air + alignment geometry':'Inspect the 144k chassis first; build the stealth air system once'
   };
 
   const section = document.createElement('section');
