@@ -1,63 +1,47 @@
 # Forever Z Build
 
-A living build journal for a **2013 Nissan 370Z NISMO 6MT** that is now home, being driven, maintained and gradually built.
+Living ownership/build journal for the actual **2013 Pearl White Nissan 370Z NISMO 6MT**, now home in Missouri and being driven.
 
-## Current direction
+## Current state — 2026-09-28
 
-- 2013 Pearl White 370Z NISMO, 6-speed manual
-- 144k-mile ownership / mechanical baseline in progress
-- Car has been driven 150+ miles after delivery and is driving well
-- Current observed oil temperature: about 220°F while driving
-- Fresh valve-cover gasket service documented at 144,009 miles on 2026-09-11
-- Factory-size Continental ExtremeContact DWS06 Plus tire plan
-- Thermostatic 25-row oil-cooler direction after baseline data
-- Kenwood Excelon DMX809S + radio/install parts ordered
-- Front audio priority: KICKER KSS650 components + KEY200.4
-- Keep the factory Bose sub for now because it still sounds decent
-- Optional later bass upgrade: Wicked C.A.S. stealth 1×10 + KICKER CompRT 10 + mono amp
-- Air suspension later with real drive-height alignment
-- Two smaller hidden air reservoirs + dual electric compressors
-- Sound treatment integrated into the audio install
-- Battery-first home garage tool collection
-- Personalized Missouri plate direction: `46N2-Z`
-- Forever-car mentality: usable, serviceable, personal
+- ~144k-mile mechanical baseline in progress.
+- Highway cruising is good; no steering-wheel vibration noticed at speed.
+- Normal roads can feel rough/semi-jarring; some feedback is present under harder braking.
+- CEL/catalyst diagnosis is active. Comers found the driver-side exhaust flow lower than the other side but did not identify an obvious major failure; the converter is **not yet treated as confirmed bad**.
+- Standalone handheld ANCEL OBD-II scanner direction so diagnosis does not depend on a phone app.
+- Kenwood Excelon DMX809S + install/interface parts ordered.
+- KICKER 51KSS6504 front components ordered/inbound.
+- NVX NDA11005 5-channel amplifier selected; not marked purchased until confirmed.
+- NVX XKIT46 4-gauge OFC kit selected; user plans to get it, shipment not yet treated as confirmed.
+- Keep factory Bose sub for now.
+- Phase-1 sound treatment: ~36 sq ft butyl for doors + spare well, 1/8-inch closed-cell foam, roller and Tesa 51608; no MLV yet.
+- Continental DWS06 Plus plan: 245/40ZR19 front / 285/35ZR19 rear.
+- Air suspension remains a later stealth build after the chassis is inspected and tightened.
+- Current thermal observation: about 220°F oil temperature while driving; oil-pressure monitoring and a thermostatic 25-row cooler remain later longevity work.
 
-## Site
+## Live pages
 
-The GitHub Pages homepage is an interactive Mission Control for the actual owned car: current state, 144k baseline, build modules, cooling direction, audio plan, parts shelf, local browser progress, budgets, service notes, research links and scratchpad.
+- [Mission Control](index.html)
+- [Roadmap](roadmap.html)
+- [Maintenance / $25-$50-$100 plan](maintenance.html)
+- [Diagnostics / CEL + catalyst](diagnostics.html)
+- [Audio Build](audio.html)
+- [Chassis + Air](chassis.html)
+- [144k Baseline Worksheet](baseline.html)
+- [Tool Roadmap](tools.html)
 
-## Docs
+## Source docs
 
 - [Current State](CURRENT_STATE.md)
-- [CARFAX History Summary](CARFAX_HISTORY.md)
 - [144k Mechanical Baseline](MECHANICAL_BASELINE.md)
 - [Audio + Acoustic Plan](AUDIO_PLAN.md)
-- [Total Plan Audit](PLAN_AUDIT.md)
-- [End-to-End Checklist](CHECKLIST.md)
-- [Longevity + Fun Plan](LONGEVITY_AND_FUN.md)
-- [Expansion Plan](EXPANSION_PLAN.md)
-- [Build Log](BUILD_LOG.md)
-- [Current Roadmap](ROADMAP.md)
+- [Roadmap](ROADMAP.md)
 - [Parts & Fitment](PARTS.md)
 - [Build Decisions](DECISIONS.md)
+- [Build Log](BUILD_LOG.md)
 
-## How we'll maintain it
+## Operating rule
 
-Every meaningful change should do two things:
+**Learn the actual car before changing the car.** Real driving behavior, scanner evidence, measurements and inspection outrank generic “replace it at 144k” advice.
 
-1. Update the relevant current-plan document/site section.
-2. Add a dated note to `BUILD_LOG.md`.
-
-That keeps the website current while Git history and the build log preserve how the project evolved.
-
-## GitHub Pages
-
-The site deploys automatically from `main` through GitHub Actions.
-
-Live site:
-
-`https://a11ast3r-rob.github.io/forever-z-build/`
-
----
-
-The planning phase is over. Now the fun part is learning the actual car and improving it without ruining what makes the NISMO good.
+GitHub Pages: https://a11ast3r-rob.github.io/forever-z-build/

@@ -242,3 +242,34 @@ Current plan:
 - Custom subwoofer setup.
 - Sound deadening where it produces real benefit.
 - Coordinate audio packaging with hidden air management from the beginning.
+
+
+## 2026-09-28 — CEL diagnosis + cheap-maintenance plan + site expansion
+
+Real-car update:
+- CEL/catalyst-related code(s) appeared.
+- Comers found one side flowing better than the driver side, found no obvious major problem, suggested Sea Foam, and did not clear the light.
+- Driver-side converter is a diagnostic suspect, not a confirmed failed part.
+- Standalone handheld ANCEL scanner direction chosen so diagnosis does not require a phone app.
+- Road behavior remains: good highway cruising, no steering-wheel vibration at speed, rough/semi-jarring normal-road feel, some hard-braking feedback.
+
+Maintenance:
+- ~$25 cabin filter.
+- ~$50 cumulative engine filters + cabin filter + MAF cleaner only if useful.
+- ~$100 cumulative belt by condition + engine/cabin filters.
+- next bucket PCV inspection/renewal and plugs if ~120k NISMO interval cannot be proven.
+- Nissan 2013 NISMO plug interval verified at 60k miles / 48 months.
+- 2013 NISMO brake circuit uses R35 Special II factory-fill fluid.
+
+Audio:
+- DMX809S + install parts ordered.
+- KICKER 51KSS6504 fronts ordered/inbound.
+- NVX NDA11005 selected, not yet marked purchased.
+- NVX XKIT46 selected; user plans to get it, shipment not yet treated as confirmed.
+- Bose sub stays for now.
+- phase-1 treatment: ~36 sq ft butyl + 1/8-inch CCF + roller + Tesa 51608; no MLV yet.
+
+Site:
+- added Roadmap, Maintenance, Diagnostics, Audio and Chassis/Air pages,
+- updated homepage page-hub/navigation through site-extra.js,
+- updated current-state, mechanical, audio, roadmap, parts and decisions docs.
