@@ -74,6 +74,20 @@ This week's inspection:
 
 Decision rule: **no transmission removal just because of mileage**. If the CSC/hydraulics fail or the transmission must come out for another reason, inspect the disc, pressure plate, flywheel and release hardware while access is already paid for. An external-slave / CSC-delete conversion remains a serviceability option if the internal slave system forces the job.
 
+## CARFAX clock snapshot
+
+Last documented:
+- brake pads: 55,665 mi / 2017,
+- CSC: 56,535 mi / 2018,
+- brake fluid: 73,527 mi / 2019,
+- differential fluid/service: 73,527 mi / 2019,
+- power-steering fluid: 73,527 mi / 2019,
+- battery: 73,527 mi / 2019,
+- engine + cabin filters: 73,527 mi / 2019,
+- four tires + alignment: 89,649 mi / 2021.
+
+No CARFAX service record found for 6MT fluid or coolant change. Use receipts/current condition to prove later work; otherwise establish our own clocks.
+
 ## Fluids / clocks
 
 Verify records, then establish our own baseline as needed:
