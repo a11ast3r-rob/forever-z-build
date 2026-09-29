@@ -1,0 +1,65 @@
+<!doctype html><html><head><base target="_top"><style>
+:root{--bg:#090b0f;--panel:#151b24;--line:#2a3340;--text:#f7f8fb;--muted:#a4afbf;--red:#e43d46}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:980px;margin:auto;padding:18px 12px 80px}.hero{padding:22px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(135deg,rgba(228,61,70,.15),#111720)}
+h1{margin:4px 0 8px;font-size:38px}.muted{color:var(--muted);font-size:12px}.tabs{display:flex;gap:7px;flex-wrap:wrap;margin:14px 0}.tabs button,.btn{border:1px solid var(--line);background:#111720;color:var(--text);border-radius:11px;padding:10px 12px;font-weight:800}
+.panel{display:none}.panel.active{display:block}.card{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:14px;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.full{grid-column:1/-1}
+label{font-size:11px;color:var(--muted)}input,textarea,select{width:100%;margin-top:4px;border:1px solid var(--line);background:#0d131a;color:var(--text);border-radius:10px;padding:10px;font:inherit}textarea{min-height:90px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.status{margin-top:10px;font-size:12px;color:var(--muted)}
+.list{display:grid;gap:8px;margin-top:12px}.item{border:1px solid var(--line);border-radius:13px;padding:11px;background:#0d131a}.item b{display:block}.item small{color:var(--muted)}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.full{grid-column:auto}}
+</style></head><body><main>
+<section class="hero"><div class="muted">PRIVATE · GOOGLE-LOGIN CONTROL PLANE</div><h1>Forever Z</h1><div class="muted">Add records from the driveway. Only records marked Public are copied into the sanitized PublicFeed sheet.</div></section>
+<div class="tabs">
+<button onclick="show('update')">Update</button><button onclick="show('service')">Service</button><button onclick="show('part')">Part</button><button onclick="show('media')">Media</button><button onclick="publishFeed()">Publish feed</button>
+</div>
+
+<section id="update" class="panel active"><div class="card"><h2>New journal update</h2><div class="grid">
+<label>Date<input id="uDate" type="date"></label><label>Mileage<input id="uMiles" type="number"></label>
+<label class="full">Title<input id="uTitle"></label><label class="full">Summary<textarea id="uSummary"></textarea></label>
+<label>Category<input id="uCategory" value="Update"></label><label>Status<select id="uStatus"><option>Draft</option><option>Ready</option><option selected>Published</option><option>Archived</option></select></label>
+<label>Visibility<select id="uVisibility"><option>Private</option><option selected>Public</option></select></label><label>Share slug<input id="uSlug"></label>
+</div><div class="actions"><button class="btn" onclick="saveUpdate()">Save update</button></div></div></section>
+
+<section id="service" class="panel"><div class="card"><h2>Service record</h2><div class="grid">
+<label>Date<input id="sDate" type="date"></label><label>Mileage<input id="sMiles" type="number"></label>
+<label>Type<input id="sType" value="Maintenance"></label><label>Item / Part<input id="sItem"></label>
+<label>Brand<input id="sBrand"></label><label>Part number<input id="sPart"></label>
+<label>Shop / source<input id="sShop"></label><label>Cost<input id="sCost" type="number" step="0.01"></label>
+<label class="full">Notes<textarea id="sNotes"></textarea></label><label>Visibility<select id="sVisibility"><option>Private</option><option>Public</option></select></label>
+</div><div class="actions"><button class="btn" onclick="saveService()">Save service</button></div></div></section>
+
+<section id="part" class="panel"><div class="card"><h2>Part / purchase</h2><div class="grid">
+<label>Status<select id="pStatus"><option>Research</option><option>Selected</option><option>Ordered</option><option>Installed</option><option>Hold</option></select></label><label>Category<input id="pCategory"></label>
+<label class="full">Part<input id="pPart"></label><label>Brand<input id="pBrand"></label><label>Part number<input id="pNumber"></label>
+<label>Cost<input id="pCost" type="number" step="0.01"></label><label>Vendor<input id="pVendor"></label>
+<label>Ordered date<input id="pOrdered" type="date"></label><label>Installed date<input id="pInstalled" type="date"></label>
+<label>Visibility<select id="pVisibility"><option>Private</option><option>Public</option></select></label><label class="full">Public note<textarea id="pPublic"></textarea></label>
+<label class="full">Private note<textarea id="pPrivate"></textarea></label>
+</div><div class="actions"><button class="btn" onclick="savePart()">Save part</button></div></div></section>
+
+<section id="media" class="panel"><div class="card"><h2>Media</h2><div class="grid">
+<label>Date<input id="mDate" type="date"></label><label>Type<input id="mType" value="Photo"></label>
+<label class="full">Title<input id="mTitle"></label><label class="full">URL<input id="mUrl"></label>
+<label class="full">Caption<textarea id="mCaption"></textarea></label><label>Visibility<select id="mVisibility"><option>Private</option><option>Public</option></select></label>
+</div><div class="actions"><button class="btn" onclick="saveMedia()">Save media</button></div></div></section>
+
+<section class="card"><h2>Recent records</h2><div id="recent" class="list"><div class="muted">Loading…</div></div><div id="status" class="status"></div></section>
+</main><script>
+const $=id=>document.getElementById(id);
+function today(){return new Date().toISOString().slice(0,10)};['uDate','sDate','mDate'].forEach(x=>$(x).value=today());
+function show(id){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));$(id).classList.add('active')}
+function status(s){$('status').textContent=s}
+function done(data){status('Saved.');render(data)}
+function fail(e){status('Error: '+(e.message||e))}
+function load(){google.script.run.withSuccessHandler(render).withFailureHandler(fail).getDashboard()}
+function render(d){const all=[...(d.updates||[]).slice(0,4).map(x=>({t:x.Title,s:(x.Date||'')+' · '+(x.Visibility||'')})),...(d.service||[]).slice(0,3).map(x=>({t:x['Item / Part']||x.Type,s:(x.Date||'')+' · '+(x.Mileage||'')}))];$('recent').innerHTML=all.map(x=>'<div class="item"><b>'+esc(x.t)+'</b><small>'+esc(x.s)+'</small></div>').join('')||'<div class="muted">No records yet.</div>'}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function saveUpdate(){status('Saving…');google.script.run.withSuccessHandler(done).withFailureHandler(fail).saveUpdate({Date:$('uDate').value,Mileage:$('uMiles').value,Title:$('uTitle').value,Summary:$('uSummary').value,Category:$('uCategory').value,Status:$('uStatus').value,Visibility:$('uVisibility').value,ShareSlug:$('uSlug').value})}
+function saveService(){status('Saving…');google.script.run.withSuccessHandler(done).withFailureHandler(fail).saveService({Date:$('sDate').value,Mileage:$('sMiles').value,Type:$('sType').value,Item:$('sItem').value,Brand:$('sBrand').value,PartNumber:$('sPart').value,Shop:$('sShop').value,Cost:$('sCost').value,Notes:$('sNotes').value,Visibility:$('sVisibility').value})}
+function savePart(){status('Saving…');google.script.run.withSuccessHandler(done).withFailureHandler(fail).savePart({Status:$('pStatus').value,Category:$('pCategory').value,Part:$('pPart').value,Brand:$('pBrand').value,PartNumber:$('pNumber').value,Cost:$('pCost').value,Vendor:$('pVendor').value,OrderedDate:$('pOrdered').value,InstalledDate:$('pInstalled').value,Visibility:$('pVisibility').value,PublicNote:$('pPublic').value,PrivateNote:$('pPrivate').value})}
+function saveMedia(){status('Saving…');google.script.run.withSuccessHandler(done).withFailureHandler(fail).saveMedia({Date:$('mDate').value,Type:$('mType').value,Title:$('mTitle').value,URL:$('mUrl').value,Caption:$('mCaption').value,Visibility:$('mVisibility').value})}
+function publishFeed(){status('Publishing sanitized feed…');google.script.run.withSuccessHandler(x=>status('Public feed rebuilt: '+x.publishedAt)).withFailureHandler(fail).publishPublicFeed()}
+load();
+</script></body></html>

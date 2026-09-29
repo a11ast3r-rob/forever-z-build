@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>Forever Z</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html</link>
+<description>2013 Nissan 370Z NISMO build journal</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 28 Sep 2026 23:59:00 GMT</lastBuildDate>
+<item>
+<title>Engine history audit completed</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-engine-history-audit</link>
+<guid>forever-z-2026-09-28-engine-history</guid>
+<pubDate>Mon, 28 Sep 2026 20:00:00 GMT</pubDate>
+<description>The VIN-specific CARFAX was re-audited. No spark-plug or ignition-coil replacement is documented, so plugs move onto the baseline list while coils remain diagnosis-only.</description>
+</item>
+<item>
+<title>Catalyst code: diagnose before buying parts</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-catalyst-diagnosis</link>
+<guid>forever-z-2026-09-28-catalyst</guid>
+<pubDate>Mon, 28 Sep 2026 18:00:00 GMT</pubDate>
+<description>A catalyst-related CEL is being worked from evidence first; the converter is not yet confirmed failed.</description>
+</item>
+<item>
+<title>Front-stage refresh is underway</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-front-stage-refresh</link>
+<guid>forever-z-2026-09-23-audio</guid>
+<pubDate>Wed, 23 Sep 2026 18:00:00 GMT</pubDate>
+<description>Kenwood and KICKER front-stage parts are on the way; the factory Bose sub stays temporarily.</description>
+</item>
+</channel>
+</rss>
