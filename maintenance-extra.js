@@ -40,6 +40,15 @@
     list.appendChild(item);
   };
 
+  const updateClutchHistory = () => {
+    const list = document.querySelector('#car .history-list');
+    if (!list) return;
+    const existing = [...list.querySelectorAll('.history-item')].find(item => item.textContent.includes('56,535 mi') && item.textContent.toLowerCase().includes('clutch slave cylinder'));
+    if (!existing) return;
+    const detail = existing.querySelector('span');
+    if (detail) detail.textContent = 'CARFAX for VIN JN1AZ4EH8DM382151 documents the CSC replaced January 16, 2018. No clutch disc, pressure plate, flywheel or clutch-master replacement is documented in the available CARFAX. At roughly 144k miles, this replacement CSC has about 87k miles of use, so inspect the system closely but do not replace a clutch that is still behaving well.';
+  };
+
   const landingCards = `
     <div class="section-head"><div><div class="eyebrow">JOPLIN LANDING PLAN</div><h2>Arrival, paperwork and the first boring miles</h2></div><span class="muted">Make it legal, document what arrived, then learn the car.</span></div>
     <div class="grid three">
@@ -48,7 +57,7 @@
       <article class="card"><div class="top"><h3>As-delivered modification audit</h3><span class="status s-amber">IDENTIFY FIRST</span></div><p>Photograph the engine bay and underside before buying parts. Confirm whether the dual intake boxes/tubes are OEM, whether the exhaust/cats/muffler are factory NISMO pieces, and whether the suspension has OEM springs/dampers or aftermarket springs/coilovers. Also note wheel spacers/lugs, brake hardware, wiring, audio changes and anything that looks freshly disturbed.</p><div class="module-meta"><span class="mini">intakes</span><span class="mini">exhaust + cats</span><span class="mini">springs / coilovers</span><span class="mini">wiring + audio</span></div></article>
       <article class="card"><div class="top"><h3>Daily-driver rules</h3><span class="status s-green">KEEP IT EASY</span></div><p>After startup, drive gently while the drivetrain comes up to temperature; save high RPM and heavy load until oil temperature is established. Approach steep driveways and speed bumps diagonally when clearance requires it. Our conservative ownership target is oil/filter about every 4,000 miles or 6 months, whichever comes first, while using condition/history to avoid pointless duplicate service.</p><div class="module-meta"><span class="mini">warm gently</span><span class="mini">protect NISMO lip</span><span class="mini">4k / 6mo owner target</span><span class="mini">log every service</span></div></article>
       <article class="card"><div class="top"><h3>Fresh valve-cover work</h3><span class="status s-green">DONE · VERIFY</span></div><p>The valve-cover gasket(s) were replaced September 11, 2026 at 144,009 miles. On arrival, inspect the rear/outer cover seams for fresh oil, then recheck after several heat cycles and during routine under-hood checks. A dry repair stays in the “done” column; no reason to reopen it.</p><div class="module-meta"><span class="mini">09/11/2026</span><span class="mini">144,009 mi</span><span class="mini">watch for re-seep</span></div></article>
-      <article class="card"><div class="top"><h3>Clutch + rear diff watch items</h3><span class="status s-amber">KNOWN Z34 ITEMS</span></div><p>Keep the clutch reservoir clean and at the proper level. For this car, Nissan specifies Genuine Nissan Super Heavy Duty Brake Fluid or equivalent <b>DOT 3</b> for the clutch circuit; do not turn “DOT 4” into a blind requirement. Keep watching the rear differential bushing for dark silicone-fluid streaking or excess movement and replace only if evidence says it is failing.</p><div class="module-meta"><span class="mini">clutch fluid · DOT 3 OEM spec</span><span class="mini">CSC behavior</span><span class="mini">diff bushing leak / movement</span></div><p style="margin-bottom:0"><a href="${ownerManual}" target="_blank" rel="noopener noreferrer">2013 Nissan owner manual ↗</a></p></article>
+      <article class="card"><div class="top"><h3>Clutch + CSC history</h3><span class="status s-amber">INSPECT, DON'T PANIC</span></div><p>CARFAX for our VIN documents the <b>clutch slave cylinder replaced 01/16/2018 at 56,535 miles</b>. No clutch disc, pressure plate, flywheel or clutch-master replacement is documented in the available report. At roughly 144k miles, that CSC has about 87k miles on it. The clutch currently seems to bite well, so our move is to inspect behavior and hydraulics before buying parts.</p><div class="module-meta"><span class="mini">CSC replaced · 56,535 mi</span><span class="mini">~87k mi on replacement</span><span class="mini">friction clutch history unknown</span><span class="mini">inspect first</span></div><p style="margin-bottom:0"><a href="${ownerManual}" target="_blank" rel="noopener noreferrer">2013 Nissan owner manual ↗</a></p></article>
     </div>`;
 
   const rideRefreshCards = `
@@ -62,8 +71,21 @@
       <article class="card"><div class="top"><h3>Audio + air share the hatch</h3><span class="status s-blue">ONE PLAN</span></div><p>Keep the working Bose sub for now. When air management is installed, the eventual corner-mounted 10-inch sub can handle bass while the spare-well / under-floor area is dedicated to the air system. Use rubber compressor isolation and keep drains, manifold, wiring and service points accessible.</p><div class="module-meta"><span class="mini">Bose now</span><span class="mini">corner 10 later</span><span class="mini">isolated compressor</span><span class="mini">serviceable false floor</span></div></article>
     </div>`;
 
+
+  const clutchCards = `
+    <div class="section-head"><div><div class="eyebrow">CLUTCH / CSC WATCH</div><h2>Known CSC history. Unknown friction-clutch history. Inspect before spending.</h2></div><span class="status s-amber">CURRENTLY DRIVABLE</span></div>
+    <div class="grid three">
+      <article class="card"><div class="top"><h3>What CARFAX actually proves</h3><span class="status s-green">DOCUMENTED</span></div><p>Our VIN-specific CARFAX records a <b>clutch slave cylinder replacement on January 16, 2018 at 56,535 miles</b>. The available report does not document a clutch disc, pressure plate, flywheel or clutch-master replacement.</p><div class="module-meta"><span class="mini">01/16/2018</span><span class="mini">56,535 mi</span><span class="mini">CSC replaced</span><span class="mini">no friction-clutch receipt</span></div></article>
+      <article class="card"><div class="top"><h3>Why we are watching it</h3><span class="status s-amber">~87K ON CSC</span></div><p>At roughly 144k miles today, the documented replacement CSC has about 87k miles of use. That is enough age/mileage to justify close observation, but not a reason by itself to pull the transmission.</p><div class="module-meta"><span class="mini">pedal consistency</span><span class="mini">fluid level</span><span class="mini">hot behavior</span><span class="mini">leak check</span></div></article>
+      <article class="card"><div class="top"><h3>Current driving clue</h3><span class="status s-green">BITE FEELS GOOD</span></div><p>Current owner impression is that the clutch still bites well. This week, note the bite point, whether RPM ever flares without matching acceleration, whether 1st/reverse engagement changes hot, and whether the pedal always returns fully.</p><div class="module-meta"><span class="mini">cold vs hot</span><span class="mini">bite point</span><span class="mini">no RPM flare</span><span class="mini">full pedal return</span></div></article>
+      <article class="card"><div class="top"><h3>Driveway / lift inspection</h3><span class="status s-red">NEXT</span></div><p>Check clutch-fluid level and color, master-cylinder area at the firewall/pedal, hydraulic line condition and the bellhousing area for evidence of leakage. Compare pedal-up versus pedal-down noise at idle and record anything repeatable.</p><div class="module-meta"><span class="mini">reservoir</span><span class="mini">master area</span><span class="mini">hydraulic line</span><span class="mini">bellhousing</span></div></article>
+      <article class="card"><div class="top"><h3>Replacement gate</h3><span class="status s-blue">EVIDENCE FIRST</span></div><p>Do not buy a clutch solely because the odometer says 144k. Replacement becomes justified by slip, poor release, repeatable hydraulic problems, contamination, noise/inspection evidence, or if transmission removal exposes a worn friction package that would be wasteful to reinstall.</p><div class="module-meta"><span class="mini">no parts cannon</span><span class="mini">inspect if trans comes out</span><span class="mini">avoid duplicate labor</span></div></article>
+      <article class="card"><div class="top"><h3>If the CSC forces the issue</h3><span class="status s-blue">CONTINGENCY</span></div><p>If the internal slave system fails or the transmission must come out, inspect the disc, pressure plate, flywheel and release hardware while access is already paid for. An external-slave / CSC-delete conversion remains a strong serviceability option for the long-term daily-driver build.</p><div class="module-meta"><span class="mini">inspect full clutch pack</span><span class="mini">serviceability first</span><span class="mini">external slave option</span></div></article>
+    </div>`;
+
   if (filename === 'index.html' || filename === '') {
     addRecentServiceHistory();
+    updateClutchHistory();
 
     setSmall('[data-check="transport-photos"]', 'Before moving it: all four corners, roof, windshield, wheels, NISMO front lip / bumper underside, rocker edges, visible underside and odometer. Photograph any loading-ramp scrape immediately.');
     setSmall('[data-check="damage-compare"]', 'Compare every panel, wheel and the low front aero to dealer photos. Also look at the pavement under the engine/transmission/rear diff for fresh transport-day drips before driving away.');
@@ -88,6 +110,7 @@
       }
 
       addSectionAfter(mechanical, 'fz-current-ride', rideRefreshCards);
+      addSectionAfter(mechanical, 'fz-clutch-watch', clutchCards);
 
       addCoverageNote(mechanical, 'fz-144k-coverage', `<b>144k / age coverage — do not skip:</b> brake hoses + hard lines • steering rack boots/linkage and power-steering lines • fuel lines/connections and vapor hoses • upper/lower radiator hoses, clamps and cap • belt tensioner/idlers • engine + cabin filters • alignment/ride-height check if tire wear, pull, steering-center or handling suggests it. <b>This is inspection-first, not a parts cannon.</b> Nissan's 2013 guide lists NISMO spark-plug replacement at 60,000 miles / 48 months. Our VIN-specific CARFAX audit found no documented plug replacement, so at 144k we establish a fresh baseline with six correct plugs and inspect coils rather than shotgun-replacing them. <a href="${officialGuide}" target="_blank" rel="noopener noreferrer">Official Nissan 2013 maintenance guide ↗</a>`);
     }
@@ -105,6 +128,7 @@
 
     const arrivalSection = document.querySelector('[data-key="arrival.transportPhotos"]')?.closest('section');
     addSectionAfter(arrivalSection, 'fz-baseline-joplin', landingCards);
+    addSectionAfter(arrivalSection, 'fz-baseline-clutch', clutchCards);
 
     const plugLabel = [...document.querySelectorAll('#services b')].find(el => el.textContent.includes('NISMO spark plugs'));
     if (plugLabel) plugLabel.textContent = 'NISMO spark plugs — 60k interval / no replacement documented';
@@ -119,7 +143,7 @@
     if (brakeText) brakeText.placeholder = 'Pad thickness, rotors, calipers, flexible hoses, hard lines and fluid condition.';
 
     const clutchText = document.querySelector('#systems textarea[placeholder*="master / CSC"]');
-    if (clutchText) clutchText.placeholder = 'Engagement, slip, hot/cold pedal return, fluid level/condition, and identify whether the 2017 master/slave repair left an OEM-style internal CSC, HD internal CSC, or external/CMAK-style conversion; clutch-fluid OEM spec is Nissan Super Heavy Duty or equivalent DOT 3.';
+    if (clutchText) clutchText.placeholder = 'Engagement, slip, hot/cold pedal return, bite point, fluid level/condition, master-cylinder area, hydraulic line and bellhousing leak evidence. CARFAX documents the CSC replaced 01/16/2018 at 56,535 mi; no clutch disc, pressure plate, flywheel or clutch-master replacement is documented in the available report.';
 
     const serviceGrid = document.querySelector('#services');
     addSectionAfter(serviceGrid?.closest('section') || serviceGrid?.parentElement, 'fz-baseline-ride', rideRefreshCards);
