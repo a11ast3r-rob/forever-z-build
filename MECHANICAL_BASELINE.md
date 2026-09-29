@@ -18,12 +18,23 @@ Inspect first. Establish unknown maintenance clocks. Replace confirmed wear. The
 
 ### Engine
 - Recheck the fresh 2026-09-11 valve-cover-gasket repair for seepage.
+- Inspect all six plug wells when the plugs come out; they should be dry after the fresh gasket work.
 - Oil level/condition and consumption log.
 - Belt, tensioner/idlers and PCV system.
 - Intake tubes/airboxes/MAF condition.
 - Cooling-system pressure/condition check.
 - Battery/charging and engine/chassis grounds.
 - Compression/leak-down only if symptoms or evidence justify escalation.
+
+## CARFAX engine-history correction
+
+The VIN-specific records audit on 2026-09-28 corrected a cross-file mixup. The previously discussed 97,797-mile spark-plug / ignition-coil replacement belonged to a different **2009 370Z candidate**, not VIN **JN1AZ4EH8DM382151**.
+
+For our actual 2013 NISMO:
+- no spark-plug replacement is documented in the CARFAX records currently available,
+- no ignition-coil replacement is documented,
+- May 22, 2026 at 140,777 mi documents oil/filter service,
+- September 11, 2026 at 144,009 mi documents valve-cover gasket(s) replaced.
 
 ## Easy / cheap baseline items
 
@@ -32,9 +43,15 @@ Inspect first. Establish unknown maintenance clocks. Replace confirmed wear. The
 - Cabin air filter.
 - Accessory belt if age is unknown or condition is not excellent.
 - PCV valves/hoses by condition.
+- **Spark plugs ×6 with the correct quality/OE-spec part.**
 
-### Spark plugs
-Nissan specifies **60,000 miles / 48 months** for 2013 NISMO spark plugs. Verify the ~120k service; if it cannot be proven, plan replacement with the correct quality plugs.
+### Spark plugs / coils
+
+Nissan specifies **60,000 miles / 48 months** for 2013 NISMO spark plugs.
+
+Because no replacement is documented for our VIN in the records we have, establish our own baseline now rather than assuming the ~60k or ~120k service happened.
+
+Coils are different: do **not** replace all six simply because of mileage. Inspect boots/connectors, look for oil contamination, and use cylinder-specific misfire evidence to justify replacement.
 
 ## Fluids / clocks
 

@@ -28,6 +28,26 @@ CARFAX documents **2026-09-11 at 144,009 miles**:
 
 Treat the valve-cover work as fresh. Inspect for re-seep after heat cycles; do not repeat a newly documented repair without evidence.
 
+CARFAX also highlights **2026-05-22 at 140,777 miles**:
+- maintenance inspection,
+- oil/filter changed.
+
+## Engine-history audit — corrected Sep 28
+
+The earlier 97,797-mile “spark plug(s) / ignition coil(s) replaced” item was traced to a different **2009 370Z candidate CARFAX**, not our NISMO.
+
+For VIN **JN1AZ4EH8DM382151**, the records currently available contain:
+- **no documented spark-plug replacement,**
+- **no documented ignition-coil replacement.**
+
+Plan consequence:
+- put six correct NISMO/VQ37VHR plugs on the baseline list now,
+- inspect coils/boots/connectors and plug wells while open,
+- do not shotgun six coils without misfire/physical evidence,
+- verify the fresh valve-cover job left the plug wells dry.
+
+Full project page: **engine-history.html**.
+
 ## Active CEL / catalyst issue — Sep 28
 
 The CEL produced catalytic-converter-related code(s).
@@ -75,11 +95,15 @@ Exact ANCEL model is not locked yet.
 - Cabin filter.
 - Inspect tensioner/idlers while open.
 
+### Ignition baseline
+- Six correct spark plugs: **plan to do now** because no replacement is documented for our VIN.
+- Inspect all six coils; replace only with evidence.
+- Inspect plug wells for oil after the fresh valve-cover-gasket service.
+
 ### Next bucket
 - PCV valves/hoses by condition.
-- Spark plugs if the most recent NISMO interval cannot be proven.
 
-Nissan's 2013 maintenance guide specifies **60,000 miles / 48 months** for NISMO spark plugs. At ~144k, proof of the ~120k interval matters.
+Nissan's 2013 maintenance guide specifies **60,000 miles / 48 months** for NISMO spark plugs.
 
 ## Fluids / clock reset
 

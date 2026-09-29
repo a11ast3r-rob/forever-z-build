@@ -80,16 +80,16 @@
     const mechanical = document.querySelector('#mechanical');
     if (mechanical) {
       const plugMini = [...mechanical.querySelectorAll('.mini')].find(el => el.textContent.toLowerCase().includes('spark plugs'));
-      if (plugMini) plugMini.textContent = 'NISMO plugs: 60k interval • confirm ~120k service';
+      if (plugMini) plugMini.textContent = 'NISMO plugs: 60k interval • no replacement documented';
 
       const resetNote = [...mechanical.querySelectorAll('.note')].find(el => el.textContent.includes('Likely first-month clock reset'));
       if (resetNote) {
-        resetNote.innerHTML = '<b>Likely first-month clock reset unless receipts prove otherwise:</b> manual-trans fluid • differential fluid • brake fluid • clutch fluid • coolant if age unknown • power-steering fluid by condition/history • <b>NISMO spark plugs if there is no proof of the ~120k service</b> (Nissan specifies 60,000 mi / 48 months for the NISMO) • engine + cabin filters • drive belt, tensioner/idlers and PCV by condition. Oil/filter service was documented in May 2026, and valve-cover gasket service was documented 09/11/2026 at 144,009 miles, so verify those items rather than paying to repeat fresh work.';
+        resetNote.innerHTML = '<b>Likely first-month clock reset unless receipts prove otherwise:</b> manual-trans fluid • differential fluid • brake fluid • clutch fluid • coolant if age unknown • power-steering fluid by condition/history • <b>NISMO spark plugs — the correct CARFAX has no documented plug replacement</b> (Nissan specifies 60,000 mi / 48 months for the NISMO) • engine + cabin filters • drive belt, tensioner/idlers and PCV by condition. Oil/filter service was documented in May 2026, and valve-cover gasket service was documented 09/11/2026 at 144,009 miles, so verify those items rather than paying to repeat fresh work.';
       }
 
       addSectionAfter(mechanical, 'fz-current-ride', rideRefreshCards);
 
-      addCoverageNote(mechanical, 'fz-144k-coverage', `<b>144k / age coverage — do not skip:</b> brake hoses + hard lines • steering rack boots/linkage and power-steering lines • fuel lines/connections and vapor hoses • upper/lower radiator hoses, clamps and cap • belt tensioner/idlers • engine + cabin filters • alignment/ride-height check if tire wear, pull, steering-center or handling suggests it. <b>This is inspection-first, not a parts cannon.</b> Nissan's 2013 guide lists NISMO spark-plug replacement at 60,000 miles / 48 months, so at 144k we want documentation of the ~120k service or we establish a fresh baseline. <a href="${officialGuide}" target="_blank" rel="noopener noreferrer">Official Nissan 2013 maintenance guide ↗</a>`);
+      addCoverageNote(mechanical, 'fz-144k-coverage', `<b>144k / age coverage — do not skip:</b> brake hoses + hard lines • steering rack boots/linkage and power-steering lines • fuel lines/connections and vapor hoses • upper/lower radiator hoses, clamps and cap • belt tensioner/idlers • engine + cabin filters • alignment/ride-height check if tire wear, pull, steering-center or handling suggests it. <b>This is inspection-first, not a parts cannon.</b> Nissan's 2013 guide lists NISMO spark-plug replacement at 60,000 miles / 48 months. Our VIN-specific CARFAX audit found no documented plug replacement, so at 144k we establish a fresh baseline with six correct plugs and inspect coils rather than shotgun-replacing them. <a href="${officialGuide}" target="_blank" rel="noopener noreferrer">Official Nissan 2013 maintenance guide ↗</a>`);
     }
     return;
   }
@@ -107,7 +107,7 @@
     addSectionAfter(arrivalSection, 'fz-baseline-joplin', landingCards);
 
     const plugLabel = [...document.querySelectorAll('#services b')].find(el => el.textContent.includes('NISMO spark plugs'));
-    if (plugLabel) plugLabel.textContent = 'NISMO spark plugs — 60k interval / confirm ~120k service';
+    if (plugLabel) plugLabel.textContent = 'NISMO spark plugs — 60k interval / no replacement documented';
 
     const coolingText = document.querySelector('#systems textarea[placeholder*="Radiator, fans, hoses"]');
     if (coolingText) coolingText.placeholder = 'Radiator, fans, upper/lower hoses, clamps, radiator cap, pressure test, factory engine oil heat exchanger, P/S cooler/lines and observed temps.';
@@ -125,7 +125,7 @@
     addSectionAfter(serviceGrid?.closest('section') || serviceGrid?.parentElement, 'fz-baseline-ride', rideRefreshCards);
     if (serviceGrid) {
       const host = serviceGrid.closest('section') || serviceGrid.parentElement;
-      addCoverageNote(host, 'fz-baseline-coverage', `<b>Age/mileage items explicitly covered:</b> brake hoses/hard lines • steering rack boots/linkage • power-steering hoses/lines • fuel lines/connections + vapor hoses • radiator hoses/clamps/cap • engine/cabin filters • drive belt, tensioner/idlers + PCV • alignment only when wear/pull/steering-center evidence calls for it. <b>NISMO plug rule:</b> Nissan's 2013 guide specifies 60,000 miles / 48 months; at 144k, verify the ~120k service or replace to establish the baseline. <b>Fresh-work rule:</b> valve-cover gasket(s) were replaced 09/11/2026 at 144,009 miles, so inspect for a re-seep rather than repeating the repair. <a href="${officialGuide}" target="_blank" rel="noopener noreferrer">Official Nissan guide ↗</a>`);
+      addCoverageNote(host, 'fz-baseline-coverage', `<b>Age/mileage items explicitly covered:</b> brake hoses/hard lines • steering rack boots/linkage • power-steering hoses/lines • fuel lines/connections + vapor hoses • radiator hoses/clamps/cap • engine/cabin filters • drive belt, tensioner/idlers + PCV • alignment only when wear/pull/steering-center evidence calls for it. <b>NISMO plug rule:</b> Nissan's 2013 guide specifies 60,000 miles / 48 months; the correct CARFAX has no documented replacement, so establish the baseline now with six correct plugs. Inspect the coils while open; do not replace all six without evidence. <b>Fresh-work rule:</b> valve-cover gasket(s) were replaced 09/11/2026 at 144,009 miles, so inspect for a re-seep rather than repeating the repair. <a href="${officialGuide}" target="_blank" rel="noopener noreferrer">Official Nissan guide ↗</a>`);
     }
   }
 })();
