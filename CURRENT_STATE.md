@@ -134,6 +134,34 @@ Verify before replacing, then establish a known baseline as needed:
 
 The 2013 NISMO factory-fill brake fluid is **Genuine Nissan R35 Special II**. The clutch reservoir has its own factory fluid requirement; do not treat the two circuits as the same shopping item.
 
+## Inherited service clocks from CARFAX — Sep 28
+
+Bumper-to-bumper audit added to **history.html**.
+
+Important last-documented items:
+- front/rear brake pads: **55,665 mi (2017)**,
+- clutch slave cylinder: **56,535 mi (2018)**,
+- brake fluid: **73,527 mi (2019)**,
+- differential fluid/service: **73,527 mi (2019)**,
+- power-steering fluid: **73,527 mi (2019)**,
+- battery: **73,527 mi (2019)**,
+- engine + cabin filters: **73,527 mi (2019)**,
+- four tires + alignment: **89,649 mi (2021)**,
+- oil/filter: **140,777 mi (May 2026)**,
+- valve-cover gasket(s): **144,009 mi (Sep 2026)**.
+
+No service is documented for:
+- 6MT fluid,
+- coolant change,
+- spark plugs/coils,
+- drive belt/tensioner/idlers,
+- suspension/hubs,
+- catalytic converters/O2/A/F sensors.
+
+The 2018 CARFAX damage event specifically identifies **minor front + undercarriage damage**. The 2023 event is also minor but the available copy does not expose a useful location.
+
+Plan consequence: verify current parts/receipts first, then reset the old/unknown clocks instead of assuming everything is original.
+
 ## Audio — current exact status
 
 ### Confirmed ordered
