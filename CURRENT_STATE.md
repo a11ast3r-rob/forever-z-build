@@ -48,6 +48,23 @@ Plan consequence:
 
 Full project page: **engine-history.html**.
 
+## Clutch / CSC history — Sep 28
+
+CARFAX for VIN **JN1AZ4EH8DM382151** documents:
+- **01/16/2018 at 56,535 miles — clutch slave cylinder replaced.**
+- No clutch-disc, pressure-plate, flywheel or clutch-master-cylinder replacement is documented in the available report.
+
+At roughly 144k miles, the replacement CSC has about **87k miles** on it.
+
+Current owner impression: the clutch still seems to bite well. This week is inspection/data-gathering, not automatic replacement:
+- note cold/hot bite point and pedal return,
+- watch for RPM flare / slip,
+- check 1st and reverse engagement hot,
+- inspect clutch fluid, master area, hydraulic line and bellhousing for leakage,
+- note pedal-up versus pedal-down noise.
+
+If transmission removal becomes necessary, inspect the whole friction package while it is accessible and consider an external-slave / CSC-delete conversion for future serviceability.
+
 ## Active CEL / catalyst issue — Sep 28
 
 The CEL produced catalytic-converter-related code(s).
