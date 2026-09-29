@@ -53,6 +53,27 @@ Because no replacement is documented for our VIN in the records we have, establi
 
 Coils are different: do **not** replace all six simply because of mileage. Inspect boots/connectors, look for oil contamination, and use cylinder-specific misfire evidence to justify replacement.
 
+## Clutch / CSC finding
+
+VIN-specific CARFAX evidence:
+- **January 16, 2018 at 56,535 miles:** clutch slave cylinder replaced.
+- No clutch-disc, pressure-plate, flywheel or clutch-master-cylinder replacement is documented in the available CARFAX.
+- At roughly 144k miles today, the documented replacement CSC has about **87k miles of use**.
+
+Current owner impression: the clutch still seems to bite well. Treat that as a good sign to verify, not proof that every clutch component is original or healthy.
+
+This week's inspection:
+- note bite point cold and fully warm,
+- verify the pedal returns fully every time,
+- watch for RPM flare without matching acceleration,
+- note any change in 1st/reverse engagement once hot,
+- check clutch-fluid level and condition,
+- inspect the clutch master area / firewall and hydraulic line,
+- inspect the bellhousing area for leak evidence,
+- compare idle noise with the pedal up versus down.
+
+Decision rule: **no transmission removal just because of mileage**. If the CSC/hydraulics fail or the transmission must come out for another reason, inspect the disc, pressure plate, flywheel and release hardware while access is already paid for. An external-slave / CSC-delete conversion remains a serviceability option if the internal slave system forces the job.
+
 ## Fluids / clocks
 
 Verify records, then establish our own baseline as needed:
