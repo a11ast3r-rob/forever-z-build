@@ -41,6 +41,100 @@ The PDF copy available to us exposes detailed service entries through late 2022 
 
 ---
 
+# Bumper-to-bumper system history
+
+## Brakes
+Documented:
+- **2017-12-15 at 55,665 mi:** front brake pads replaced; rear brake pads replaced; rear brakes replaced/serviced/adjusted.
+- **2019-08-20 at 73,527 mi:** brake fluid flushed/changed.
+
+No later pad, rotor, caliper, hose or brake-fluid service is documented in the CARFAX copy we have. At 144,009 mi, the pad replacement is roughly 88,344 miles back and the fluid service roughly 70,482 miles back. That does not prove the current parts are that old; it means the current brakes should be measured and the fluid clock should be verified/reset if no newer receipt exists.
+
+## Clutch / transmission
+Documented:
+- **2018-01-16 at 56,535 mi:** clutch slave cylinder replaced.
+
+Not documented:
+- clutch disc,
+- pressure plate,
+- flywheel,
+- clutch master cylinder,
+- manual-transmission repair,
+- 6MT fluid service.
+
+At 144,009 mi, the documented replacement CSC has about **87,474 miles** of use. Current owner impression is that the clutch still bites well, so inspect pedal behavior/hydraulics rather than replacing it by mileage.
+
+## Differential / steering
+Documented:
+- **2019-08-20 at 73,527 mi:** differential fluid flushed/changed; differential serviced; rear differential fluid flushed/changed; power-steering fluid flushed/changed.
+
+No later service is documented in the available report. Those entries are about 70,482 miles behind the 144,009-mile reference point, making the differential a strong baseline candidate if no newer proof exists. Power-steering fluid/lines are condition-based inspection items.
+
+## Tires / alignment
+Documented milestones:
+- **2015-06-10 at 20,352 mi:** four-wheel alignment.
+- **2016-08-18 at 38,298 mi:** alignment; three tires mounted.
+- **2017-12-15 at 55,665 mi:** four tires mounted; alignment/four-wheel alignment.
+- **2019-08-20 at 73,527 mi:** four tires replaced/balanced; four-wheel alignment; rotation/check.
+- **2021-03-10 at 89,649 mi:** four tires mounted; four-wheel alignment.
+
+The last explicit tire set in CARFAX is about 54,360 miles before 144,009. The installed tires may be newer off-CARFAX, so use tread depth, wear pattern and DOT date codes rather than assuming they are the 2021 set.
+
+## Battery / electrical
+Documented:
+- **2016-06-17 at 35,568 mi:** battery replaced.
+- **2019-08-20 at 73,527 mi:** battery replaced.
+- **2021-12-09 at 96,913 mi:** light bulb(s) replaced.
+
+No alternator or starter replacement is documented. Test the installed battery and charging system; do not assume the current battery is the 2019 unit without checking its date code.
+
+## Filters / fuel
+Documented:
+- **2018-06-19 at 61,479 mi:** engine air filter and cabin filter replaced/cleaned.
+- **2019-08-20 at 73,527 mi:** engine air filter and cabin filter replaced/cleaned; fuel system cleaned/serviced.
+
+Because no later filter replacement is exposed in the records we have, engine and cabin filters are cheap inspection/replacement baseline items.
+
+## Cooling / accessory drive
+No CARFAX record found for:
+- coolant change,
+- radiator replacement,
+- water-pump replacement,
+- thermostat replacement,
+- drive/accessory-belt replacement,
+- tensioner or idler replacement.
+
+This creates unknown clocks, not proof the original parts remain installed.
+
+## Suspension / hubs
+No CARFAX record found for:
+- shocks/struts,
+- springs,
+- control arms,
+- suspension bushings,
+- ball joints,
+- sway links/bushings,
+- wheel bearings/hubs.
+
+The current rough/semi-jarring road feel therefore gets a condition-based chassis inspection rather than a CARFAX-derived parts order.
+
+## Exhaust / emissions
+No CARFAX record found for:
+- catalytic converters,
+- exhaust replacement,
+- O2/A/F sensors.
+
+That matters for the current catalyst-related CEL: there is no documented converter replacement to lean on, so diagnosis starts with current codes/freeze frame/live data.
+
+## Damage / body / undercarriage
+- **2018-07-05:** minor damage reported to the **front and undercarriage**.
+- **2018-07-21 at 61,627 mi:** maintenance inspection and wash/detail; CARFAX does not name a collision repair.
+- **2023-06-01:** another minor-damage event; the report copy we have does not expose a useful damage location.
+
+CARFAX reports no total loss and no airbag deployment. It also recommends a collision-repair inspection in the structural-damage section rather than giving us a component-level structural repair record. The practical response is direct inspection of the front/undercarriage, alignment evidence and any old repair work.
+
+---
+
 # Engine-related service history
 
 | Date | Mileage | CARFAX engine-related record |
@@ -153,4 +247,4 @@ Because the car now has a catalyst-related CEL and Comers observed lower driver-
 6. Save CEL evidence before clearing and compare both banks before condemning the driver-side catalyst.
 7. Record every service from here forward with date, mileage and part numbers.
 
-See the public project page: **engine-history.html**.
+See the public project pages: **history.html** for the bumper-to-bumper record and **engine-history.html** for engine-only detail.
