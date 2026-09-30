@@ -3,6 +3,29 @@
 This file preserves the chronological history. The website shows the current plan; this log shows how we got there.
 
 
+## 2026-09-29 — ANCEL confirms both-bank catalyst codes + Phase 0 repair order
+
+New evidence:
+- standalone ANCEL scanner is now in use,
+- exported DTCs confirm **P0420 Bank 1** and **P0430 Bank 2** catalyst-efficiency faults,
+- P0420 also appeared on a separate scan,
+- owner reports there are **no maintenance papers/receipts in the car** beyond the owner manual.
+
+Plan change:
+- six correct spark plugs move to **do now** because the actual 2013 NISMO CARFAX does not document plug replacement,
+- inspect plug wells, coil boots/connectors and coils while open; do not shotgun coils,
+- save Mode $06/freeze-frame/readiness evidence and check misfire data, fuel trims, intake/exhaust leaks and both-bank sensor behavior,
+- after baseline work, clear the DTCs once and run a normal drive cycle,
+- if P0420/P0430 return with engine-side checks clean, proceed toward **Fast Intentions resonated HFCs** with fresh gaskets/hardware,
+- verify the repair with a rescan, leak check and completed readiness monitors.
+
+Temporary-use rule added:
+- steady CEL with smooth running, normal power and normal temperature: gentle short-term use while diagnosing,
+- stop/reassess for flashing CEL, active misfire, major power loss, abnormal heat, converter rattle/glow or strong sulfur odor,
+- repeated code clearing is not the workaround because it resets readiness and hides useful pattern data.
+
+Site pages updated to show the exact step order and the current catalyst decision gate.
+
 ## 2026-09-24 — Ride feedback + phased chassis refresh
 
 New real-world observations:
