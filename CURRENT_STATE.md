@@ -1,6 +1,6 @@
 # Forever Z — Current State
 
-Last structured update: **2026-09-28**
+Last structured update: **2026-09-29**
 
 ## Status
 
@@ -65,9 +65,12 @@ Current owner impression: the clutch still seems to bite well. This week is insp
 
 If transmission removal becomes necessary, inspect the whole friction package while it is accessible and consider an external-slave / CSC-delete conversion for future serviceability.
 
-## Active CEL / catalyst issue — Sep 28
+## Active CEL / catalyst issue — Sep 29
 
-The CEL produced catalytic-converter-related code(s).
+Standalone ANCEL export now confirms:
+- **P0420 — Catalyst System Efficiency Below Threshold, Bank 1**,
+- **P0430 — Catalyst System Efficiency Below Threshold, Bank 2**,
+- P0420 also appeared by itself on another scan.
 
 Comers' current finding:
 - one side is flowing better than the **driver side**,
@@ -75,26 +78,40 @@ Comers' current finding:
 - shop suggested running Sea Foam through it,
 - CEL was not cleared.
 
-Current interpretation:
-- lower driver-side flow is a clue,
-- **failed catalytic converter is not yet confirmed**,
-- save exact DTC/freeze-frame evidence before clearing,
-- compare bank live data and rule out misfire/fueling/air/sensor causes before replacing a converter.
+Paperwork reality:
+- the car came with the owner manual and **zero maintenance receipts/papers**,
+- CARFAX/database entries are the only inherited service evidence currently available.
 
-If the converter is eventually confirmed failed and there is no upstream cause, the preferred current replacement direction remains **Fast Intentions Resonated High Flow Cats** for the clean/deep, not-loud goal.
+Working repair order:
+1. Save the ANCEL report, Mode $06 screens, freeze frame and readiness evidence.
+2. Replace all six correct spark plugs; no plug service is documented for this VIN.
+3. Inspect plug wells, coil boots/connectors and coils while open; do not shotgun six coils.
+4. Check misfire data, fuel trims, intake/exhaust leaks and both-bank sensor behavior.
+5. After baseline work, clear the DTCs **once**, run a normal drive cycle and record what returns.
+6. If P0420/P0430 return with the engine side clean, move to **Fast Intentions Resonated High Flow Cats** with fresh gaskets/hardware.
+7. Rescan after repair and complete readiness monitors.
+
+Temporary driving rule:
+- steady CEL + smooth running + normal power/temperature = gentle short-term driving is reasonable while diagnosis is completed,
+- avoid repeated hard pulls/high load,
+- stop/reassess for a flashing CEL, active misfire, major power loss, abnormal heat, converter rattle/glow, or strong sulfur/rotten-egg odor.
+
+Clearing the code is allowed after evidence is saved, but repeated clearing is not the plan because it resets readiness and erases useful diagnostic pattern data.
 
 ## Scanner direction
 
-Buy a **standalone handheld ANCEL OBD-II scanner** with its own screen; no phone/app dependency.
+The **standalone handheld ANCEL OBD-II scanner** is now purchased and in use; no phone/app dependency.
 
-Required:
+Already captured:
+- P0420/P0430 export.
+
+Still useful to capture:
 - stored/pending/permanent codes,
 - freeze frame,
 - readiness monitors,
 - useful live data,
 - bank comparison for fuel trims/O2 behavior and available misfire information.
 
-Exact ANCEL model is not locked yet.
 
 ## Cheap maintenance plan
 
