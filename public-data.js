@@ -1,5 +1,5 @@
 window.FOREVER_Z_PUBLIC_DATA = {
-  updatedAt: "2026-09-28",
+  updatedAt: "2026-10-04",
   items: [
     {type:"Update",id:"upd-2026-10-04-audio-install",date:"2026-10-04",mileage:144300,title:"Stereo build moves from plan to install",summary:"The Kenwood is wired, KICKER components are being installed, the NVX five-channel amp is mounted behind the passenger seat, and the KICKER L7T loaded 10 is now the hatch bass stage.",category:"Audio",slug:"stereo-install-underway"},
     {type:"Update",id:"upd-2026-09-28-engine-history",date:"2026-09-28",mileage:144200,title:"Engine history audit completed",summary:"The VIN-specific CARFAX was re-audited. No spark-plug or ignition-coil replacement is documented, so plugs move onto the baseline list while coils remain diagnosis-only.",category:"Maintenance",slug:"engine-history-audit"},
