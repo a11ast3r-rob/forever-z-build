@@ -1,6 +1,6 @@
 # Forever Z — Current State
 
-Last structured update: **2026-09-29**
+Last structured update: **2026-10-04**
 
 ## Status
 
@@ -181,24 +181,24 @@ Plan consequence: verify current parts/receipts first, then reset the old/unknow
 
 ## Audio — current exact status
 
-### Confirmed ordered
-- Kenwood Excelon DMX809S.
-- Required radio/install/interface parts.
-- KICKER **51KSS6504** 6.5-inch front component set — ordered/inbound.
+### Door stage — complete
+- Kenwood Excelon DMX809S wiring/integration is in progress.
+- KICKER **51KSS6504** component speakers/tweeters are installed in the doors.
+- Car-specific polarity findings are recorded on **audio.html**.
 
-### Selected, not yet marked purchased
-- **NVX NDA11005** 5-channel amplifier.
-- **NVX XKIT46** complete OFC 4-gauge wiring kit.
+### Next install step
+1. Reinstall interior trim.
+2. Mount the **NVX NDA11005** behind the passenger seat.
+3. Finish fused 4-gauge power, chassis ground, RCA and remote wiring.
+4. Connect the sub channel.
+5. Set gains/crossovers and tune the complete system.
 
-### Treatment
-- ~36 sq ft 80-mil butyl for both doors + spare well,
-- 1/8-inch closed-cell foam,
-- deadening roller,
-- Tesa 51608 fleece tape,
-- no MLV yet.
+### Bass — hardware in hand
+- **KICKER 46TL7T102 Solo-Baric L7T loaded 10-inch enclosure**.
+- 2-ohm final load, 500 W RMS.
+- The enclosure will be strapped securely in the hatch for the current build.
 
-### Bass
-Keep the factory Bose sub temporarily. Do not spend on the future single-10 stage until the new front stage is installed and tuned.
+The factory Bose sub was useful as the temporary baseline but is no longer the final bass plan.
 
 ## Tires
 
