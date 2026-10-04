@@ -1,74 +1,87 @@
 # Audio + Acoustic Treatment Plan
 
-Updated **2026-09-28**.
+Updated **2026-10-04**.
 
 ## Goal
 
 Clean, detailed, enjoyable sound — not loud/SPL — with a strong front image, controlled bass, serviceable wiring and hatch packaging that can coexist with future air management.
 
-## Actual car tells us
+## Current install state
 
-- Front speakers sound shot/weak.
-- Factory Bose sub still sounds decent.
-- Therefore: **fix the front first; keep the Bose sub temporarily.**
+### Complete now
+- KICKER **51KSS6504** component door stage installed.
+- Door speaker/tweeter wiring and polarity work completed for this phase.
+- Kenwood RCA color/channel map documented.
+- NVX amplifier location chosen behind the passenger seat.
 
-## Confirmed ordered / inbound
+### Next
+1. Reinstall interior trim.
+2. Mount the **NVX NDA11005** behind the passenger seat.
+3. Finish fused 4-gauge power and a short, solid chassis ground.
+4. Run/land RCA and remote from the Kenwood.
+5. Connect the KICKER L7T sub to the NVX sub channel.
+6. Strap the loaded enclosure securely in the hatch.
+7. Set gains, crossovers and final EQ.
+
+## Hardware
 
 ### Kenwood Excelon DMX809S
-**ORDERED** with required installation/interface parts.
+Current head unit. Wiring/integration is underway; final fitment and trim reassembly remain.
 
 ### KICKER 51KSS6504
-**ORDERED / INBOUND** 6.5-inch component front stage.
-
-The old 6×9 front-speaker direction is retired.
-
-## Selected next stage — not yet marked purchased
+**INSTALLED** 6.5-inch component front stage.
 
 ### NVX NDA11005
-Current selected 5-channel amplifier.
+**OWNED — MOUNT/WIRE NEXT**.
 
-### NVX XKIT46
-Current selected complete OFC 4-gauge amp wiring kit. User plans to get it; do not mark shipped/received until confirmed.
+Mounting location: behind the passenger seat on the acrylic panel in the carpeted storage/cubby area.
 
-## Install sequence
+### KICKER 46TL7T102 Solo-Baric L7T
+**IN HAND** loaded 10-inch enclosure.
 
-1. Install DMX809S and verify retained functions.
-2. Install KICKER fronts with proper 370Z adapters and rigid/sealed mounting.
-3. Treat both doors while open.
-4. Add NVX amplifier/wiring stage when purchased.
-5. Tune front stage.
-6. Keep/listen to Bose sub.
-7. Only then decide whether the future single-10 stage is needed.
+- 2-ohm load,
+- 500 W RMS,
+- hatch location for now,
+- strap enclosure securely before driving.
 
-## Phase-1 sound treatment
+## Verified RCA map
 
-- ~36 sq ft 80-mil butyl for both doors + spare well,
-- 1/8-inch closed-cell foam,
-- deadening roller,
-- Tesa 51608 fleece tape,
-- **no MLV yet**.
+- Front Left = grey
+- Front Right = blue
+- Rear Left = white
+- Rear Right = black
+- Sub Left = grey solo RCA
+- Sub Right = blue solo RCA
 
-Preserve drains/service access and use treatment where it solves resonance/buzz rather than adding weight everywhere.
+## Verified speaker polarity
 
-## Bass
+- Passenger tweeter: blue + / white −
+- Driver tweeter: blue + / white −
+- Passenger rear: blue + / white −
+- Driver rear: blue + / pink −
 
-Keep Bose sub for now.
+KICKER tweeter lead used during this install:
+- grey with black tracer = positive,
+- solid grey = negative.
 
-Future only if needed:
-- stealth corner 1×10,
-- single 10-inch sub with a 2-ohm final load,
-- appropriate dedicated bass channel/amp architecture,
-- retire Bose low-bass path once the aftermarket sub becomes the real system.
+## Acoustic treatment
 
-## Power / wiring
+Use treatment where it solves resonance and trim buzz:
+- 80-mil butyl,
+- closed-cell foam,
+- Tesa 51608,
+- preserve drains/service access,
+- no MLV requirement at this stage.
 
-- OFC power.
-- Fuse near battery.
-- Proper chassis ground.
-- Protect from heat/abrasion/moving parts.
-- Photograph/label routes.
-- Leave a clean future path for air-compressor electrical needs.
+## Power / safety
 
-## Cameras
+- OFC 4-gauge power.
+- Main fuse close to the battery.
+- Proper short chassis ground at the amp.
+- Protect cable from heat, abrasion and moving parts.
+- Secure the hatch sub so it cannot become a projectile under hard braking or a crash.
+- Photograph/label routes for future service and air-management work.
 
-Front + rear remain current. Side camera later.
+## Bass direction
+
+The factory Bose sub was useful during the transition, but the final current system is the KICKER L7T loaded 10 on the NVX fifth channel.
