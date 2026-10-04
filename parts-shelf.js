@@ -77,12 +77,12 @@
   const audioBaseline = document.querySelector('[data-check="audio-baseline"]')?.closest('.check');
   if (audioBaseline) {
     const small = audioBaseline.querySelector('small');
-    if (small) small.textContent = 'Front speakers sound shot/weak; the Bose sub still sounds decent. DMX809S + install/interface parts are ordered. Fix the front stage first, keep the Bose sub, and reassess bass after tuning.';
+    if (small) small.textContent = 'Front speakers sound shot/weak; the Bose sub still sounds decent. DMX809S + install/interface parts are ordered. Fix finish the live Kenwood/KICKER/NVX/L7T install, then tune the complete five-channel system cleanly.';
   }
 
   const audioNotes = [...document.querySelectorAll('#audio .note')];
   const headUnitNote = audioNotes.find(n => n.textContent.includes('Head unit selected') || n.textContent.includes('Next head-unit idea'));
-  if (headUnitNote) headUnitNote.innerHTML = '<b>Head unit ordered:</b> Kenwood Excelon <b>DMX809S</b> plus the needed radio/install/interface parts. Front-stage next buys are <b>KICKER 51KSS6504 components + KEY200.4</b>. Keep the factory Bose sub for now; the Wicked C.A.S. single-10 corner system is an optional later upgrade, not a current requirement.';
+  if (headUnitNote) headUnitNote.innerHTML = '<b>Live audio install:</b> Kenwood Excelon <b>DMX809S</b> + <b>KICKER 51KSS6504</b> + <b>NVX NDA11005</b> + <b>KICKER 46TL7T102 L7T 10</b>. The NVX is mounted behind the passenger seat; wiring, final radio fitment and tuning are in progress.';
 
   const style = document.createElement('style');
   style.textContent = `
