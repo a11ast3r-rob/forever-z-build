@@ -5,9 +5,9 @@
 
   const products = [
     ['Audio + sound treatment','Kenwood Excelon DMX809S','INSTALLING','selected','Head-unit wiring is connected. Final factory-frame fitment and dash reassembly are the current work.','front/rear/sub preouts • remote turn-on • final dash fitment',[['Kenwood','https://www.kenwood.com/usa/car/excelon/dmx809s/']]],
-    ['Audio + sound treatment','KICKER KSS650 — 51KSS6504','INSTALLING','selected','Owned component front stage. Speaker/tweeter connections are being completed with polarity verified on the actual car.','6.5-in component • tweeters • polarity logged',[['KICKER','https://www.kicker.com/51KSS6504']]],
-    ['Audio + sound treatment','NVX NDA11005 5-channel amp','MOUNTED','selected','Owned and physically mounted behind the passenger seat on the acrylic panel in the carpeted cubby/storage area.','5-channel • behind passenger seat • 4-ga power/ground',[]],
-    ['Audio + sound treatment','KICKER 46TL7T102 Solo-Baric L7T loaded 10','PURCHASED','selected','Current bass stage. Thin loaded 10-inch enclosure will sit in the hatch for now and run from the NVX sub channel.','10-in loaded • 2Ω • 500W RMS • hatch for now',[]],
+    ['Audio + sound treatment','KICKER KSS650 — 51KSS6504','INSTALLED','selected','Door component stage is installed. Speaker/tweeter wiring and polarity work are complete for this phase.','6.5-in component • doors complete • polarity logged',[['KICKER','https://www.kicker.com/51KSS6504']]],
+    ['Audio + sound treatment','NVX NDA11005 5-channel amp','READY TO MOUNT','selected','Amp and mounting location are ready behind the passenger seat. Reinstall trim first, then mount and wire the amp.','5-channel • behind passenger seat • mount/wire next',[]],
+    ['Audio + sound treatment','KICKER 46TL7T102 Solo-Baric L7T loaded 10','IN HAND','selected','Current bass stage is here. The loaded enclosure will run from the NVX sub channel and be strapped securely in the hatch.','10-in loaded • 2Ω • 500W RMS • strap in hatch',[]],
     ['Audio + sound treatment','4-ga amp power / signal wiring','INSTALLING','selected','Main power and ground terminate at the amp behind the passenger seat; RCA/remote run from the Kenwood. Main fuse stays close to the battery.','4-ga • fused near battery • RCA + remote',[]],
     ['Audio + sound treatment','Door / hatch damping + foam','IN PROGRESS','selected','Treat doors, hatch panels and spare well where resonance or trim contact actually needs it. Preserve drains, access and serviceability.','butyl • closed-cell foam • Tesa • no MLV requirement',[]],
     ['Tires + future wheels','Continental ExtremeContact DWS06 Plus','Selected if needed','selected','Replacement set for the stock 19-inch NISMO RAYS only if the mounted tires fail arrival inspection.','245/40ZR19 98Y XL front ×2 • 285/35ZR19 99Y rear ×2',[['Exact Tire Rack set','https://www.tirerack.com/tires/tires.jsp?fromCompare1=yes&frontTire=44YR9DWS06PXL&partnum=44YR9DWS06PXL&rearTire=835YR9DWS06P&tireMake=Continental&tireModel=ExtremeContact+DWS+06+Plus&vehicleSearch=false']]],
@@ -77,12 +77,12 @@
   const audioBaseline = document.querySelector('[data-check="audio-baseline"]')?.closest('.check');
   if (audioBaseline) {
     const small = audioBaseline.querySelector('small');
-    if (small) small.textContent = 'Front speakers sound shot/weak; the Bose sub still sounds decent. DMX809S + install/interface parts are ordered. Fix finish the live Kenwood/KICKER/NVX/L7T install, then tune the complete five-channel system cleanly.';
+    if (small) small.textContent = 'Door speakers and tweeters are installed. Reinstall trim next, then mount/wire the NVX amp, connect and strap the L7T sub, and tune the complete five-channel system.';
   }
 
   const audioNotes = [...document.querySelectorAll('#audio .note')];
   const headUnitNote = audioNotes.find(n => n.textContent.includes('Head unit selected') || n.textContent.includes('Next head-unit idea'));
-  if (headUnitNote) headUnitNote.innerHTML = '<b>Live audio install:</b> Kenwood Excelon <b>DMX809S</b> + <b>KICKER 51KSS6504</b> + <b>NVX NDA11005</b> + <b>KICKER 46TL7T102 L7T 10</b>. The NVX is mounted behind the passenger seat; wiring, final radio fitment and tuning are in progress.';
+  if (headUnitNote) headUnitNote.innerHTML = '<b>Live audio install:</b> Kenwood Excelon <b>DMX809S</b> + <b>KICKER 51KSS6504</b> + <b>NVX NDA11005</b> + <b>KICKER 46TL7T102 L7T 10</b>. The door stage is complete. Reinstall trim next, then mount/wire the NVX behind the passenger seat, strap in the L7T, and tune.';
 
   const style = document.createElement('style');
   style.textContent = `
