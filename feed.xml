@@ -3,29 +3,36 @@
 <channel>
 <title>Forever Z</title>
 <link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html</link>
-<description>2013 Nissan 370Z NISMO build journal</description>
+<description>2013 Nissan 370Z NISMO #0662 build journal</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 05 Oct 2026 00:58:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 01:25:00 GMT</lastBuildDate>
+<item>
+<title>The first real garage session</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-first-real-garage-session</link>
+<guid>forever-z-2026-10-04-garage-session</guid>
+<pubDate>Mon, 05 Oct 2026 01:20:00 GMT</pubDate>
+<description>Hood up, hatch open and half the interior apart: Forever Z has officially moved from purchase mode into project mode. The audio rebuild is alive, the used sub failed testing, and the next engine-baseline parts are on the way.</description>
+</item>
+<item>
+<title>Z1 order placed: plugs, hood hardware and the little stuff</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-z1-parts-order</link>
+<guid>forever-z-2026-10-04-z1-parts-order</guid>
+<pubDate>Mon, 05 Oct 2026 01:15:00 GMT</pubDate>
+<description>Incoming: Z1 370Z hood struts, an OEM 2009–2022 hood-release lever, six Denso VQ37VHR spark plugs and a Z1 Motorsports decal set.</description>
+</item>
 <item>
 <title>Stereo rebuild is alive — the used sub is not</title>
 <link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-stereo-rebuild-live</link>
 <guid>forever-z-2026-10-04-stereo-live</guid>
-<pubDate>Mon, 05 Oct 2026 00:50:00 GMT</pubDate>
-<description>The Kenwood and NVX five-channel amp are installed and operational, the Bose amp is bypassed and all four cabin speakers work. Channel 5 tested good, but the used KICKER L7T loaded 10 failed playback and a direct battery-pop test, so its return is underway and a replacement is next.</description>
+<pubDate>Mon, 05 Oct 2026 01:10:00 GMT</pubDate>
+<description>The Kenwood and NVX five-channel amp are installed and operational, the Bose amp is bypassed and all four cabin speakers work. Channel 5 tested good, but the used KICKER loaded sub failed playback and a direct battery-pop test, so the return is underway.</description>
 </item>
 <item>
 <title>CEL is off after the battery reset — diagnosis continues</title>
 <link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-cel-reset-recheck</link>
 <guid>forever-z-2026-10-04-cel-reset</guid>
-<pubDate>Mon, 05 Oct 2026 00:45:00 GMT</pubDate>
+<pubDate>Mon, 05 Oct 2026 01:05:00 GMT</pubDate>
 <description>The catalyst CEL is currently off after the battery disconnect, but readiness also reset. Spark plugs are next, followed by a normal drive cycle and rescan before cats or O2 sensors are condemned.</description>
-</item>
-<item>
-<title>Hood struts are on the way</title>
-<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-hood-struts-ordered</link>
-<guid>forever-z-2026-10-04-hood-struts</guid>
-<pubDate>Mon, 05 Oct 2026 00:40:00 GMT</pubDate>
-<description>Hood struts are ordered so the factory prop can retire — a small, useful quality-of-life upgrade.</description>
 </item>
 <item>
 <title>Engine history audit completed</title>
@@ -33,13 +40,6 @@
 <guid>forever-z-2026-09-28-engine-history</guid>
 <pubDate>Mon, 28 Sep 2026 20:00:00 GMT</pubDate>
 <description>The VIN-specific CARFAX was re-audited. No spark-plug or ignition-coil replacement is documented, so plugs move onto the baseline list while coils remain diagnosis-only.</description>
-</item>
-<item>
-<title>Catalyst code: diagnose before buying parts</title>
-<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-catalyst-diagnosis</link>
-<guid>forever-z-2026-09-28-catalyst</guid>
-<pubDate>Mon, 28 Sep 2026 18:00:00 GMT</pubDate>
-<description>A catalyst-related CEL is being worked from evidence first; the converter is not yet confirmed failed.</description>
 </item>
 </channel>
 </rss>
