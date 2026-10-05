@@ -29,11 +29,11 @@ window.FOREVER_Z_PUBLIC_DATA = {
       date:"2026-10-04",
       mileage:144300,
       title:"Stereo rebuild is alive — the used sub is not",
-      summary:"The Kenwood and NVX five-channel amp are installed and operational, the factory Bose amp is bypassed, and all four cabin speakers are working. Channel 5 tested good with another speaker, but the used KICKER L7T loaded 10 produced no movement or sound even on a direct battery-pop test. Its eBay return is underway; a replacement is next. A faint hum remains to chase during final tuning.",
+      summary:"The Kenwood and NVX five-channel amp are installed and operational, the factory Bose amp is bypassed, and all four cabin speakers are working. Pulling the passenger seat made the wiring session much easier; the factory Bose harness clips were adapted so the new system could take over cleanly. Channel 5 tested good with another speaker, but the used KICKER L7T loaded 10 produced no movement or sound even on a direct battery-pop test. Its eBay return is underway; a replacement is next. A faint hum remains to chase during final tuning.",
       category:"Audio",
       slug:"stereo-rebuild-live",
-      image:"assets/public/kenwood-dash-install.webp",
-      imageAlt:"Kenwood head unit mounted in the 370Z factory dash structure during installation"
+      image:"assets/public/nvx-amp-cubby.webp",
+      imageAlt:"NVX five-channel amplifier installed neatly in the cubby behind the passenger seat"
     },
     {
       type:"Update",
@@ -99,11 +99,11 @@ window.FOREVER_Z_PUBLIC_DATA = {
   parts: [
     {status:"Installed",part:"Kenwood Excelon DMX809S",note:"Mounted in the factory dash structure and operating normally.",image:"assets/public/kenwood-dash-install.webp"},
     {status:"Installed",part:"KICKER 51KSS6504 front components",note:"Front component stage is complete with polarity verified on the car."},
-    {status:"Installed",part:"NVX NDA11005 5-channel amp",note:"Mounted behind the passenger seat, powered, grounded and operational. Factory Bose amp is bypassed."},
+    {status:"Installed",part:"NVX NDA11005 5-channel amp",note:"Mounted neatly in the cubby behind the passenger seat, powered, grounded and operational. Factory Bose amp is bypassed.",image:"assets/public/nvx-amp-cubby.webp"},
     {status:"Returning",part:"Used KICKER 46TL7T102 L7T loaded 10",note:"Channel 5 tested good, but the used enclosure failed playback and direct battery-pop testing. eBay return is in process.",image:"assets/public/used-sub-trunk.webp"},
-    {status:"Ordered",part:"Z1 370Z Hood Struts",price:"$99.99",qty:1,note:"Quality-of-life upgrade to retire the factory hood prop."},
-    {status:"Ordered",part:"OEM '09–'22 Nissan 370Z Hood Release Lever",price:"$43.31",qty:1,note:"Fresh OEM replacement for the aging hood-release hardware."},
-    {status:"Ordered",part:"Denso VQ37VHR Spark Plug",price:"$19.98 each",qty:6,note:"Six plugs for the ignition baseline. Inspect plug wells and coils while they are out; coils stay diagnosis-only."},
+    {status:"Ordered",part:"Z1 370Z Hood Struts",qty:1,note:"Quality-of-life upgrade to retire the factory hood prop."},
+    {status:"Ordered",part:"OEM '09–'22 Nissan 370Z Hood Release Lever",qty:1,note:"Fresh OEM replacement for the aging hood-release hardware."},
+    {status:"Ordered",part:"Denso VQ37VHR Spark Plug",qty:6,note:"Six plugs for the ignition baseline. Inspect plug wells and coils while they are out; coils stay diagnosis-only."},
     {status:"Ordered",part:"Z1 Motorsports Decal Set",qty:1,note:"A small finishing touch for the build."},
     {status:"Contingency",part:"Fast Intentions resonated HFCs",note:"Only if P0420/P0430 return after plugs, leak/fueling checks and a clean drive cycle."},
     {status:"Selected",part:"Continental DWS06 Plus",note:"245/40ZR19 front · 285/35ZR19 rear on the factory NISMO wheels."}
