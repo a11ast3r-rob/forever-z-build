@@ -4,34 +4,49 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#090b0f">
-<meta name="description" content="Forever Z — a 2013 Nissan 370Z NISMO build journal focused on reliability, clean modifications, audio, chassis and long-term ownership.">
+<meta name="description" content="Forever Z — follow the long-term build of 2013 Nissan 370Z NISMO #0662: garage work, maintenance, audio, diagnostics and clean upgrades.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Forever Z — 2013 370Z NISMO #0662">
+<meta property="og:description" content="A high-mileage NISMO being kept for the long haul. Follow the garage work, maintenance, audio rebuild and clean upgrades.">
+<meta property="og:url" content="https://a11ast3r-rob.github.io/forever-z-build/showcase.html">
+<meta property="og:image" content="https://a11ast3r-rob.github.io/forever-z-build/assets/public/nismo-0662.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Forever Z — NISMO #0662">
+<meta name="twitter:description" content="The public build journal for a 2013 Nissan 370Z NISMO being kept for the long haul.">
+<meta name="twitter:image" content="https://a11ast3r-rob.github.io/forever-z-build/assets/public/nismo-0662.webp">
 <link rel="alternate" type="application/rss+xml" title="Forever Z Updates" href="feed.xml">
-<title>Forever Z // 2013 370Z NISMO Build Journal</title>
+<title>Forever Z // 2013 370Z NISMO #0662</title>
 <link rel="stylesheet" href="site.css">
 <style>
-.public-shell{max-width:1120px;margin:auto;padding:18px 14px 80px}
-.public-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
-.public-brand{font-weight:950;letter-spacing:.08em}.public-links{display:flex;gap:8px;flex-wrap:wrap}
-.public-hero{min-height:390px;display:flex;align-items:flex-end;border:1px solid var(--line);border-radius:30px;padding:34px;background:
-linear-gradient(180deg,rgba(5,7,10,.12),rgba(5,7,10,.94)),
-radial-gradient(circle at 76% 20%,rgba(228,61,70,.30),transparent 23rem),
-linear-gradient(135deg,#171d27,#080a0d);box-shadow:var(--shadow)}
-.public-hero h1{font-size:clamp(50px,10vw,96px);line-height:.86;letter-spacing:-.06em;margin:8px 0 16px}
-.public-hero h1 span{color:#ff636b}.hero-copy{max-width:820px}.hero-copy p{color:var(--soft);line-height:1.6}
-.statbar{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
-.pstat{border:1px solid var(--line);border-radius:16px;padding:14px;background:#0d131a}.pstat small{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.08em}.pstat b{display:block;margin-top:5px;font-size:17px}
-.journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.journal-card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,#151b24,#0c1118);padding:18px}
-.journal-card time{color:#ff7d84;font-weight:900;font-size:10px;letter-spacing:.08em}.journal-card h3{margin:8px 0}.journal-card p{color:var(--soft);line-height:1.6;font-size:13px}
-.journal-card .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.public-shell{max-width:1160px;margin:auto;padding:18px 14px 80px}
+.public-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px;position:sticky;top:0;z-index:20;padding:10px 0;background:linear-gradient(180deg,#090b0f 75%,transparent)}
+.public-brand{font-weight:950;letter-spacing:.1em}.public-links{display:flex;gap:8px;flex-wrap:wrap}
+.hero-public{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:14px}
+.hero-copy,.hero-photo{border:1px solid var(--line);border-radius:30px;overflow:hidden;box-shadow:var(--shadow)}
+.hero-copy{min-height:430px;padding:38px;display:flex;align-items:flex-end;background:radial-gradient(circle at 80% 18%,rgba(228,61,70,.25),transparent 23rem),linear-gradient(135deg,#171d27,#080a0d)}
+.hero-copy h1{font-size:clamp(56px,10vw,104px);line-height:.83;letter-spacing:-.065em;margin:9px 0 18px}
+.hero-copy h1 span{color:#ff636b}.hero-copy p{max-width:720px;color:var(--soft);line-height:1.65;font-size:15px}
+.hero-photo{position:relative;min-height:430px;background:#111}.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-label{position:absolute;left:16px;right:16px;bottom:16px;padding:13px 14px;border:1px solid rgba(255,255,255,.15);border-radius:16px;background:rgba(7,9,12,.78);backdrop-filter:blur(8px)}
+.photo-label b{display:block;font-size:15px}.photo-label span{display:block;color:#c7cbd2;font-size:11px;margin-top:4px}
+.statbar{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.pstat{border:1px solid var(--line);border-radius:16px;padding:14px;background:#0d131a}.pstat small{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.09em}.pstat b{display:block;margin-top:5px;font-size:16px}
+.feature{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(0,1.15fr);gap:16px;align-items:stretch}
+.feature-media{border:1px solid var(--line);border-radius:24px;overflow:hidden;min-height:520px;background:#0d1117}.feature-media img{width:100%;height:100%;object-fit:cover;display:block}
+.feature-copy{border:1px solid var(--line);border-radius:24px;padding:26px;background:linear-gradient(160deg,#151b24,#0b1016)}
+.feature-copy h2{font-size:clamp(30px,5vw,52px);line-height:1;margin:9px 0 14px;letter-spacing:-.035em}.feature-copy p{color:var(--soft);line-height:1.7}
+.feature-points{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:18px}.feature-point{border:1px solid var(--line);border-radius:15px;padding:13px;background:#0c1219}.feature-point b{display:block;font-size:12px}.feature-point span{display:block;color:var(--muted);font-size:10px;line-height:1.45;margin-top:4px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c1118}.shot img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}.shot-copy{padding:15px}.shot-copy h3{margin:0 0 7px}.shot-copy p{margin:0;color:var(--soft);line-height:1.55;font-size:12px}
+.journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.journal-card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,#151b24,#0c1118);overflow:hidden}.journal-card img{width:100%;height:210px;object-fit:cover;display:block}.journal-body{padding:18px}.journal-card time{color:#ff7d84;font-weight:900;font-size:10px;letter-spacing:.08em}.journal-card h3{margin:8px 0}.journal-card p{color:var(--soft);line-height:1.6;font-size:13px}.journal-card .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
 .pub-pill{border:1px solid var(--line);border-radius:999px;padding:5px 8px;color:var(--muted);font-size:9px;font-weight:850}
-.roadmap-public{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.road-card{border:1px solid var(--line);border-radius:18px;padding:16px;background:#0e141c}.road-card b{display:block}.road-card span{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:6px}
+.parts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.part-card{border:1px solid var(--line);border-radius:18px;padding:17px;background:#0d131a}.part-top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}.part-card h3{margin:0;font-size:15px}.part-card p{color:var(--soft);font-size:11px;line-height:1.55;margin:9px 0 0}.price{font-weight:900;color:#fff;white-space:nowrap}.qty{color:var(--muted);font-size:9px}
+.next-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.next-card{border:1px solid var(--line);border-radius:18px;padding:16px;background:#0e141c}.next-card b{display:block}.next-card span{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:6px}
 .public-table{width:100%;border-collapse:collapse}.public-table th,.public-table td{padding:11px;border-bottom:1px solid #232b35;text-align:left;font-size:11px}.public-table th{color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em}
 .followbox{display:grid;grid-template-columns:1.5fr 1fr;gap:14px;align-items:center;border:1px solid #4a3032;border-radius:22px;padding:20px;background:linear-gradient(135deg,rgba(228,61,70,.14),rgba(126,184,255,.05)),#111720}
-.followbox h2{margin:0 0 8px}.followbox p{margin:0;color:var(--soft);line-height:1.55}.follow-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
-.data-note{color:var(--muted);font-size:10px;margin-top:10px}
-@media(max-width:850px){.statbar,.roadmap-public{grid-template-columns:repeat(2,1fr)}.followbox{grid-template-columns:1fr}.follow-actions{justify-content:flex-start}}
-@media(max-width:650px){.journal-grid,.statbar,.roadmap-public{grid-template-columns:1fr}.public-hero{min-height:430px;padding:24px}.public-nav{align-items:flex-start;flex-direction:column}}
+.followbox h2{margin:0 0 8px}.followbox p{margin:0;color:var(--soft);line-height:1.55}.follow-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.data-note{color:var(--muted);font-size:10px;margin-top:10px}
+.story-rule{font-size:12px;color:var(--soft);border-left:3px solid #ff636b;padding-left:14px;line-height:1.6;margin-top:16px}
+@media(max-width:900px){.hero-public,.feature{grid-template-columns:1fr}.hero-photo{min-height:330px}.statbar,.next-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.feature-media{min-height:440px}.followbox{grid-template-columns:1fr}.follow-actions{justify-content:flex-start}}
+@media(max-width:650px){.public-nav{position:static;align-items:flex-start;flex-direction:column}.hero-copy{min-height:390px;padding:25px}.hero-photo{min-height:250px}.statbar,.gallery,.journal-grid,.parts-grid,.next-grid,.feature-points{grid-template-columns:1fr}.feature-media{min-height:480px}.shot img{aspect-ratio:3/4}}
 </style>
 </head>
 <body>
@@ -39,90 +54,142 @@ linear-gradient(135deg,#171d27,#080a0d);box-shadow:var(--shadow)}
 <nav class="public-nav">
   <div class="public-brand">FOREVER Z</div>
   <div class="public-links">
-    <a class="btn" href="#updates">Latest</a>
-    <a class="btn" href="#build">Build</a>
-    <a class="btn" href="#service">Service</a>
+    <a class="btn" href="#latest">Latest</a>
+    <a class="btn" href="#garage">Garage</a>
+    <a class="btn" href="#parts">Parts</a>
+    <a class="btn" href="#journal">Journal</a>
     <a class="btn" href="feed.xml">RSS</a>
   </div>
 </nav>
 
-<header class="public-hero">
+<header class="hero-public">
   <div class="hero-copy">
-    <div class="eyebrow">2013 NISSAN 370Z NISMO · 6MT · PEARL WHITE</div>
-    <h1>FOREVER <span>Z</span></h1>
-    <p>A high-mileage NISMO being kept clean, reliable and actually usable. This is the public build journal: real maintenance, audio, chassis, cooling and the long road toward the car we want without throwing parts at problems we have not proven.</p>
-    <div class="statbar">
-      <div class="pstat"><small>Engine</small><b>VQ37VHR · 3.7L V6</b></div>
-      <div class="pstat"><small>Mileage</small><b>~144k and driving</b></div>
-      <div class="pstat"><small>Current focus</small><b>Baseline + audio</b></div>
-      <div class="pstat"><small>Long game</small><b>Clean daily → show-ready</b></div>
+    <div>
+      <div class="eyebrow">2013 NISSAN 370Z NISMO · 6MT · PEARL WHITE · #0662</div>
+      <h1>FOREVER <span>Z</span></h1>
+      <p>A high-mileage NISMO we plan to keep for the long haul. This is the public garage journal for #0662 — the real maintenance, the wins, the wrong parts, the audio rebuild, the diagnostics and the clean upgrades that slowly turn it into our version of the car.</p>
+      <div class="statbar">
+        <div class="pstat"><small>NISMO</small><b>#0662</b></div>
+        <div class="pstat"><small>Engine</small><b>VQ37VHR · 3.7L</b></div>
+        <div class="pstat"><small>Mileage</small><b>~144k</b></div>
+        <div class="pstat"><small>Current chapter</small><b>Baseline + audio</b></div>
+      </div>
     </div>
   </div>
+  <figure class="hero-photo">
+    <img src="assets/public/nismo-0662.webp" alt="370Z NISMO interior build plate numbered 0662">
+    <figcaption class="photo-label"><b>NISMO #0662</b><span>The little plate that gives the whole project an identity.</span></figcaption>
+  </figure>
 </header>
 
-<section id="updates">
-  <div class="section-head"><div><div class="eyebrow">BUILD JOURNAL</div><h2>Latest updates</h2></div><span class="muted" id="feedStatus">Public-only data</span></div>
-  <div class="journal-grid" id="journal"></div>
-  <div class="data-note">This public page intentionally excludes private owner notes, financing details, VIN, receipts and internal diagnostic scratch data.</div>
+<section id="latest">
+  <div class="section-head"><div><div class="eyebrow">LATEST CHAPTER</div><h2>The wrenching has started</h2></div><span class="muted">October 4, 2026</span></div>
+  <div class="feature">
+    <div class="feature-media"><img src="assets/public/garage-beginning.webp" alt="Pearl White Nissan 370Z NISMO in a garage with hood and hatch open"></div>
+    <article class="feature-copy">
+      <div class="eyebrow">FIRST REAL GARAGE SESSION</div>
+      <h2>Purchase mode is over.</h2>
+      <p>Hood up, hatch open, dash apart and trim coming out. This was the point where Forever Z stopped being a car we had just bought and became a project we were actually building.</p>
+      <p>The audio system made the biggest leap: the Kenwood is in the dash, the NVX five-channel amp is alive behind the passenger seat, the Bose amp is bypassed and all four cabin speakers are playing. The used KICKER loaded sub did not survive the reality check — channel 5 works, but the sub itself stayed dead even during a direct battery-pop test, so it is going back.</p>
+      <p>Mechanically, the catalyst CEL is currently off because the battery was disconnected during the stereo work. That reset also wiped readiness, so the plan has not changed: install the six Denso plugs, inspect the wells and coils, drive it normally, then rescan before deciding whether the cats or sensors actually need money thrown at them.</p>
+      <div class="feature-points">
+        <div class="feature-point"><b>Audio</b><span>Head unit + amp live; cabin speakers working.</span></div>
+        <div class="feature-point"><b>Subwoofer</b><span>Used L7T failed testing; return underway.</span></div>
+        <div class="feature-point"><b>Engine baseline</b><span>Six Denso plugs ordered; coils inspect-only.</span></div>
+        <div class="feature-point"><b>CEL</b><span>Off after reset; drive cycle and evidence next.</span></div>
+      </div>
+      <div class="story-rule">Forever Z rule: fix what the car proves it needs, establish the maintenance clocks we do not know, and keep the NISMO character intact.</div>
+    </article>
+  </div>
 </section>
 
-<section id="build">
-  <div class="section-head"><div><div class="eyebrow">THE PLAN</div><h2>Build without ruining the NISMO</h2></div></div>
-  <div class="roadmap-public">
-    <div class="road-card"><b>01 · Reliability</b><span>Establish maintenance clocks, fix proven wear, preserve fresh work and keep the car boringly dependable.</span></div>
-    <div class="road-card"><b>02 · Audio</b><span>Clean front stage first, keep useful factory pieces temporarily, then build the amp/sub stage around the final hatch plan.</span></div>
-    <div class="road-card"><b>03 · Chassis / Air</b><span>Inspect the 144k-mile chassis before mods. Long term: street-friendly air with hidden management and usable cargo space.</span></div>
-    <div class="road-card"><b>04 · Cooling / Longevity</b><span>Measure before modifying. Oil-pressure visibility and a thermostatic oil cooler come after the baseline is healthy.</span></div>
+<section id="garage">
+  <div class="section-head"><div><div class="eyebrow">FROM THE GARAGE</div><h2>The build looks better with the mess included</h2></div></div>
+  <div class="gallery">
+    <article class="shot">
+      <img src="assets/public/used-sub-trunk.webp" alt="Used KICKER subwoofer sitting in the stripped 370Z hatch during the audio install">
+      <div class="shot-copy"><h3>Used-sub reality check</h3><p>The hatch was stripped for wiring and sound-deadening work when the used KICKER enclosure went in for testing. The amp channel checked out. The sub did not. Back it goes.</p></div>
+    </article>
+    <article class="shot">
+      <img src="assets/public/kenwood-dash-install.webp" alt="Kenwood receiver mounted in the 370Z dash with trim removed">
+      <div class="shot-copy"><h3>Kenwood goes in</h3><p>The DMX809S sitting in the factory metal structure before the dash went back together. Not glamorous, but this is where the new system actually starts.</p></div>
+    </article>
+    <article class="shot">
+      <img src="assets/public/bajie-shop-supervisor.webp" alt="Bajie sitting in the passenger footwell of the 370Z during the build">
+      <div class="shot-copy"><h3>Bajie, shop supervisor</h3><p>Passenger-side quality control was extremely serious. No tools were approved without inspection.</p></div>
+    </article>
   </div>
+</section>
+
+<section id="parts">
+  <div class="section-head"><div><div class="eyebrow">BOUGHT / INCOMING</div><h2>The latest Z1 + Denso order</h2></div><span class="muted">Actual purchased parts</span></div>
+  <div class="parts-grid">
+    <div class="part-card"><div class="part-top"><div><h3>Z1 370Z Hood Struts</h3><span class="qty">QTY 1 · ORDERED</span></div><span class="price">$99.99</span></div><p>Retires the factory prop rod and makes every future under-hood session a little nicer.</p></div>
+    <div class="part-card"><div class="part-top"><div><h3>OEM '09–'22 Nissan 370Z Hood Release Lever</h3><span class="qty">QTY 1 · ORDERED</span></div><span class="price">$43.31</span></div><p>Fresh OEM replacement instead of trying to dress up tired release hardware.</p></div>
+    <div class="part-card"><div class="part-top"><div><h3>Denso VQ37VHR Spark Plugs</h3><span class="qty">QTY 6 · ORDERED</span></div><span class="price">$19.98 ea.</span></div><p>No plug replacement is documented in the VIN-specific history, so these establish our own ignition-maintenance baseline.</p></div>
+    <div class="part-card"><div class="part-top"><div><h3>Z1 Motorsports Decal Set</h3><span class="qty">QTY 1 · ORDERED</span></div><span class="price">—</span></div><p>Not every part has to solve a mechanical problem. Some of the little stuff is just for the build.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-head"><div><div class="eyebrow">NEXT MOVES</div><h2>What happens from here</h2></div></div>
+  <div class="next-grid">
+    <div class="next-card"><b>01 · Install the plugs</b><span>Six Densos, plug-well inspection and coil/boot inspection while everything is accessible.</span></div>
+    <div class="next-card"><b>02 · Let readiness return</b><span>Normal drive cycle after the battery reset, then scan again instead of assuming the CEL is cured.</span></div>
+    <div class="next-card"><b>03 · Finish the audio</b><span>Replacement sub, chase the faint hum, set gains/crossovers and finish the clean-up.</span></div>
+    <div class="next-card"><b>04 · Hood hardware</b><span>Fit the Z1 struts and fresh OEM release lever when the order lands.</span></div>
+  </div>
+</section>
+
+<section id="journal">
+  <div class="section-head"><div><div class="eyebrow">BUILD JOURNAL</div><h2>What has happened so far</h2></div><span class="muted" id="feedStatus">Public snapshot</span></div>
+  <div class="journal-grid" id="journalGrid"></div>
+  <div class="data-note">Public journal only: private owner notes, financing, VIN, receipts and raw diagnostic scratch data stay off this page.</div>
 </section>
 
 <section id="service">
-  <div class="section-head"><div><div class="eyebrow">RECENT HISTORY</div><h2>Service highlights</h2></div></div>
+  <div class="section-head"><div><div class="eyebrow">KNOWN HISTORY</div><h2>Recent service worth carrying forward</h2></div></div>
   <div class="tablewrap"><table class="public-table"><thead><tr><th>Date</th><th>Mileage</th><th>What happened</th></tr></thead><tbody id="serviceRows"></tbody></table></div>
 </section>
 
 <section>
-  <div class="section-head"><div><div class="eyebrow">PARTS DIRECTION</div><h2>What is actually going on the car</h2></div></div>
-  <div class="grid three" id="partsGrid"></div>
-</section>
-
-<section>
   <div class="followbox">
-    <div><div class="eyebrow">FOLLOW THE BUILD</div><h2>One car. One long-running journal.</h2><p>Bookmark this page or add the RSS feed to your reader. The public feed only contains items deliberately marked for sharing.</p></div>
-    <div class="follow-actions"><a class="btn" href="feed.xml">RSS feed</a><a class="btn" href="#updates">Latest update</a></div>
+    <div><div class="eyebrow">FOLLOW #0662</div><h2>One car. One long-running garage journal.</h2><p>The clean wins, the frustrating parts, the maintenance receipts we inherit and the decisions we make from here all live here. Bookmark the page or follow the RSS feed.</p></div>
+    <div class="follow-actions"><a class="btn" href="feed.xml">RSS feed</a><a class="btn" href="#latest">Latest chapter</a></div>
   </div>
 </section>
 
-<footer class="footer">Forever Z · 2013 370Z NISMO build journal. Public view only; the owner control plane lives separately.</footer>
+<footer class="footer">Forever Z · 2013 Nissan 370Z NISMO #0662 · Built to be driven, kept and documented.</footer>
 </div>
+
 <script src="public-config.js"></script>
 <script src="public-data.js"></script>
 <script>
 (() => {
- const fallback=window.FOREVER_Z_PUBLIC_DATA||{items:[],parts:[]};
- const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const fmtMileage=n=>n?Number(n).toLocaleString()+' mi':'';
- function render(data,live){
-   const items=(data.items||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
-   const updates=items.filter(x=>x.type==='Update');
-   const services=items.filter(x=>x.type==='Service');
-   const journal=document.getElementById('journal');
-   journal.innerHTML=updates.map(x=>'<article class="journal-card" id="update-'+esc(x.slug||x.id)+'"><time>'+esc(x.date)+'</time><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary)+'</p><div class="meta"><span class="pub-pill">'+esc(x.category||'Update')+'</span>'+(x.mileage?'<span class="pub-pill">'+esc(fmtMileage(x.mileage))+'</span>':'')+'</div></article>').join('')||'<div class="card"><p>No public updates yet.</p></div>';
-   document.getElementById('serviceRows').innerHTML=services.slice(0,8).map(x=>'<tr><td>'+esc(x.date)+'</td><td>'+esc(fmtMileage(x.mileage))+'</td><td><b>'+esc(x.title)+'</b><br>'+esc(x.summary)+'</td></tr>').join('');
-   const parts=data.parts||fallback.parts||[];
-   document.getElementById('partsGrid').innerHTML=parts.slice(0,6).map(x=>'<div class="card"><h3>'+esc(x.part)+'</h3><p><span class="pill info">'+esc(x.status)+'</span></p><p>'+esc(x.note)+'</p></div>').join('');
-   document.getElementById('feedStatus').textContent=live?'Live public feed':'Static public snapshot';
- }
- function tryRemote(){
-   const url=window.FOREVER_Z_PUBLIC_FEED_URL;
-   if(!url){render(fallback,false);return;}
-   const s=document.createElement('script');
-   s.src=url+(url.includes('?')?'&':'?')+'format=js&_='+(Date.now());
-   s.onload=()=>render(window.FOREVER_Z_REMOTE_DATA||fallback,!!window.FOREVER_Z_REMOTE_DATA);
-   s.onerror=()=>render(fallback,false);
-   document.head.appendChild(s);
- }
- tryRemote();
+  const fallback=window.FOREVER_Z_PUBLIC_DATA||{items:[],parts:[]};
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtMileage=n=>n?Number(n).toLocaleString()+' mi':'';
+  function render(data,live){
+    const items=(data.items||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+    const updates=items.filter(x=>x.type==='Update').slice(0,8);
+    const services=items.filter(x=>x.type==='Service');
+    document.getElementById('journalGrid').innerHTML=updates.map(x=>{
+      const image=x.image?'<img src="'+esc(x.image)+'" alt="'+esc(x.imageAlt||x.title)+'" loading="lazy">':'';
+      return '<article class="journal-card" id="update-'+esc(x.slug||x.id)+'">'+image+'<div class="journal-body"><time>'+esc(x.date)+'</time><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary)+'</p><div class="meta"><span class="pub-pill">'+esc(x.category||'Update')+'</span>'+(x.mileage?'<span class="pub-pill">'+esc(fmtMileage(x.mileage))+'</span>':'')+'</div></div></article>';
+    }).join('')||'<div class="card"><p>No public updates yet.</p></div>';
+    document.getElementById('serviceRows').innerHTML=services.slice(0,8).map(x=>'<tr><td>'+esc(x.date)+'</td><td>'+esc(fmtMileage(x.mileage))+'</td><td><b>'+esc(x.title)+'</b><br>'+esc(x.summary)+'</td></tr>').join('');
+    document.getElementById('feedStatus').textContent=live?'Live public feed':'Updated '+esc(data.updatedAt||'');
+  }
+  function tryRemote(){
+    const url=window.FOREVER_Z_PUBLIC_FEED_URL;
+    if(!url){render(fallback,false);return;}
+    const s=document.createElement('script');
+    s.src=url+(url.includes('?')?'&':'?')+'format=js&_='+(Date.now());
+    s.onload=()=>render(window.FOREVER_Z_REMOTE_DATA||fallback,!!window.FOREVER_Z_REMOTE_DATA);
+    s.onerror=()=>render(fallback,false);
+    document.head.appendChild(s);
+  }
+  tryRemote();
 })();
 </script>
 </body>
