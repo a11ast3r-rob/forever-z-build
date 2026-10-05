@@ -96,9 +96,80 @@ window.FOREVER_Z_PUBLIC_DATA = {
       slug:"oil-service-140777"
     }
   ],
+  buildSheet: [
+    {
+      category:"Audio · Source & integration",
+      intro:"The factory Bose system is no longer driving the speakers. The new system keeps the steering-wheel controls and vehicle-data integration.",
+      items:[
+        {status:"Installed",part:"Kenwood Excelon DMX809S",note:"Main head unit; installed in the factory dash structure."},
+        {status:"Installed",part:"iDatalink Maestro RR",note:"Retains steering-wheel controls and feeds vehicle/OBD data to the Kenwood."},
+        {status:"Installed",part:"Kenwood / Nissan antenna integration",note:"Aftermarket antenna connection integrated with the new head unit."}
+      ]
+    },
+    {
+      category:"Audio · Amplification & wiring",
+      intro:"The new five-channel system replaces the Bose amplification and was wired as a standalone aftermarket setup.",
+      items:[
+        {status:"Installed",part:"NVX NDA11005 5-channel amplifier",note:"Mounted in the cubby behind the passenger seat.",image:"assets/public/nvx-amp-cubby.webp"},
+        {status:"Installed",part:"NVX XKIT46 4-gauge amp wiring kit",note:"Main power/ground/fusing for the NVX amp."},
+        {status:"Installed",part:"RCA, remote and speaker wiring",note:"Signal wiring routed separately from the main power run; new speaker wiring used through the build where needed."},
+        {status:"Installed",part:"Factory Bose harness adaptation",note:"Stock Bose-side connectors were repurposed during the bypass instead of leaving the factory wiring useless.",image:"assets/public/bose-harness-tap.webp"}
+      ]
+    },
+    {
+      category:"Audio · Speakers",
+      intro:"The goal was clean sound rather than maximum volume.",
+      items:[
+        {status:"Installed",part:"KICKER KS front component system",note:"Front door woofers plus tweeters and passive crossovers."},
+        {status:"Installed",part:"KICKER 3.5-inch rear fill speakers",note:"Rear fill installed and polarity verified."},
+        {status:"Installed",part:"Door-speaker and tweeter adapters",note:"Vehicle-specific adapters used to mount the new KICKER hardware cleanly."}
+      ]
+    },
+    {
+      category:"Audio · Bass",
+      intro:"The amp's sub channel is confirmed working; the first used enclosure turned out to be the bad part.",
+      items:[
+        {status:"Returning",part:"KICKER 46TL7T102 Solo-Baric L7T loaded 10-inch",note:"Bought used. No output or cone movement during direct testing, so the return is in process.",image:"assets/public/used-sub-trunk.webp"},
+        {status:"Planned",part:"New KICKER 46TL7T102 replacement",note:"Same compact loaded enclosure is the intended replacement, but it is not counted as purchased until ordered."}
+      ]
+    },
+    {
+      category:"Noise control / interior",
+      intro:"While the interior was apart, the build also started attacking the Z's normal hatch and panel noise.",
+      items:[
+        {status:"Installed",part:"Butyl sound-deadening treatment",note:"Trunk/spare-well treatment started while the audio system was apart."},
+        {status:"In progress",part:"Additional door / cabin treatment",note:"Continue panel-by-panel as areas come apart for other work."}
+      ]
+    },
+    {
+      category:"Engine / maintenance baseline",
+      intro:"Known maintenance first. Unknown history becomes a known starting point before bigger mechanical decisions.",
+      items:[
+        {status:"Ordered",part:"Denso VQ37VHR spark plugs",qty:6,note:"Next engine-baseline job; plug wells, boots and coils will be inspected at the same time."}
+      ]
+    },
+    {
+      category:"Hood / quality-of-life",
+      intro:"Small parts that make the car nicer to work on and live with.",
+      items:[
+        {status:"Ordered",part:"Z1 370Z Hood Struts",qty:1,note:"Will retire the factory prop rod."},
+        {status:"Ordered",part:"OEM '09–'22 Nissan 370Z Hood Release Lever",qty:1,note:"Fresh OEM replacement."},
+        {status:"Ordered",part:"Z1 Motorsports Decal Set",qty:1,note:"Small finishing detail for the build."}
+      ]
+    },
+    {
+      category:"Not bought yet",
+      intro:"These are part of the direction of the build, but they stay out of the purchased list until money actually changes hands.",
+      items:[
+        {status:"Conditional",part:"Fast Intentions resonated high-flow cats",note:"Leading exhaust repair choice only if the catalyst issue returns and diagnosis supports replacing the cats."},
+        {status:"Planned",part:"Fresh O2 sensors if diagnosis calls for them",note:"Sensors are not being replaced just because a catalyst code appeared."},
+        {status:"Selected",part:"Continental ExtremeContact DWS06 Plus",note:"245/40ZR19 front · 285/35ZR19 rear; selected, not purchased."}
+      ]
+    }
+  ],
   parts: [
     {status:"Installed",part:"Kenwood Excelon DMX809S",note:"Mounted in the factory dash structure and operating normally.",image:"assets/public/kenwood-dash-install.webp"},
-    {status:"Installed",part:"KICKER 51KSS6504 front components",note:"Front component stage is complete with polarity verified on the car."},
+    {status:"Installed",part:"KICKER KS front component system",note:"Front door woofers, tweeters and passive crossovers installed; polarity verified on the car."},
     {status:"Installed",part:"NVX NDA11005 5-channel amp",note:"Mounted neatly in the cubby behind the passenger seat, powered, grounded and operational. Factory Bose amp is bypassed.",image:"assets/public/nvx-amp-cubby.webp"},
     {status:"Returning",part:"Used KICKER 46TL7T102 L7T loaded 10",note:"Channel 5 tested good, but the used enclosure failed playback and direct battery-pop testing. eBay return is in process.",image:"assets/public/used-sub-trunk.webp"},
     {status:"Ordered",part:"Z1 370Z Hood Struts",qty:1,note:"Quality-of-life upgrade to retire the factory hood prop."},
