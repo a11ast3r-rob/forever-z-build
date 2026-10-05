@@ -5,13 +5,27 @@
 <link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html</link>
 <description>2013 Nissan 370Z NISMO build journal</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 04 Oct 2026 05:30:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 00:58:00 GMT</lastBuildDate>
 <item>
-<title>Door audio complete; amp and sub are next</title>
-<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-stereo-install-underway</link>
-<guid>forever-z-2026-10-04-audio-install</guid>
-<pubDate>Sun, 04 Oct 2026 05:30:00 GMT</pubDate>
-<description>The KICKER door stage is installed. Interior trim goes back in next, then the NVX amp gets mounted and wired behind the passenger seat. The KICKER L7T loaded 10 is in hand and will be strapped securely in the hatch.</description>
+<title>Stereo rebuild is alive — the used sub is not</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-stereo-rebuild-live</link>
+<guid>forever-z-2026-10-04-stereo-live</guid>
+<pubDate>Mon, 05 Oct 2026 00:50:00 GMT</pubDate>
+<description>The Kenwood and NVX five-channel amp are installed and operational, the Bose amp is bypassed and all four cabin speakers work. Channel 5 tested good, but the used KICKER L7T loaded 10 failed playback and a direct battery-pop test, so its return is underway and a replacement is next.</description>
+</item>
+<item>
+<title>CEL is off after the battery reset — diagnosis continues</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-cel-reset-recheck</link>
+<guid>forever-z-2026-10-04-cel-reset</guid>
+<pubDate>Mon, 05 Oct 2026 00:45:00 GMT</pubDate>
+<description>The catalyst CEL is currently off after the battery disconnect, but readiness also reset. Spark plugs are next, followed by a normal drive cycle and rescan before cats or O2 sensors are condemned.</description>
+</item>
+<item>
+<title>Hood struts are on the way</title>
+<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-hood-struts-ordered</link>
+<guid>forever-z-2026-10-04-hood-struts</guid>
+<pubDate>Mon, 05 Oct 2026 00:40:00 GMT</pubDate>
+<description>Hood struts are ordered so the factory prop can retire — a small, useful quality-of-life upgrade.</description>
 </item>
 <item>
 <title>Engine history audit completed</title>
@@ -26,13 +40,6 @@
 <guid>forever-z-2026-09-28-catalyst</guid>
 <pubDate>Mon, 28 Sep 2026 18:00:00 GMT</pubDate>
 <description>A catalyst-related CEL is being worked from evidence first; the converter is not yet confirmed failed.</description>
-</item>
-<item>
-<title>Front-stage refresh is underway</title>
-<link>https://a11ast3r-rob.github.io/forever-z-build/showcase.html#update-front-stage-refresh</link>
-<guid>forever-z-2026-09-23-audio</guid>
-<pubDate>Wed, 23 Sep 2026 18:00:00 GMT</pubDate>
-<description>Kenwood and KICKER front-stage parts are on the way; the factory Bose sub stays temporarily.</description>
 </item>
 </channel>
 </rss>
