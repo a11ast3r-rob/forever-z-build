@@ -39,7 +39,7 @@
 .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c1118;box-shadow:0 14px 34px rgba(0,0,0,.18)}.shot img{width:100%;aspect-ratio:3/4;object-fit:contain;display:block;background:linear-gradient(180deg,#090c11,#111720);padding:8px;image-rendering:auto;cursor:zoom-in}.shot-copy{padding:15px}.shot-copy h3{margin:0 0 7px}.shot-copy p{margin:0;color:var(--soft);line-height:1.55;font-size:12px}
 .journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.journal-card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,#151b24,#0c1118);overflow:hidden}.journal-card img{width:100%;height:250px;object-fit:contain;display:block;background:linear-gradient(180deg,#090c11,#111720);padding:8px;image-rendering:auto;cursor:zoom-in}.journal-body{padding:18px}.journal-card time{color:#ff7d84;font-weight:900;font-size:10px;letter-spacing:.08em}.journal-card h3{margin:8px 0}.journal-card p{color:var(--soft);line-height:1.6;font-size:13px}.journal-card .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
 .pub-pill{border:1px solid var(--line);border-radius:999px;padding:5px 8px;color:var(--muted);font-size:9px;font-weight:850}
-.parts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.part-card{border:1px solid var(--line);border-radius:18px;padding:17px;background:#0d131a}.part-top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}.part-card h3{margin:0;font-size:15px}.part-card p{color:var(--soft);font-size:11px;line-height:1.55;margin:9px 0 0}.qty{color:var(--muted);font-size:9px}
+.buildsheet{display:grid;gap:14px}.build-group{border:1px solid var(--line);border-radius:22px;background:linear-gradient(160deg,#111820,#0a0f15);overflow:hidden}.build-group-head{padding:18px 18px 13px;border-bottom:1px solid var(--line)}.build-group-head h3{margin:0;font-size:18px}.build-group-head p{margin:7px 0 0;color:var(--soft);font-size:11px;line-height:1.55;max-width:850px}.build-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.build-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:15px 18px;border-bottom:1px solid var(--line)}.build-item:nth-child(odd){border-right:1px solid var(--line)}.build-item b{display:block;font-size:13px}.build-item p{margin:5px 0 0;color:var(--soft);font-size:11px;line-height:1.5}.build-item-media{grid-column:1/-1;border-radius:14px;overflow:hidden;background:#090c11;margin-top:6px}.build-item-media img{display:block;width:100%;height:180px;object-fit:contain;background:#090c11;padding:6px;cursor:zoom-in}.status-chip{align-self:start;border:1px solid var(--line);border-radius:999px;padding:5px 8px;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}.status-installed{color:#8fe3b1;border-color:#315744}.status-ordered{color:#8fc3ff;border-color:#304d70}.status-returning{color:#ff9aa0;border-color:#6a383d}.status-planned,.status-selected,.status-conditional,.status-in-progress{color:#d8c8ff;border-color:#4b416b}.qty{color:var(--muted);font-size:9px}
 .next-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.next-card{border:1px solid var(--line);border-radius:18px;padding:16px;background:#0e141c}.next-card b{display:block}.next-card span{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:6px}
 .public-table{width:100%;border-collapse:collapse}.public-table th,.public-table td{padding:11px;border-bottom:1px solid #232b35;text-align:left;font-size:11px}.public-table th{color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em}
 .followbox{display:grid;grid-template-columns:1.5fr 1fr;gap:14px;align-items:center;border:1px solid #4a3032;border-radius:22px;padding:20px;background:linear-gradient(135deg,rgba(228,61,70,.14),rgba(126,184,255,.05)),#111720}
@@ -47,7 +47,7 @@
 .story-rule{font-size:12px;color:var(--soft);border-left:3px solid #ff636b;padding-left:14px;line-height:1.6;margin-top:16px}
 .photo-lightbox{border:0;padding:0;background:transparent;max-width:min(94vw,1200px);max-height:94vh}.photo-lightbox::backdrop{background:rgba(0,0,0,.86);backdrop-filter:blur(7px)}.lightbox-shell{position:relative;background:#07090c;border:1px solid #2a323d;border-radius:22px;padding:10px;box-shadow:0 30px 100px rgba(0,0,0,.65)}.lightbox-shell img{display:block;max-width:calc(94vw - 24px);max-height:calc(88vh - 24px);width:auto;height:auto;object-fit:contain;border-radius:14px}.lightbox-close{position:absolute;top:16px;right:16px;width:38px;height:38px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(5,7,10,.78);color:#fff;font-size:24px;line-height:1;cursor:pointer;z-index:2}.hero-photo img,.feature-media img,.shot img,.journal-card img{transition:transform .18s ease,filter .18s ease}.hero-photo img:hover,.feature-media img:hover,.shot img:hover,.journal-card img:hover{transform:scale(1.008);filter:brightness(1.035)}
 @media(max-width:900px){.hero-public,.feature{grid-template-columns:1fr}.hero-photo{min-height:330px}.statbar,.next-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.feature-media{min-height:440px}.followbox{grid-template-columns:1fr}.follow-actions{justify-content:flex-start}}
-@media(max-width:650px){.public-nav{position:static;align-items:flex-start;flex-direction:column}.hero-copy{min-height:390px;padding:25px}.hero-photo{min-height:0;aspect-ratio:16/10;padding:8px}.hero-photo img{max-height:none}.statbar,.gallery,.journal-grid,.parts-grid,.next-grid,.feature-points{grid-template-columns:1fr}.feature-media{min-height:0;aspect-ratio:3/4;padding:8px}.feature-media img{max-height:none}.shot img{aspect-ratio:3/4}.journal-card img{height:auto;aspect-ratio:3/4}}
+@media(max-width:650px){.public-nav{position:static;align-items:flex-start;flex-direction:column}.hero-copy{min-height:390px;padding:25px}.hero-photo{min-height:0;aspect-ratio:16/10;padding:8px}.hero-photo img{max-height:none}.statbar,.gallery,.journal-grid,.next-grid,.feature-points{grid-template-columns:1fr}.build-items{grid-template-columns:1fr}.build-item:nth-child(odd){border-right:0}.feature-media{min-height:0;aspect-ratio:3/4;padding:8px}.feature-media img{max-height:none}.shot img{aspect-ratio:3/4}.journal-card img{height:auto;aspect-ratio:3/4}}
 </style>
 </head>
 <body>
@@ -57,7 +57,7 @@
   <div class="public-links">
     <a class="btn" href="#latest">Latest</a>
     <a class="btn" href="#garage">Garage</a>
-    <a class="btn" href="#parts">Parts</a>
+    <a class="btn" href="#buildsheet">Build sheet</a>
     <a class="btn" href="#journal">Journal</a>
     <a class="btn" href="feed.xml">RSS</a>
   </div>
@@ -134,14 +134,10 @@
   </div>
 </section>
 
-<section id="parts">
-  <div class="section-head"><div><div class="eyebrow">BOUGHT / INCOMING</div><h2>The latest Z1 + Denso order</h2></div><span class="muted">What is actually coming for the car</span></div>
-  <div class="parts-grid">
-    <div class="part-card"><div class="part-top"><div><h3>Z1 370Z Hood Struts</h3><span class="qty">QTY 1 · ORDERED</span></div></div><p>Retires the factory prop rod and makes every future under-hood session a little nicer.</p></div>
-    <div class="part-card"><div class="part-top"><div><h3>OEM '09–'22 Nissan 370Z Hood Release Lever</h3><span class="qty">QTY 1 · ORDERED</span></div></div><p>Fresh OEM replacement instead of trying to dress up tired release hardware.</p></div>
-    <div class="part-card"><div class="part-top"><div><h3>Denso VQ37VHR Spark Plugs</h3><span class="qty">QTY 6 · ORDERED</span></div></div><p>No plug replacement is documented in the VIN-specific history, so these establish our own ignition-maintenance baseline.</p></div>
-    <div class="part-card"><div class="part-top"><div><h3>Z1 Motorsports Decal Set</h3><span class="qty">QTY 1 · ORDERED</span></div></div><p>Not every part has to solve a mechanical problem. Some of the little stuff is just for the build.</p></div>
-  </div>
+<section id="buildsheet">
+  <div class="section-head"><div><div class="eyebrow">BUILD SHEET</div><h2>What we actually bought, installed or ordered</h2></div><span class="muted">Planned parts are called out separately</span></div>
+  <div class="buildsheet" id="buildSheet"></div>
+  <div class="data-note">This list is intentionally status-driven: installed, ordered, returning and planned are not treated as the same thing.</div>
 </section>
 
 <section>
@@ -193,10 +189,20 @@
     const items=(data.items||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
     const updates=items.filter(x=>x.type==='Update').slice(0,8);
     const services=items.filter(x=>x.type==='Service');
+    const buildSheet=(data.buildSheet&&data.buildSheet.length?data.buildSheet:fallback.buildSheet)||[];
     document.getElementById('journalGrid').innerHTML=updates.map(x=>{
       const image=x.image?'<img src="'+esc(x.image)+'" alt="'+esc(x.imageAlt||x.title)+'" loading="lazy" decoding="async" data-full>':'';
       return '<article class="journal-card" id="update-'+esc(x.slug||x.id)+'">'+image+'<div class="journal-body"><time>'+esc(x.date)+'</time><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary)+'</p><div class="meta"><span class="pub-pill">'+esc(x.category||'Update')+'</span>'+(x.mileage?'<span class="pub-pill">'+esc(fmtMileage(x.mileage))+'</span>':'')+'</div></div></article>';
     }).join('')||'<div class="card"><p>No public updates yet.</p></div>';
+    document.getElementById('buildSheet').innerHTML=buildSheet.map(group=>{
+      const items=(group.items||[]).map(item=>{
+        const cls='status-'+String(item.status||'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
+        const qty=item.qty?'<span class="qty"> · QTY '+esc(item.qty)+'</span>':'';
+        const media=item.image?'<div class="build-item-media"><img src="'+esc(item.image)+'" alt="'+esc(item.part)+'" loading="lazy" decoding="async" data-full></div>':'';
+        return '<article class="build-item"><div><b>'+esc(item.part)+qty+'</b><p>'+esc(item.note||'')+'</p></div><span class="status-chip '+cls+'">'+esc(item.status||'')+'</span>'+media+'</article>';
+      }).join('');
+      return '<section class="build-group"><div class="build-group-head"><h3>'+esc(group.category)+'</h3><p>'+esc(group.intro||'')+'</p></div><div class="build-items">'+items+'</div></section>';
+    }).join('');
     document.getElementById('serviceRows').innerHTML=services.slice(0,8).map(x=>'<tr><td>'+esc(x.date)+'</td><td>'+esc(fmtMileage(x.mileage))+'</td><td><b>'+esc(x.title)+'</b><br>'+esc(x.summary)+'</td></tr>').join('');
     document.getElementById('feedStatus').textContent=live?'Live public feed':'Updated '+esc(data.updatedAt||'');
   }
@@ -212,7 +218,7 @@
   const lightbox=document.getElementById('photoLightbox');
   const lightboxImage=document.getElementById('lightboxImage');
   function wireLightbox(){
-    document.querySelectorAll('[data-full], .shot img, .journal-card img').forEach(img=>{
+    document.querySelectorAll('[data-full], .shot img, .journal-card img, .build-item-media img').forEach(img=>{
       if(img.dataset.lightboxReady) return;
       img.dataset.lightboxReady='1';
       img.addEventListener('click',()=>{
