@@ -26,18 +26,18 @@
 .hero-copy{min-height:430px;padding:38px;display:flex;align-items:flex-end;background:radial-gradient(circle at 80% 18%,rgba(228,61,70,.25),transparent 23rem),linear-gradient(135deg,#171d27,#080a0d)}
 .hero-copy h1{font-size:clamp(56px,10vw,104px);line-height:.83;letter-spacing:-.065em;margin:9px 0 18px}
 .hero-copy h1 span{color:#ff636b}.hero-copy p{max-width:720px;color:var(--soft);line-height:1.65;font-size:15px}
-.hero-photo{position:relative;min-height:430px;background:#111}.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-photo{position:relative;min-height:430px;background:radial-gradient(circle at 50% 30%,#171d25,#080b0f 72%);display:flex;align-items:center;justify-content:center;padding:14px}.hero-photo img{width:100%;height:100%;max-height:400px;object-fit:contain;display:block;border-radius:18px;image-rendering:auto;cursor:zoom-in}
 .photo-label{position:absolute;left:16px;right:16px;bottom:16px;padding:13px 14px;border:1px solid rgba(255,255,255,.15);border-radius:16px;background:rgba(7,9,12,.78);backdrop-filter:blur(8px)}
 .photo-label b{display:block;font-size:15px}.photo-label span{display:block;color:#c7cbd2;font-size:11px;margin-top:4px}
 .statbar{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
 .pstat{border:1px solid var(--line);border-radius:16px;padding:14px;background:#0d131a}.pstat small{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.09em}.pstat b{display:block;margin-top:5px;font-size:16px}
 .feature{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(0,1.15fr);gap:16px;align-items:stretch}
-.feature-media{border:1px solid var(--line);border-radius:24px;overflow:hidden;min-height:520px;background:#0d1117}.feature-media img{width:100%;height:100%;object-fit:cover;display:block}
+.feature-media{border:1px solid var(--line);border-radius:24px;overflow:hidden;min-height:520px;background:radial-gradient(circle at 50% 35%,#161c24,#080b0f 72%);display:flex;align-items:center;justify-content:center;padding:10px}.feature-media img{width:100%;height:100%;max-height:560px;object-fit:contain;display:block;border-radius:16px;image-rendering:auto;cursor:zoom-in}
 .feature-copy{border:1px solid var(--line);border-radius:24px;padding:26px;background:linear-gradient(160deg,#151b24,#0b1016)}
 .feature-copy h2{font-size:clamp(30px,5vw,52px);line-height:1;margin:9px 0 14px;letter-spacing:-.035em}.feature-copy p{color:var(--soft);line-height:1.7}
 .feature-points{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:18px}.feature-point{border:1px solid var(--line);border-radius:15px;padding:13px;background:#0c1219}.feature-point b{display:block;font-size:12px}.feature-point span{display:block;color:var(--muted);font-size:10px;line-height:1.45;margin-top:4px}
-.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c1118}.shot img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}.shot-copy{padding:15px}.shot-copy h3{margin:0 0 7px}.shot-copy p{margin:0;color:var(--soft);line-height:1.55;font-size:12px}
-.journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.journal-card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,#151b24,#0c1118);overflow:hidden}.journal-card img{width:100%;height:210px;object-fit:cover;display:block}.journal-body{padding:18px}.journal-card time{color:#ff7d84;font-weight:900;font-size:10px;letter-spacing:.08em}.journal-card h3{margin:8px 0}.journal-card p{color:var(--soft);line-height:1.6;font-size:13px}.journal-card .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}.shot{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#0c1118;box-shadow:0 14px 34px rgba(0,0,0,.18)}.shot img{width:100%;aspect-ratio:3/4;object-fit:contain;display:block;background:linear-gradient(180deg,#090c11,#111720);padding:8px;image-rendering:auto;cursor:zoom-in}.shot-copy{padding:15px}.shot-copy h3{margin:0 0 7px}.shot-copy p{margin:0;color:var(--soft);line-height:1.55;font-size:12px}
+.journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.journal-card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,#151b24,#0c1118);overflow:hidden}.journal-card img{width:100%;height:250px;object-fit:contain;display:block;background:linear-gradient(180deg,#090c11,#111720);padding:8px;image-rendering:auto;cursor:zoom-in}.journal-body{padding:18px}.journal-card time{color:#ff7d84;font-weight:900;font-size:10px;letter-spacing:.08em}.journal-card h3{margin:8px 0}.journal-card p{color:var(--soft);line-height:1.6;font-size:13px}.journal-card .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
 .pub-pill{border:1px solid var(--line);border-radius:999px;padding:5px 8px;color:var(--muted);font-size:9px;font-weight:850}
 .parts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.part-card{border:1px solid var(--line);border-radius:18px;padding:17px;background:#0d131a}.part-top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}.part-card h3{margin:0;font-size:15px}.part-card p{color:var(--soft);font-size:11px;line-height:1.55;margin:9px 0 0}.qty{color:var(--muted);font-size:9px}
 .next-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.next-card{border:1px solid var(--line);border-radius:18px;padding:16px;background:#0e141c}.next-card b{display:block}.next-card span{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:6px}
@@ -45,8 +45,9 @@
 .followbox{display:grid;grid-template-columns:1.5fr 1fr;gap:14px;align-items:center;border:1px solid #4a3032;border-radius:22px;padding:20px;background:linear-gradient(135deg,rgba(228,61,70,.14),rgba(126,184,255,.05)),#111720}
 .followbox h2{margin:0 0 8px}.followbox p{margin:0;color:var(--soft);line-height:1.55}.follow-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.data-note{color:var(--muted);font-size:10px;margin-top:10px}
 .story-rule{font-size:12px;color:var(--soft);border-left:3px solid #ff636b;padding-left:14px;line-height:1.6;margin-top:16px}
+.photo-lightbox{border:0;padding:0;background:transparent;max-width:min(94vw,1200px);max-height:94vh}.photo-lightbox::backdrop{background:rgba(0,0,0,.86);backdrop-filter:blur(7px)}.lightbox-shell{position:relative;background:#07090c;border:1px solid #2a323d;border-radius:22px;padding:10px;box-shadow:0 30px 100px rgba(0,0,0,.65)}.lightbox-shell img{display:block;max-width:calc(94vw - 24px);max-height:calc(88vh - 24px);width:auto;height:auto;object-fit:contain;border-radius:14px}.lightbox-close{position:absolute;top:16px;right:16px;width:38px;height:38px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(5,7,10,.78);color:#fff;font-size:24px;line-height:1;cursor:pointer;z-index:2}.hero-photo img,.feature-media img,.shot img,.journal-card img{transition:transform .18s ease,filter .18s ease}.hero-photo img:hover,.feature-media img:hover,.shot img:hover,.journal-card img:hover{transform:scale(1.008);filter:brightness(1.035)}
 @media(max-width:900px){.hero-public,.feature{grid-template-columns:1fr}.hero-photo{min-height:330px}.statbar,.next-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.feature-media{min-height:440px}.followbox{grid-template-columns:1fr}.follow-actions{justify-content:flex-start}}
-@media(max-width:650px){.public-nav{position:static;align-items:flex-start;flex-direction:column}.hero-copy{min-height:390px;padding:25px}.hero-photo{min-height:250px}.statbar,.gallery,.journal-grid,.parts-grid,.next-grid,.feature-points{grid-template-columns:1fr}.feature-media{min-height:480px}.shot img{aspect-ratio:3/4}}
+@media(max-width:650px){.public-nav{position:static;align-items:flex-start;flex-direction:column}.hero-copy{min-height:390px;padding:25px}.hero-photo{min-height:0;aspect-ratio:16/10;padding:8px}.hero-photo img{max-height:none}.statbar,.gallery,.journal-grid,.parts-grid,.next-grid,.feature-points{grid-template-columns:1fr}.feature-media{min-height:0;aspect-ratio:3/4;padding:8px}.feature-media img{max-height:none}.shot img{aspect-ratio:3/4}.journal-card img{height:auto;aspect-ratio:3/4}}
 </style>
 </head>
 <body>
@@ -77,7 +78,7 @@
     </div>
   </div>
   <figure class="hero-photo">
-    <img src="assets/public/nismo-0662.webp" alt="370Z NISMO interior build plate numbered 0662">
+    <img src="assets/public/nismo-0662.webp" alt="370Z NISMO interior build plate numbered 0662" decoding="async" data-full>
     <figcaption class="photo-label"><b>NISMO #0662</b><span>The little plate that gives the whole project an identity.</span></figcaption>
   </figure>
 </header>
@@ -85,7 +86,7 @@
 <section id="latest">
   <div class="section-head"><div><div class="eyebrow">LATEST CHAPTER</div><h2>The wrenching has started</h2></div><span class="muted">October 4, 2026</span></div>
   <div class="feature">
-    <div class="feature-media"><img src="assets/public/garage-beginning.webp" alt="Pearl White Nissan 370Z NISMO in a garage with hood and hatch open"></div>
+    <div class="feature-media"><img src="assets/public/garage-beginning.webp" alt="Pearl White Nissan 370Z NISMO in a garage with hood and hatch open" decoding="async" data-full></div>
     <article class="feature-copy">
       <div class="eyebrow">FIRST REAL GARAGE SESSION</div>
       <h2>Purchase mode is over.</h2>
@@ -174,6 +175,13 @@
 <footer class="footer">Forever Z · 2013 Nissan 370Z NISMO #0662 · Built to be driven, kept and documented.</footer>
 </div>
 
+<dialog class="photo-lightbox" id="photoLightbox" aria-label="Full-size build photo">
+  <div class="lightbox-shell">
+    <button class="lightbox-close" type="button" aria-label="Close photo">×</button>
+    <img id="lightboxImage" alt="">
+  </div>
+</dialog>
+
 <script src="public-config.js"></script>
 <script src="public-data.js"></script>
 <script>
@@ -186,7 +194,7 @@
     const updates=items.filter(x=>x.type==='Update').slice(0,8);
     const services=items.filter(x=>x.type==='Service');
     document.getElementById('journalGrid').innerHTML=updates.map(x=>{
-      const image=x.image?'<img src="'+esc(x.image)+'" alt="'+esc(x.imageAlt||x.title)+'" loading="lazy">':'';
+      const image=x.image?'<img src="'+esc(x.image)+'" alt="'+esc(x.imageAlt||x.title)+'" loading="lazy" decoding="async" data-full>':'';
       return '<article class="journal-card" id="update-'+esc(x.slug||x.id)+'">'+image+'<div class="journal-body"><time>'+esc(x.date)+'</time><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary)+'</p><div class="meta"><span class="pub-pill">'+esc(x.category||'Update')+'</span>'+(x.mileage?'<span class="pub-pill">'+esc(fmtMileage(x.mileage))+'</span>':'')+'</div></div></article>';
     }).join('')||'<div class="card"><p>No public updates yet.</p></div>';
     document.getElementById('serviceRows').innerHTML=services.slice(0,8).map(x=>'<tr><td>'+esc(x.date)+'</td><td>'+esc(fmtMileage(x.mileage))+'</td><td><b>'+esc(x.title)+'</b><br>'+esc(x.summary)+'</td></tr>').join('');
@@ -201,7 +209,26 @@
     s.onerror=()=>render(fallback,false);
     document.head.appendChild(s);
   }
+  const lightbox=document.getElementById('photoLightbox');
+  const lightboxImage=document.getElementById('lightboxImage');
+  function wireLightbox(){
+    document.querySelectorAll('[data-full], .shot img, .journal-card img').forEach(img=>{
+      if(img.dataset.lightboxReady) return;
+      img.dataset.lightboxReady='1';
+      img.addEventListener('click',()=>{
+        lightboxImage.src=img.currentSrc||img.src;
+        lightboxImage.alt=img.alt||'Forever Z build photo';
+        lightbox.showModal();
+      });
+    });
+  }
+  lightbox.querySelector('.lightbox-close').addEventListener('click',()=>lightbox.close());
+  lightbox.addEventListener('click',e=>{if(e.target===lightbox) lightbox.close();});
+  lightbox.addEventListener('close',()=>{lightboxImage.removeAttribute('src');});
+  const originalRender=render;
+  render=(data,live)=>{originalRender(data,live);wireLightbox();};
   tryRemote();
+  wireLightbox();
 })();
 </script>
 </body>
