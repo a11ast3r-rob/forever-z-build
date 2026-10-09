@@ -1,6 +1,17 @@
 window.FOREVER_Z_PUBLIC_DATA = {
-  updatedAt: "2026-10-04",
+  updatedAt: "2026-10-09",
   items: [
+    {
+      type:"Update",
+      id:"upd-2026-10-09-audio-complete",
+      date:"2026-10-09",
+      title:"BOSE OUT. KICKER IN. Forever Z has a voice!",
+      summary:"The factory Bose system is out. Our completed setup runs a Kenwood DMX7706S touchscreen, Maestro RR integration, KICKER 51KSS6504 6.5-inch front components, KICKER 3.5-inch rear fill, an NVX NDA11005 five-channel amplifier and a working KICKER 44TL7S102 Solo-Baric L7S 10-inch loaded sub. The amp is rated up to 1,100W RMS combined at specified loads, with a 500W RMS dedicated 2-ohm bass channel; the L7S enclosure recommends 600W RMS. The first used L7T failed, but this one hits. Final tuning and a possible custom enclosure are next.",
+      category:"Audio",
+      slug:"bose-out-kicker-in",
+      image:"assets/public/nvx-amp-cubby.webp",
+      imageAlt:"NVX amplifier installed behind the passenger seat"
+    },
     {
       type:"Update",
       id:"upd-2026-10-04-garage-session",
@@ -101,7 +112,7 @@ window.FOREVER_Z_PUBLIC_DATA = {
       category:"Audio · Source & integration",
       intro:"The factory Bose system is no longer driving the speakers. The new system keeps the steering-wheel controls and vehicle-data integration.",
       items:[
-        {status:"Installed",part:"Kenwood Excelon DMX809S",note:"Main head unit; installed in the factory dash structure."},
+        {status:"Installed",part:"Kenwood DMX7706S",note:"Main head unit; installed in the factory dash structure."},
         {status:"Installed",part:"iDatalink Maestro RR",note:"Retains steering-wheel controls and feeds vehicle/OBD data to the Kenwood."},
         {status:"Installed",part:"Kenwood / Nissan antenna integration",note:"Aftermarket antenna connection integrated with the new head unit."}
       ]
@@ -110,7 +121,7 @@ window.FOREVER_Z_PUBLIC_DATA = {
       category:"Audio · Amplification & wiring",
       intro:"The new five-channel system replaces the Bose amplification and was wired as a standalone aftermarket setup.",
       items:[
-        {status:"Installed",part:"NVX NDA11005 5-channel amplifier",note:"Mounted in the cubby behind the passenger seat.",image:"assets/public/nvx-amp-cubby.webp"},
+        {status:"Installed",part:"NVX NDA11005 5-channel amplifier",note:"Class-D; rated up to 1,100W RMS combined at specified loads, and 500W RMS from the sub channel at 2 ohms. Mounted behind the passenger seat.",image:"assets/public/nvx-amp-cubby.webp"},
         {status:"Installed",part:"NVX XKIT46 4-gauge amp wiring kit",note:"Main power/ground/fusing for the NVX amp."},
         {status:"Installed",part:"RCA, remote and speaker wiring",note:"Signal wiring routed separately from the main power run; new speaker wiring used through the build where needed."},
         {status:"Installed",part:"Factory Bose harness adaptation",note:"Stock Bose-side connectors were repurposed during the bypass instead of leaving the factory wiring useless.",image:"assets/public/bose-harness-tap.webp"}
@@ -120,19 +131,20 @@ window.FOREVER_Z_PUBLIC_DATA = {
       category:"Audio · Speakers",
       intro:"The goal was clean sound rather than maximum volume.",
       items:[
-        {status:"Installed",part:"KICKER KS front component system",note:"Front door woofers plus tweeters and passive crossovers."},
+        {status:"Installed",part:"KICKER 51KSS6504 KS 6.5-inch front components",note:"Front door woofers plus tweeters and passive crossovers."},
         {status:"Installed",part:"KICKER 3.5-inch rear fill speakers",note:"Rear fill installed and polarity verified."},
         {status:"Installed",part:"Door-speaker and tweeter adapters",note:"Vehicle-specific adapters used to mount the new KICKER hardware cleanly."}
       ]
     },
     {
       category:"Audio · Bass",
-      intro:"The amp's sub channel is confirmed working; the first used enclosure turned out to be the bad part.",
+      intro:"The used first sub failed. The new L7S is purchased, installed and hitting properly.",
       items:[
-        {status:"Returning",part:"KICKER 46TL7T102 Solo-Baric L7T loaded 10-inch",note:"Bought used. No output or cone movement during direct testing, so the return is in process.",image:"assets/public/used-sub-trunk.webp"},
-        {status:"Planned",part:"New KICKER 46TL7T102 replacement",note:"Same compact loaded enclosure is the intended replacement, but it is not counted as purchased until ordered."}
+        {status:"Installed",part:"KICKER 44TL7S102 Solo-Baric L7S loaded 10-inch",note:"Working 2-ohm enclosure; KICKER recommends 600W RMS. Our NVX bass channel is rated 500W RMS at 2 ohms. A top-firing custom enclosure is being considered."},
+        {status:"Returning",part:"Previous used KICKER 46TL7T102 L7T loaded 10-inch",note:"First enclosure failed testing; eBay return processed. Historical build note only.",image:"assets/public/used-sub-trunk.webp"}
       ]
     },
+
     {
       category:"Noise control / interior",
       intro:"While the interior was apart, the build also started attacking the Z's normal hatch and panel noise.",
@@ -168,10 +180,11 @@ window.FOREVER_Z_PUBLIC_DATA = {
     }
   ],
   parts: [
-    {status:"Installed",part:"Kenwood Excelon DMX809S",note:"Mounted in the factory dash structure and operating normally.",image:"assets/public/kenwood-dash-install.webp"},
-    {status:"Installed",part:"KICKER KS front component system",note:"Front door woofers, tweeters and passive crossovers installed; polarity verified on the car."},
+    {status:"Installed",part:"Kenwood DMX7706S",note:"Mounted in the factory dash structure and operating normally.",image:"assets/public/kenwood-dash-install.webp"},
+    {status:"Installed",part:"KICKER 51KSS6504 KS 6.5-inch front components",note:"Front door woofers, tweeters and passive crossovers installed; polarity verified on the car."},
     {status:"Installed",part:"NVX NDA11005 5-channel amp",note:"Mounted neatly in the cubby behind the passenger seat, powered, grounded and operational. Factory Bose amp is bypassed.",image:"assets/public/nvx-amp-cubby.webp"},
-    {status:"Returning",part:"Used KICKER 46TL7T102 L7T loaded 10",note:"Channel 5 tested good, but the used enclosure failed playback and direct battery-pop testing. eBay return is in process.",image:"assets/public/used-sub-trunk.webp"},
+    {status:"Installed",part:"KICKER 44TL7S102 Solo-Baric L7S loaded 10",note:"Working 2-ohm square subwoofer in a thin-profile loaded enclosure; 600W RMS recommended amplifier power."},
+    {status:"Returning",part:"Prior used KICKER 46TL7T102 L7T loaded 10",note:"Failed playback and battery-pop testing; return processed.",image:"assets/public/used-sub-trunk.webp"},
     {status:"Ordered",part:"Z1 370Z Hood Struts",qty:1,note:"Quality-of-life upgrade to retire the factory hood prop."},
     {status:"Ordered",part:"OEM '09–'22 Nissan 370Z Hood Release Lever",qty:1,note:"Fresh OEM replacement for the aging hood-release hardware."},
     {status:"Ordered",part:"Denso VQ37VHR Spark Plug",qty:6,note:"Six plugs for the ignition baseline. Inspect plug wells and coils while they are out; coils stay diagnosis-only."},
