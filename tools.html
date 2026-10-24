@@ -17,13 +17,15 @@
     <div class="eyebrow">FOREVER Z · GARAGE CAPABILITY</div>
     <h1>Tool Roadmap</h1>
     <p class="lead">2013 Nissan 370Z NISMO · 6MT · 144k baseline. We buy tools that create reusable capability, borrow or rent one-job specialty equipment, and let the car tell us what deeper diagnostic gear is actually justified.</p>
-    <div class="stats"><div class="stat"><b id="ownedCount">4</b><small>tools / capabilities owned</small></div><div class="stat"><b id="checkedCount">4</b><small>items checked off</small></div><div class="stat"><b id="totalCount">0</b><small>tracked items</small></div></div>
+    <div class="stats"><div class="stat"><b id="ownedCount">6</b><small>tools / capabilities owned</small></div><div class="stat"><b id="checkedCount">6</b><small>items checked off</small></div><div class="stat"><b id="totalCount">0</b><small>tracked items</small></div></div>
   </header>
 
   <section>
     <div class="section-head"><div><div class="eyebrow">KNOWN OWNED</div><h2>Already in the garage</h2></div><span class="muted">These start checked.</span></div>
     <div class="grid">
-      <label class="tool owned"><input data-tool="stands-pair" type="checkbox" checked><div><b>One pair of jack stands</b><small>Existing support capability.</small></div><span class="pill">OWNED</span></label>
+      <label class="tool owned"><input data-tool="stands-pair" type="checkbox" checked><div><b>Original pair of jack stands</b><small>Two existing stands; brand and rated capacity not yet recorded.</small></div><span class="pill">OWNED</span></label>
+      <label class="tool owned"><input data-tool="daytona-stands-2026" type="checkbox" checked><div><b>DAYTONA 3-ton orange jack stands — pair</b><small>NEW · October 24, 2026 · Pair #2: four stands total. Confirm exact SKU from package. <a href="https://www.harborfreight.com/automotive/jacks-jack-stands/jack-stands/3-ton-heavy-duty-ratcheting-jack-stands-orange-58346.html">Harbor Freight option ↗</a></small></div><span class="pill">GOT</span></label>
+      <label class="tool owned"><input data-tool="daytona-jack-2026" type="checkbox" checked><div><b>DAYTONA 3-ton low-profile long-reach floor jack, orange</b><small>NEW · October 24, 2026 · Great clearance under the NISMO. Exact SKU to confirm. <a href="https://www.harborfreight.com/automotive/jacks-jack-stands/3-ton-long-reach-low-profile-professional-floor-jack-with-rapid-pump-orange-64241.html">Harbor Freight model ↗</a></small></div><span class="pill">GOT</span></label>
       <label class="tool owned"><input data-tool="pry-bar" type="checkbox" checked><div><b>Pry bar</b><small>Useful for bushing, mount and play checks.</small></div><span class="pill">OWNED</span></label>
       <label class="tool owned"><input data-tool="impact-sockets" type="checkbox" checked><div><b>Metric impact sockets</b><small>Known owned.</small></div><span class="pill">OWNED</span></label>
       <label class="tool owned"><input data-tool="air-tank" type="checkbox" checked><div><b>Small portable air tank</b><small>Useful for brief air needs; not a substitute for a regulated shop compressor during a full leak-down test.</small></div><span class="pill">OWNED</span></label>
@@ -33,8 +35,6 @@
   <section>
     <div class="section-head"><div><div class="eyebrow">TIER 1</div><h2>Buy before / around arrival</h2></div><span class="muted">The 144k baseline kit.</span></div>
     <div class="grid">
-      <label class="tool arrival"><input data-tool="floor-jack" type="checkbox"><div><b>3-ton low-profile long-reach floor jack</b><small>Core garage buy for safe access under the Z.</small></div><span class="pill">ARRIVAL</span></label>
-      <label class="tool arrival"><input data-tool="stands-second" type="checkbox"><div><b>Second pair of quality jack stands</b><small>Gets us to four stands for full-car work.</small></div><span class="pill">SAFETY</span></label>
       <label class="tool arrival"><input data-tool="wheel-chocks" type="checkbox"><div><b>Wheel chocks</b><small>Cheap, basic and mandatory.</small></div><span class="pill">SAFETY</span></label>
       <label class="tool arrival"><input data-tool="jack-pads" type="checkbox"><div><b>Z jack-point / pinch-weld pads</b><small>Protect proper lifting points.</small></div><span class="pill">SAFETY</span></label>
       <label class="tool arrival"><input data-tool="torque-half" type="checkbox"><div><b>1/2-inch torque wrench</b><small>Impact removes; torque wrench finishes.</small></div><span class="pill">CORE</span></label>
@@ -136,7 +136,7 @@ const key='forever-z-tools-v1';
 const boxes=[...document.querySelectorAll('[data-tool]')];
 let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){}
 boxes.forEach(box=>{if(Object.prototype.hasOwnProperty.call(saved,box.dataset.tool)) box.checked=!!saved[box.dataset.tool];box.addEventListener('change',()=>{saved[box.dataset.tool]=box.checked;localStorage.setItem(key,JSON.stringify(saved));refresh();});});
-function refresh(){document.getElementById('totalCount').textContent=boxes.length;document.getElementById('checkedCount').textContent=boxes.filter(x=>x.checked).length;document.getElementById('ownedCount').textContent=boxes.slice(0,4).filter(x=>x.checked).length;}
+function refresh(){document.getElementById('totalCount').textContent=boxes.length;document.getElementById('checkedCount').textContent=boxes.filter(x=>x.checked).length;document.getElementById('ownedCount').textContent=document.querySelectorAll('.tool.owned input:checked').length;}
 refresh();
 </script>
 </body>
