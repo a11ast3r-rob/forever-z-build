@@ -6,7 +6,9 @@ Rule: **buy tools that create reusable capability; borrow/rent specialized tools
 
 ## Known owned
 
-- [x] One pair of jack stands
+- [x] Original pair of jack stands (2 stands; model/rating not recorded)
+- [x] DAYTONA 3-ton heavy-duty jack stands, orange (new matching pair, purchased October 24, 2026; [Harbor Freight orange option](https://www.harborfreight.com/automotive/jacks-jack-stands/jack-stands/3-ton-heavy-duty-ratcheting-jack-stands-orange-58346.html), exact SKU to confirm)
+- [x] DAYTONA 3-ton long-reach low-profile floor jack, orange (purchased October 24, 2026; [Harbor Freight model DS300LR](https://www.harborfreight.com/automotive/jacks-jack-stands/3-ton-long-reach-low-profile-professional-floor-jack-with-rapid-pump-orange-64241.html), exact SKU to confirm)
 - [x] Pry bar
 - [x] Metric impact sockets
 - [x] Small portable air tank
@@ -15,8 +17,6 @@ Rule: **buy tools that create reusable capability; borrow/rent specialized tools
 
 These support the delivery inspection and first mechanical baseline.
 
-- [ ] 3-ton low-profile long-reach floor jack
-- [ ] Second pair of quality jack stands
 - [ ] Wheel chocks
 - [ ] Pinch-weld / jack-point pads or adapters appropriate for the Z
 - [ ] 1/2-inch torque wrench
@@ -114,6 +114,6 @@ If we ever reach a job where one of those becomes repeatedly useful, then it bec
 
 If the car arrived tomorrow, the most important missing capability would be:
 
-**floor jack + 4 stands + chocks + torque wrench + hand tools + OBD scanner + compression tester + battery charger + fluid-service tools + good lighting.**
+**Already owned as of October 24, 2026: DAYTONA 3-ton low-profile long-reach floor jack + four stands total, including the new pair of 3-ton DAYTONA stands. Still confirm: chocks + torque wrench + hand tools + OBD scanner + compression tester + battery charger + fluid-service tools + good lighting.**
 
 That gets us through the majority of the 144k baseline without paying a shop for every inspection step.
